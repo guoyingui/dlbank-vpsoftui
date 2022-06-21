@@ -1,0 +1,406 @@
+{
+    "data": {
+        "headers":{
+            "save_number": 5,
+            "fields":[
+                {
+                    "field_name":"ssequencekey",
+                    "edit_col":true,
+                    "datatype":1,
+                    "widget":{
+                        "widget_type":"text",
+                        "widget_name":"ssequencekey"
+                    },
+                    "fixed":"none",
+                    "field_label":"缺陷编码"
+                },
+                {
+                    "field_name":"iflag",
+                    "edit_col":true,
+                    "datatype":15,
+                    "widget":{
+                        "widget_type":"text",
+                        "widget_name":"iflag"
+                    },
+                    "fixed":"none",
+                    "field_label":"缺陷名称"
+                },
+                {
+                    "field_name":"istatusid",
+                    "edit_col":true,
+                    "datatype":13,
+                    "widget":{
+                        "widget_type":"text",
+                        "widget_name":"istatusid"
+                    },
+                    "fixed":"none",
+                    "field_label":"缺陷状态"
+                },
+                {
+                    "field_name":"iclassid",
+                    "edit_col":true,
+                    "datatype":13,
+                    "widget":{
+                        "widget_type":"text",
+                        "widget_name":"iclassid"
+                    },
+                    "fixed":"none",
+                    "field_label":"案例编号"
+                },
+                {
+                    "field_name":"iaddress",
+                    "edit_col":true,
+                    "datatype":8,
+                    "widget":{
+                        "load_template":[
+                            {
+                                "value":"1",
+                                "label":"步骤1"
+                            },
+                            {
+                                "value":"2",
+                                "label":"步骤2"
+                            },
+                            {
+                                "value":"3",
+                                "label":"步骤3"
+                            },
+                            {
+                                "value":"4",
+                                "label":"步骤4"
+                            },
+                            {
+                                "value":"5",
+                                "label":"步骤5"
+                            }
+                        ],
+                        "default_value_name": "iaddressval",
+                        "widget_type":"select",
+                        "widget_name":"iaddress"
+                    },
+                    "fixed":"none",
+                    "field_label":"缺陷描述"
+                },
+                {
+                    "field_name":"iaddress2",
+                    "edit_col":true,
+                    "datatype":8,
+                    "widget":{
+                        "load_template":[
+                            {
+                                "value":"1",
+                                "label":"结果1"
+                            },
+                            {
+                                "value":"2",
+                                "label":"结果2"
+                            },
+                            {
+                                "value":"3",
+                                "label":"结果3"
+                            },
+                            {
+                                "value":"4",
+                                "label":"结果4"
+                            },
+                            {
+                                "value":"5",
+                                "label":"结果5"
+                            }
+                        ],
+                        "default_value_name": "iaddressval",
+                        "widget_type":"multiselect",
+                        "widget_name":"iaddress2"
+                    },
+                    "fixed":"none",
+                    "field_label":"发现人"
+                },
+                {
+                    "field_name":"dcreatordate",
+                    "edit_col":true,
+                    "datatype":6,
+                    "widget":{
+                        "widget_type":"date",
+                        "widget_name":"dcreatordate"
+                    },
+                    "fixed":"none",
+                    "field_label":"发现时间"
+                },
+                {
+                    "field_name":"icreator",
+                    "edit_col":true,
+                    "datatype":13,
+                    "widget":{
+                        "widget_type":"selectmodel",
+                        "widget_name":"icreator",
+                        "url":"demo/TabDemo3/index",
+                        "default_value_name": "icreatorval"
+                    },
+                    "fixed":"none",
+                    "field_label":"当前处理人",
+                    "irelationentityid":2
+                },
+                {
+                    "field_name":"icreator1",
+                    "edit_col":true,
+                    "datatype":13,
+                    "widget":{
+                        "widget_type":"selectmodel",
+                        "widget_name":"icreator",
+                        "url":"demo/TabDemo3/index",
+                        "default_value_name": "icreatorval"
+                    },
+                    "fixed":"none",
+                    "field_label":"严重程度",
+                    "irelationentityid":2
+                },
+                {
+                    "field_name":"icreator2",
+                    "edit_col":true,
+                    "datatype":13,
+                    "widget":{
+                        "widget_type":"selectmodel",
+                        "widget_name":"icreator",
+                        "url":"demo/TabDemo3/index",
+                        "default_value_name": "icreatorval"
+                    },
+                    "fixed":"none",
+                    "field_label":"重现概率",
+                    "irelationentityid":2
+                },
+                {
+                    "field_name":"icreator3",
+                    "edit_col":true,
+                    "datatype":13,
+                    "widget":{
+                        "widget_type":"selectmodel",
+                        "widget_name":"icreator",
+                        "url":"demo/TabDemo3/index",
+                        "default_value_name": "icreatorval"
+                    },
+                    "fixed":"none",
+                    "field_label":"被测系统",
+                    "irelationentityid":2
+                }
+            ]
+        },
+        "resultList":[
+            {
+                "iclassidval":"1",
+                "num":"1",
+                "ssequencekey":"bug00030",
+                "icreatorval":"2",
+                "iflagdsp":"启用",
+                "iid":"1",
+                "dcreatordate":"2018-6-1",
+                "istatusid":"待处理",
+                "icreator":"赵鹏",
+                "istatusidval":"1",
+                "iclassid":"1",
+                "iflag":"轮次缺陷测试",
+                "iaddress": "描述",
+                "iaddressval": "1",
+                "iaddress2": "赵鹏",
+                "iaddressval2": "1",
+                "icreator1": "严重错误",
+                "icreator2": "必然出现",
+                "icreator3": "现金管理"
+            },
+            {
+                "iclassidval":"",
+                "num":"2",
+                "ssequencekey":"bug00031",
+                "icreatorval":"",
+                "iflagdsp":"启用",
+                "iid":"2",
+                "dcreatordate":"2018-6-1",
+                "istatusid":"关闭",
+                "icreator":"赵鹏",
+                "istatusidval":"1",
+                "iclassid":"2",
+                "iflag":"测试项目测试缺陷",
+                "iaddress": "描述",
+                "iaddressval": "1",
+                "iaddress2": "赵鹏",
+                "iaddressval2": "1",
+                "icreator1": "严重错误",
+                "icreator2": "必然出现",
+                "icreator3": "现金管理"
+            },
+            {
+                "iclassidval":"",
+                "num":"3",
+                "ssequencekey":"bug00032",
+                "icreatorval":"",
+                "iflagdsp":"启用",
+                "iid":"3",
+                "dcreatordate":"2018-6-1",
+                "istatusid":"修复中",
+                "icreator":"赵鹏",
+                "istatusidval":"1",
+                "iclassid":"3",
+                "iflag":"测试缺陷",
+                "iaddress": "描述",
+                "iaddressval": "1",
+                "iaddress2": "赵鹏",
+                "iaddressval2": "1",
+                "icreator1": "严重错误",
+                "icreator2": "必然出现",
+                "icreator3": "现金管理"
+            },
+            {
+                "iclassidval":"19",
+                "num":"4",
+                "ssequencekey":"bug00033",
+                "icreatorval":"1",
+                "iflagdsp":"启用",
+                "iid":"4",
+                "dcreatordate":"2018-05-10",
+                "istatusid":"待处理",
+                "icreator":"管理员",
+                "istatusidval":"1",
+                "iclassid":"4",
+                "iflag":"bug5552",
+                "iaddress": "描述",
+                "iaddressval": "1",
+                "iaddress2": "赵鹏",
+                "iaddressval2": "1",
+                "icreator1": "严重错误",
+                "icreator2": "必然出现",
+                "icreator3": "现金管理"
+            },
+            {
+                "iclassidval":"0",
+                "num":"5",
+                "ssequencekey":"bug00034",
+                "icreatorval":"1",
+                "iflagdsp":"启用",
+                "iid":"5",
+                "dcreatordate":"2018-05-11",
+                "istatusid":"待处理",
+                "icreator":"管理员",
+                "istatusidval":"1",
+                "iclassid":"5",
+                "iflag":"bug5552",
+                "iaddress": "描述",
+                "iaddressval": "1",
+                "iaddress2": "赵鹏",
+                "iaddressval2": "1",
+                "icreator1": "严重错误",
+                "icreator2": "必然出现",
+                "icreator3": "现金管理"
+            },
+            {
+                "iclassidval":"1",
+                "num":"1",
+                "ssequencekey":"bug00035",
+                "icreatorval":"2",
+                "iflagdsp":"启用",
+                "iid":"6",
+                "dcreatordate":"2018-6-1",
+                "istatusid":"待处理",
+                "icreator":"赵鹏",
+                "istatusidval":"1",
+                "iclassid":"6",
+                "iflag":"bug5552",
+                "iaddress": "描述",
+                "iaddressval": "1",
+                "iaddress2": "赵鹏",
+                "iaddressval2": "1",
+                "icreator1": "严重错误",
+                "icreator2": "必然出现",
+                "icreator3": "现金管理"
+            },
+            {
+                "iclassidval":"1",
+                "num":"1",
+                "ssequencekey":"bug00035",
+                "icreatorval":"2",
+                "iflagdsp":"启用",
+                "iid":"7",
+                "dcreatordate":"2018-6-1",
+                "istatusid":"待处理",
+                "icreator":"赵鹏",
+                "istatusidval":"1",
+                "iclassid":"6",
+                "iflag":"bug5552",
+                "iaddress": "描述",
+                "iaddressval": "1",
+                "iaddress2": "赵鹏",
+                "iaddressval2": "1",
+                "icreator1": "严重错误",
+                "icreator2": "必然出现",
+                "icreator3": "现金管理"
+            },
+            {
+                "iclassidval":"1",
+                "num":"1",
+                "ssequencekey":"bug00035",
+                "icreatorval":"2",
+                "iflagdsp":"启用",
+                "iid":"8",
+                "dcreatordate":"2018-6-1",
+                "istatusid":"待处理",
+                "icreator":"赵鹏",
+                "istatusidval":"1",
+                "iclassid":"6",
+                "iflag":"bug5552",
+                "iaddress": "描述",
+                "iaddressval": "1",
+                "iaddress2": "赵鹏",
+                "iaddressval2": "1",
+                "icreator1": "严重错误",
+                "icreator2": "必然出现",
+                "icreator3": "现金管理"
+            },
+            {
+                "iclassidval":"1",
+                "num":"1",
+                "ssequencekey":"bug00035",
+                "icreatorval":"2",
+                "iflagdsp":"启用",
+                "iid":"9",
+                "dcreatordate":"2018-6-1",
+                "istatusid":"待处理",
+                "icreator":"赵鹏",
+                "istatusidval":"1",
+                "iclassid":"6",
+                "iflag":"bug5552",
+                "iaddress": "描述",
+                "iaddressval": "1",
+                "iaddress2": "赵鹏",
+                "iaddressval2": "1",
+                "icreator1": "严重错误",
+                "icreator2": "必然出现",
+                "icreator3": "现金管理"
+            },
+            {
+                "iclassidval":"1",
+                "num":"1",
+                "ssequencekey":"bug00035",
+                "icreatorval":"2",
+                "iflagdsp":"启用",
+                "iid":"10",
+                "dcreatordate":"2018-6-1",
+                "istatusid":"待处理",
+                "icreator":"赵鹏",
+                "istatusidval":"1",
+                "iclassid":"6",
+                "iflag":"bug5552",
+                "iaddress": "描述",
+                "iaddressval": "1",
+                "iaddress2": "赵鹏",
+                "iaddressval2": "1",
+                "icreator1": "严重错误",
+                "icreator2": "必然出现",
+                "icreator3": "现金管理"
+            }
+        ],
+        "numPerPage": 10,
+        "totalRows": 10,
+        "totalPages": 1,
+        "currentPage": 1
+    },
+    "status": "success",
+    "infocode": "VP000000"
+}

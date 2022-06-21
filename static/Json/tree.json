@@ -1,0 +1,736 @@
+{
+    "timestamp": 1526367924911,
+    "msgparam": null,
+    "data": [{
+            "name": "引言",
+            "tid": 100000003028,
+            "open": true,
+            "icon": "",
+            "children": [{
+                    "name": "文档目的",
+                    "tid": 100000003029,
+                    "open": false,
+                    "icon": "",
+                    "children": [],
+                    "async": true,
+                    "checked": false
+                },
+                {
+                    "name": "文档范围",
+                    "tid": 100000003030,
+                    "open": false,
+                    "icon": "",
+                    "children": [],
+                    "async": false,
+                    "checked": false                    
+                },
+                {
+                    "name": "预期读者",
+                    "tid": 100000003031,
+                    "open": false,
+                    "icon": "",
+                    "children": [],
+                    "checked": false,
+                    "async": false
+                },
+                {
+                    "name": "参考资料",
+                    "tid": 100000003032,
+                    "open": false,
+                    "icon": "",
+                    "children": [],
+                    "checked": false,
+                    "async": false
+                }
+            ],
+            "checked": false,
+            "async": false
+        },
+        {
+            "name": "系统综述",
+            "tid": 100000003033,
+            "open": true,
+            "icon": "",
+            "disablecheck": true,
+            "children": [{
+                    "name": "项目描述",
+                    "tid": 100000003034,
+                    "open": false,
+                    "icon": "",
+                    "children": [],
+                    "checked": false,
+                    "async": false
+                },
+                {
+                    "name": "项目功能",
+                    "tid": 100000003035,
+                    "open": false,
+                    "icon": "",
+                    "children": [],
+                    "checked": false,
+                    "async": false,
+                    "disablecheck": true
+                },
+                {
+                    "name": "用户特点",
+                    "tid": 100000003036,
+                    "open": false,
+                    "icon": "",
+                    "children": [],
+                    "checked": false,
+                    "async": false
+                },
+                {
+                    "name": "一般约束",
+                    "tid": 100000003037,
+                    "open": false,
+                    "icon": "",
+                    "children": [],
+                    "checked": false,
+                    "async": false
+                },
+                {
+                    "name": "假设和依据",
+                    "tid": 100000003038,
+                    "open": false,
+                    "icon": "",
+                    "children": [],
+                    "checked": false,
+                    "async": false
+                }
+            ],
+            "checked": false,
+            "async": false
+        },
+        {
+            "name": "系统用户角色描述",
+            "tid": 100000003039,
+            "open": false,
+            "icon": "",
+            "children": [],
+            "checked": false,
+            "async": false
+        },
+        {
+            "name": "功能规格说明",
+            "tid": 100000003040,
+            "open": false,
+            "icon": "",
+            "children": [{
+                    "name": "流动性风险管理",
+                    "tid": 100000003041,
+                    "open": false,
+                    "icon": "",
+                    "children": [{
+                        "name": "流动性风险功能一",
+                        "tid": 100000003042,
+                        "open": false,
+                        "icon": "",
+                        "children": [{
+                                "name": "[需求编号]",
+                                "tid": 100000003043,
+                                "open": false,
+                                "icon": "",
+                                "children": [],
+                                "checked": false,
+                                "async": false
+                            },
+                            {
+                                "name": "[用例编号在需求阶段可以不写。]",
+                                "tid": 100000003044,
+                                "open": false,
+                                "icon": "",
+                                "children": [],
+                                "checked": false,
+                                "async": false
+                            },
+                            {
+                                "name": "[需求名称]",
+                                "tid": 100000003045,
+                                "open": false,
+                                "icon": "",
+                                "children": [],
+                                "checked": false,
+                                "async": false
+                            },
+                            {
+                                "name": "需求优先级",
+                                "tid": 100000003046,
+                                "open": false,
+                                "icon": "",
+                                "children": [],
+                                "checked": false,
+                                "async": false
+                            },
+                            {
+                                "name": "[高、中、低，默认中]",
+                                "tid": 100000003047,
+                                "open": false,
+                                "icon": "",
+                                "children": [],
+                                "checked": false,
+                                "async": false
+                            },
+                            {
+                                "name": "[列出执行此功能操作的角色]",
+                                "tid": 100000003048,
+                                "open": false,
+                                "icon": "",
+                                "children": [],
+                                "checked": false,
+                                "async": false
+                            },
+                            {
+                                "name": "创建者",
+                                "tid": 100000003049,
+                                "open": false,
+                                "icon": "",
+                                "children": [],
+                                "checked": false,
+                                "async": false
+                            },
+                            {
+                                "name": "[需求创建者]",
+                                "tid": 100000003050,
+                                "open": false,
+                                "icon": "",
+                                "children": [],
+                                "checked": false,
+                                "async": false
+                            },
+                            {
+                                "name": "req-kgl-02-01",
+                                "tid": 100000003051,
+                                "open": false,
+                                "icon": "",
+                                "children": [],
+                                "checked": false,
+                                "async": false
+                            },
+                            {
+                                "name": "fea-kgl-02-01",
+                                "tid": 100000003052,
+                                "open": false,
+                                "icon": "",
+                                "children": [],
+                                "checked": false,
+                                "async": false
+                            },
+                            {
+                                "name": "历史贡献度折扣管理",
+                                "tid": 100000003053,
+                                "open": false,
+                                "icon": "",
+                                "children": [],
+                                "checked": false,
+                                "async": false
+                            },
+                            {
+                                "name": "需求优先级",
+                                "tid": 100000003054,
+                                "open": false,
+                                "icon": "",
+                                "children": [],
+                                "checked": false,
+                                "async": false
+                            },
+                            {
+                                "name": "中等",
+                                "tid": 100000003055,
+                                "open": false,
+                                "icon": "",
+                                "children": [],
+                                "checked": false,
+                                "async": false
+                            },
+                            {
+                                "name": "卡业务管理员，管理人员",
+                                "tid": 100000003056,
+                                "open": false,
+                                "icon": "",
+                                "children": [],
+                                "checked": false,
+                                "async": false
+                            },
+                            {
+                                "name": "创建者",
+                                "tid": 100000003057,
+                                "open": false,
+                                "icon": "",
+                                "children": [],
+                                "checked": false,
+                                "async": false
+                            },
+                            {
+                                "name": "张某某",
+                                "tid": 100000003058,
+                                "open": false,
+                                "icon": "",
+                                "children": [],
+                                "checked": false,
+                                "async": false
+                            }
+                        ],
+                        "checked": false,
+                        "async": false
+                    }],
+                    "checked": false,
+                    "async": false
+                },
+                {
+                    "name": "市场风险管理",
+                    "tid": 100000003059,
+                    "open": false,
+                    "icon": "",
+                    "children": [{
+                            "name": "市场风险功能一",
+                            "tid": 100000003060,
+                            "open": false,
+                            "icon": "",
+                            "children": [{
+                                    "name": "需求优先级",
+                                    "tid": 100000003061,
+                                    "open": false,
+                                    "icon": "",
+                                    "children": [],
+                                    "checked": false,
+                                    "async": false
+                                },
+                                {
+                                    "name": "创建者",
+                                    "tid": 100000003062,
+                                    "open": false,
+                                    "icon": "",
+                                    "children": [],
+                                    "checked": false,
+                                    "async": false
+                                }
+                            ],
+                            "checked": false,
+                            "async": false
+                        },
+                        {
+                            "name": "市场风险功能二",
+                            "tid": 100000003063,
+                            "open": false,
+                            "icon": "",
+                            "children": [{
+                                    "name": "需求优先级",
+                                    "tid": 100000003064,
+                                    "open": false,
+                                    "icon": "",
+                                    "children": [],
+                                    "checked": false,
+                                    "async": false
+                                },
+                                {
+                                    "name": "创建者",
+                                    "tid": 100000003065,
+                                    "open": false,
+                                    "icon": "",
+                                    "children": [],
+                                    "checked": false,
+                                    "async": false
+                                }
+                            ],
+                            "checked": false,
+                            "async": false
+                        }
+                    ],
+                    "checked": false,
+                    "async": false
+                },
+                {
+                    "name": "信用风险管理",
+                    "tid": 100000003066,
+                    "open": false,
+                    "icon": "",
+                    "children": [{
+                            "name": "信用风险功能一",
+                            "tid": 100000003067,
+                            "open": false,
+                            "icon": "",
+                            "children": [{
+                                    "name": "需求优先级",
+                                    "tid": 100000003068,
+                                    "open": false,
+                                    "icon": "",
+                                    "children": [],
+                                    "checked": false,
+                                    "async": false
+                                },
+                                {
+                                    "name": "创建者",
+                                    "tid": 100000003069,
+                                    "open": false,
+                                    "icon": "",
+                                    "children": [],
+                                    "checked": false,
+                                    "async": false
+                                }
+                            ],
+                            "checked": false,
+                            "async": false
+                        },
+                        {
+                            "name": "信用风险功能二",
+                            "tid": 100000003070,
+                            "open": false,
+                            "icon": "",
+                            "children": [{
+                                    "name": "需求优先级",
+                                    "tid": 100000003071,
+                                    "open": false,
+                                    "icon": "",
+                                    "children": [],
+                                    "checked": false,
+                                    "async": false
+                                },
+                                {
+                                    "name": "创建者",
+                                    "tid": 100000003072,
+                                    "open": false,
+                                    "icon": "",
+                                    "children": [],
+                                    "checked": false,
+                                    "async": false
+                                }
+                            ],
+                            "checked": false,
+                            "async": false
+                        }
+                    ],
+                    "checked": false,
+                    "async": false
+                },
+                {
+                    "name": "操作风险管理",
+                    "tid": 100000003073,
+                    "open": false,
+                    "icon": "",
+                    "children": [{
+                            "name": "操作风险功能一",
+                            "tid": 100000003074,
+                            "open": false,
+                            "icon": "",
+                            "children": [{
+                                    "name": "需求优先级",
+                                    "tid": 100000003075,
+                                    "open": false,
+                                    "icon": "",
+                                    "children": [],
+                                    "checked": false,
+                                    "async": false
+                                },
+                                {
+                                    "name": "创建者",
+                                    "tid": 100000003076,
+                                    "open": false,
+                                    "icon": "",
+                                    "children": [],
+                                    "checked": false,
+                                    "async": false
+                                }
+                            ],
+                            "checked": false,
+                            "async": false
+                        },
+                        {
+                            "name": "操作风险功能二",
+                            "tid": 100000003077,
+                            "open": false,
+                            "icon": "",
+                            "children": [{
+                                    "name": "需求优先级",
+                                    "tid": 100000003078,
+                                    "open": false,
+                                    "icon": "",
+                                    "children": [],
+                                    "checked": false,
+                                    "async": false
+                                },
+                                {
+                                    "name": "创建者",
+                                    "tid": 100000003079,
+                                    "open": false,
+                                    "icon": "",
+                                    "children": [],
+                                    "checked": false,
+                                    "async": false
+                                }
+                            ],
+                            "checked": false,
+                            "async": false
+                        }
+                    ],
+                    "checked": false,
+                    "async": false
+                },
+                {
+                    "name": "其他风险",
+                    "tid": 100000003080,
+                    "open": false,
+                    "icon": "",
+                    "children": [{
+                            "name": "其他风险功能一",
+                            "tid": 100000003081,
+                            "open": false,
+                            "icon": "",
+                            "children": [{
+                                    "name": "需求优先级",
+                                    "tid": 100000003082,
+                                    "open": false,
+                                    "icon": "",
+                                    "children": [],
+                                    "checked": false,
+                                    "async": false
+                                },
+                                {
+                                    "name": "创建者",
+                                    "tid": 100000003083,
+                                    "open": false,
+                                    "icon": "",
+                                    "children": [],
+                                    "checked": false,
+                                    "async": false
+                                }
+                            ],
+                            "checked": false,
+                            "async": false
+                        },
+                        {
+                            "name": "其他风险功能二",
+                            "tid": 100000003084,
+                            "open": false,
+                            "icon": "",
+                            "children": [{
+                                    "name": "需求优先级",
+                                    "tid": 100000003085,
+                                    "open": false,
+                                    "icon": "",
+                                    "children": [],
+                                    "checked": false,
+                                    "async": false
+                                },
+                                {
+                                    "name": "创建者",
+                                    "tid": 100000003086,
+                                    "open": false,
+                                    "icon": "",
+                                    "children": [],
+                                    "checked": false,
+                                    "async": false
+                                }
+                            ],
+                            "checked": false,
+                            "async": false
+                        }
+                    ],
+                    "checked": false,
+                    "async": false
+                }
+            ],
+            "checked": false,
+            "async": false
+        },
+        {
+            "name": "接口需求",
+            "tid": 100000003087,
+            "open": false,
+            "icon": "",
+            "children": [{
+                    "name": "用户接口",
+                    "tid": 100000003088,
+                    "open": false,
+                    "icon": "",
+                    "children": [],
+                    "checked": false,
+                    "async": false
+                },
+                {
+                    "name": "硬件接口",
+                    "tid": 100000003089,
+                    "open": false,
+                    "icon": "",
+                    "children": [],
+                    "checked": false,
+                    "async": false
+                },
+                {
+                    "name": "软件接口",
+                    "tid": 100000003090,
+                    "open": false,
+                    "icon": "",
+                    "children": [],
+                    "checked": false,
+                    "async": false
+                },
+                {
+                    "name": "通信接口",
+                    "tid": 100000003091,
+                    "open": false,
+                    "icon": "",
+                    "children": [],
+                    "checked": false,
+                    "async": false
+                }
+            ],
+            "checked": false,
+            "async": false
+        },
+        {
+            "name": "非功能需求",
+            "tid": 100000003092,
+            "open": false,
+            "icon": "",
+            "children": [{
+                    "name": "软硬件环境",
+                    "tid": 100000003093,
+                    "open": false,
+                    "icon": "",
+                    "children": [],
+                    "checked": false,
+                    "async": false
+                },
+                {
+                    "name": "安全需求",
+                    "tid": 100000003094,
+                    "open": false,
+                    "icon": "",
+                    "children": [],
+                    "checked": false,
+                    "async": false
+                },
+                {
+                    "name": "性能需求",
+                    "tid": 100000003095,
+                    "open": false,
+                    "icon": "",
+                    "children": [],
+                    "checked": false,
+                    "async": false
+                },
+                {
+                    "name": "软件质量属性",
+                    "tid": 100000003096,
+                    "open": false,
+                    "icon": "",
+                    "children": [{
+                            "name": "可扩展性",
+                            "tid": 100000003097,
+                            "open": false,
+                            "icon": "",
+                            "children": [],
+                            "checked": false,
+                            "async": false
+                        },
+                        {
+                            "name": "可靠性",
+                            "tid": 100000003098,
+                            "open": false,
+                            "icon": "",
+                            "children": [],
+                            "checked": false,
+                            "async": false
+                        },
+                        {
+                            "name": "可维护性",
+                            "tid": 100000003099,
+                            "open": false,
+                            "icon": "",
+                            "children": [],
+                            "checked": false,
+                            "async": false
+                        },
+                        {
+                            "name": "可审计性",
+                            "tid": 100000003100,
+                            "open": false,
+                            "icon": "",
+                            "children": [],
+                            "checked": false,
+                            "async": false
+                        },
+                        {
+                            "name": "容错性",
+                            "tid": 100000003101,
+                            "open": false,
+                            "icon": "",
+                            "children": [],
+                            "checked": false,
+                            "async": false
+                        },
+                        {
+                            "name": "可移植性",
+                            "tid": 100000003102,
+                            "open": false,
+                            "icon": "",
+                            "children": [],
+                            "checked": false,
+                            "async": false
+                        },
+                        {
+                            "name": "可部署性",
+                            "tid": 100000003103,
+                            "open": false,
+                            "icon": "",
+                            "children": [],
+                            "checked": false,
+                            "async": false
+                        }
+                    ],
+                    "checked": false,
+                    "async": false
+                },
+                {
+                    "name": "其他需求",
+                    "tid": 100000003104,
+                    "open": false,
+                    "icon": "",
+                    "children": [],
+                    "checked": false,
+                    "async": false
+                }
+            ],
+            "checked": false,
+            "async": false
+        },
+        {
+            "name": "附录",
+            "tid": 100000003105,
+            "open": false,
+            "icon": "",
+            "children": [{
+                    "name": "词汇表",
+                    "tid": 100000003106,
+                    "open": false,
+                    "icon": "",
+                    "children": [],
+                    "checked": false,
+                    "async": false
+                },
+                {
+                    "name": "数据字典",
+                    "tid": 100000003107,
+                    "open": false,
+                    "icon": "",
+                    "children": [],
+                    "checked": false,
+                    "async": false
+                },
+                {
+                    "name": "待确定问题",
+                    "tid": 100000003108,
+                    "open": false,
+                    "icon": "",
+                    "children": [],
+                    "checked": false,
+                    "async": false
+                }
+            ],
+            "checked": false,
+            "async": false
+        }
+    ],
+    "msg": "VP000001"
+}

@@ -1,0 +1,70 @@
+{
+    "data": {
+        "headers":{
+            "save_number": 5,
+            "fields":[
+                {
+                    "field_name":"title",
+                    "fixed":"none",
+                    "field_label":"大纲标题"
+                },
+                {
+                    "field_name":"jiedian",
+                    "fixed":"none",
+                    "field_label":"节点名称"
+                },
+                {
+                    "field_name":"version",
+                    "fixed":"none",
+                    "field_label":"当前版本号"
+                },
+                {
+                    "field_name":"zichan",
+                    "fixed":"none",
+                    "field_label":"资产编号"
+                },
+                {
+                    "field_name":"lujing",
+                    "fixed":"none",
+                    "field_label":"节点路径"
+                },
+                {
+                    "field_name":"zhonglei",
+                    "fixed":"none",
+                    "field_label":"制品种类"
+                },
+                {
+                    "field_name":"moxing",
+                    "fixed":"none",
+                    "field_label":"模型"
+                },
+                {
+                    "field_name":"zhuangtai",
+                    "fixed":"none",
+                    "field_label":"检查状态",
+                    "irelationentityid":2
+                }
+            ]
+        },
+        "resultList":[
+            {
+                "title":"概念",
+                "iid":"111",
+                "moxing":"业务结构",
+                "zichan":"EA100001039",
+                "zhuangtai":"检查通过",
+                "jiedian":"任务和职责",
+                "version":"1.1",
+                "lujing": "产品运营/存款/任务和职责",
+                "zhonglei": "业务功能",
+                "iaddressval2": "1"
+            }
+        ],
+        "numPerPage": 10,
+        "totalRows": 1,
+        "totalPages": 1,
+        "currentPage": 1
+    },
+    "status": "success",
+    "infocode": "VP000000"
+}

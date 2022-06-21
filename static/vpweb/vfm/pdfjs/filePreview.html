@@ -1,0 +1,121 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no, width=device-width">
+    <title>文件预览</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Cache-control" content="no-cache">
+    <meta http-equiv="Cache" content="no-cache">
+
+    <script src="../../../vpcommon/config.js"></script>
+    <script src="../../../vpcommon/vputils.min.js"></script>
+
+</head>
+<style>
+    html,
+    body {
+        margin: 0;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        overflow-y: hidden;
+    }
+
+    #container {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    li {
+        list-style-type: none;
+    }
+</style>
+
+<body>
+    <ul id="viewer">
+        <li><img src="" id='pdfContainer3'></li>
+    </ul>
+    <div id="container">
+        <iframe id='pdfContainer' src='' style="overflow:hidden;width: 100%;height: 100%; " frameborder="no" border="0"
+            marginwidth="0" marginheight="0" scrolling="no"></iframe>
+    </div>
+</body>
+<!-- 全局js -->
+<script src="../../js/jquery-1.11.3.min.js"></script>
+<!-- layer弹出层 -->
+<script src="../../js/plugins/layer/layer.min.js"></script>
+<script src="../../js/plugins/layui/layui.js"></script>
+<script src="../../js/vpsoft/common.js"></script>
+<script src="../../js/vpsoft/util.js"></script>
+<script src="../../js/plugins/iCheck/icheck.min.js"></script>
+<script src="../../js/vpsoft/getUrlParam.js"></script>
+<link rel="stylesheet" href="../viewerjs/viewer.min.css">
+<script src="../viewerjs/viewer.min.js"></script>
+<script src="../viewerjs/base64.js"></script>
+<script type="text/javascript">
+    var fullW = $(window).width();
+    var fullH = $(window).height();
+    var fileid = getParameter("fileid"); //'180775020266520602';
+    var entityid = getParameter("entityid");
+    var instanceid = getParameter("instanceid");
+    var filename = getParameter("filename");
+    var fullfilename = getParameter("fullfilename"); // 产品表单里面已经预预览过，只需要打开就行了
+    var img = getParameter("img"); //是否为图片
+    var has = getParameter("has"); // 已经初预览了，只需要查看
+    var fileFrom = getParameter("fileFrom"); // 文件来源，需求req，项目pro
+    if (null == filename || '' == filename || undefined == filename) {
+        filename = '文件预览';
+    }
+    
+    //fileid = encodeURIComponent(encodeURIComponent(fileid));
+    fileid = Base64.encode(fileid);
+    document.getElementsByTagName("title")[0].innerText = decodeURI(decodeURI(filename));
+    if (window.vp.config.fileViewOptions.fileCheck&&('true' == has || (undefined != fullfilename && '' != fullfilename && '' != fullfilename))) {
+        if ('true' == img || '1' == fullfilename) { //图片预览
+            $("#pdfContainer3").attr('src', gatWayUrl + '/'+vp.config.SETTING.vpplat+'/vfrm/api/preview?img=true&fileid=' + fileid +
+                '&fileFrom=' + fileFrom);
+            var viewer = new Viewer(document.getElementById('viewer'));
+        } else { //office文件预览
+            $("#pdfContainer").attr('src', './web/viewer.html?file=' + gatWayUrl + '/'+vp.config.SETTING.vpplat+'/vfrm/api/preview?' +
+                fileid);
+        }
+    } else {
+        vpPostAjax('/vfrm/api/filePreview', {
+            fileid: fileid,
+            instanceid:instanceid,
+            entityid:entityid,
+            sfbase64:1,
+            fileFrom: fileFrom
+        }, 'POST', function (rst) {
+            if (rst.success) {
+                //$("#pdfContainer").attr('src','./web/viewer.html?file='+rst.filePath);
+                //$("#pdfContainer").attr('src','./web/viewer.html?file=http://127.0.0.1:8101/vpweb/vfm/pdfjs/web/aaa.pdf');
+                if (rst.img) { //图片预览
+                    $("#pdfContainer3").attr('src', gatWayUrl +
+                        '/'+vp.config.SETTING.vpplat+'/vfrm/api/preview?img=true&fileid=' + fileid + '&fileFrom=' + fileFrom);
+                    var viewer = new Viewer(document.getElementById('viewer'));
+                } else { //office文件预览
+                    $("#pdfContainer").attr('src', './web/viewer.html?file=' + gatWayUrl +
+                        '/'+vp.config.SETTING.vpplat+'/vfrm/api/preview?' + fileid);
+                }
+            } else {
+                parent.layer.msg('预览失败:' + rst.msg, {
+                    icon: 2,
+                    time: 2000
+                });
+            }
+        });
+    }
+</script>
+
+</html>

@@ -1,0 +1,61 @@
+.entity-list{
+    .menuleft{ 
+        .search-form{
+            width: 450px;
+            position: static;
+            border: 1px solid #efefef !important;
+            box-shadow: none !important;
+        }
+    }
+}
+.task-boardform{
+    width: 450px;
+    position: static;
+    border: 1px solid #efefef !important;
+    box-shadow: none !important;
+    text-align: left !important;
+    .ant-select-selection__placeholder,
+    .ant-select-dropdown-menu-item,
+    .ant-select-dropdown-menu-item-selected.ant-select-dropdown-menu-item {
+        text-align: left;
+    }
+}
+
+.task{
+    .batch-table {
+        .ant-table .ant-table-tbody > tr > td {
+            position: relative;
+            overflow: inherit;
+        }
+        .widget-box .ant-select-selection.ant-select-selection--multiple {
+            height: 30px;
+            overflow: hidden;
+        }
+        .widget-text {
+            color: #2db7f5;
+        }
+        .add-row {
+            td,div, div.widget-text {
+                color: #8421dc;
+            }
+        }
+        .copy-row {
+            td,div, div.widget-text {
+                color: #f8ac59;
+            }
+        }
+        .save-error {
+            &.add-row,
+            &.copy-row {
+                td,div, div.widget-text {
+                    color: #ff0000;
+                }
+            }
+            div.widget-text {
+                color: #ff0000;
+            }
+    }
+}
+}
+
+

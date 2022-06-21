@@ -1,0 +1,87 @@
+{
+    "timestamp": 1526367924911,
+    "infocode": "VP000001",
+    "msgparam": null,
+    "data": [{
+            "name": "文档目的",
+            "tid": 1000000030291,
+            "pid": 100000003028,
+            "open": false,
+            "icon": "",
+            "children": [],
+            "nocheck": false,
+            "async": false,
+            "countNodes": null,
+            "treeDepth": null,
+            "propertys": null,
+            "cssProp": {
+                "status": "default"
+            },
+            "displayIndex": 3,
+            "code": null,
+            "origChapNum": "1.1",
+            "outlineUuid": "77118158bd654df2a9af904df166ad8f"
+        },
+        {
+            "name": "文档范围",
+            "tid": 1000000030301,
+            "pid": 100000003028,
+            "open": true,
+            "icon": "",
+            "children": [],
+            "nocheck": false,
+            "async": "false",
+            "countNodes": null,
+            "treeDepth": null,
+            "propertys": null,
+            "cssProp": {
+                "status": "default"
+            },
+            "displayIndex": 5,
+            "code": null,
+            "origChapNum": "1.2",
+            "outlineUuid": "70bb0e8c2b864a0a85b8274246ea74a9"
+        },
+        {
+            "name": "预期读者",
+            "tid": 1000000030311,
+            "pid": 100000003028,
+            "open": true,
+            "icon": "",
+            "children": [],
+            "nocheck": false,
+            "async": "false",
+            "countNodes": null,
+            "treeDepth": null,
+            "propertys": null,
+            "cssProp": {
+                "status": "default"
+            },
+            "displayIndex": 7,
+            "code": null,
+            "origChapNum": "1.3",
+            "outlineUuid": "1832959213dc4dad8f5dc66f7f08e617"
+        },
+        {
+            "name": "参考资料",
+            "tid": 1000000030321,
+            "pid": 100000003028,
+            "open": true,
+            "icon": "",
+            "children": [],
+            "nocheck": false,
+            "async": "false",
+            "countNodes": null,
+            "treeDepth": null,
+            "propertys": null,
+            "cssProp": {
+                "status": "default"
+            },
+            "displayIndex": 9,
+            "code": null,
+            "origChapNum": "1.4",
+            "outlineUuid": "9a59630446e745568d83bc24bd6d8611"
+        }
+    ],
+    "msg": "VP000001"
+}

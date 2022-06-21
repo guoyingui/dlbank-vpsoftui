@@ -1,0 +1,38 @@
+{
+    "timestamp": 1528273762014,
+    "infocode": "VP000000",
+    "msgparam": null,
+    "data": {
+        "grid": {
+            "fields": [{
+                "field_name": "scode",
+                "idatatype": 1,
+                "iconstraint": 1,
+                "field_sort": true,
+                "iwidth": 100,
+                "datatype": 1,
+                "field_label": "部门编号",
+                "itype": 0
+            }, {
+                "field_name": "sname",
+                "idatatype": 1,
+                "iconstraint": 1,
+                "field_sort": false,
+                "iwidth": 100,
+                "datatype": 1,
+                "field_label": "部门名称",
+                "itype": 0
+            }, {
+                "field_name": "sdescription",
+                "idatatype": 2,
+                "iconstraint": 1,
+                "field_sort": false,
+                "iwidth": 100,
+                "datatype": 2,
+                "field_label": "描述",
+                "itype": 0
+            }]
+        }
+    },
+    "msg": "VP000000"
+}

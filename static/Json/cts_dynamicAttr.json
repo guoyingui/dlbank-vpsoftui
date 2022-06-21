@@ -1,0 +1,661 @@
+{
+    "timestamp": 1588910282216,
+    "infocode": "VP000000",
+    "msg": null,
+    "redirectUrl": null,
+    "data": {
+        "form": {
+            "groups": [
+                {
+                    "group_scode": "jbxx",
+                    "group_label": "基本信息",
+                    "group_type": 1,
+                    "fields": [
+                        {
+                            "ientityid": 41,
+                            "widget": {
+                                "load_template": [
+                                    {
+                                        "label": "新需求",
+                                        "value": 1
+                                    },
+                                    {
+                                        "label": "优化需求",
+                                        "value": 2
+                                    },
+                                    {
+                                        "label": "其它",
+                                        "value": 3
+                                    }
+                                ],
+                                "default_value": "1",
+                                "default_label": "1"
+                            },
+                            "field_label": "需求类型",
+                            "validator": {
+                                "required": false
+                            },
+                            "default_value": 1,
+                            "irelationentityid": 0,
+                            "widget_type": "radio",
+                            "field_name": "ivrm_type",
+                            "iconstraint": 1,
+                            "ilength": 22,
+                            "inorule": 1,
+                            "idictionaryid": 209,
+                            "showdetail": true,
+                            "readonly": true,
+                            "iwidth": 0,
+                            "propertyType": 9,
+                            "imobileshow": 0,
+                            "all_line": 2,
+                            "default_label": "新需求",
+                            "disabled": true,
+                            "itype": 0
+                        },
+                        {
+                            "ientityid": 41,
+                            "widget": {
+                                "load_template": [
+                                    {
+                                        "label": "业务需求",
+                                        "value": 1
+                                    },
+                                    {
+                                        "label": "管理要求",
+                                        "value": 2
+                                    },
+                                    {
+                                        "label": "监管要求",
+                                        "value": 3
+                                    }
+                                ],
+                                "default_value": "1",
+                                "default_label": "1"
+                            },
+                            "field_label": "需求原因",
+                            "validator": {
+                                "required": false
+                            },
+                            "default_value": 1,
+                            "irelationentityid": 0,
+                            "widget_type": "radio",
+                            "field_name": "ireq_reason",
+                            "iconstraint": 1,
+                            "ilength": 22,
+                            "inorule": 1,
+                            "idictionaryid": 165,
+                            "showdetail": true,
+                            "readonly": true,
+                            "iwidth": 0,
+                            "propertyType": 9,
+                            "imobileshow": 0,
+                            "all_line": 2,
+                            "default_label": "业务需求",
+                            "disabled": true,
+                            "itype": 0
+                        },
+                        {
+                            "ientityid": 41,
+                            "widget": {
+                                "default_value": "网银业务优化需求",
+                                "default_label": "网银业务优化需求"
+                            },
+                            "field_label": "需求名称",
+                            "validator": {
+                                "max": 200,
+                                "message": "请输入1~200个字符!",
+                                "required": true
+                            },
+                            "irelationentityid": 0,
+                            "widget_type": "text",
+                            "field_name": "sname",
+                            "iconstraint": 0,
+                            "ilength": 200,
+                            "inorule": 1,
+                            "showdetail": true,
+                            "readonly": true,
+                            "iwidth": 0,
+                            "propertyType": 1,
+                            "imobileshow": 0,
+                            "all_line": 1,
+                            "disabled": true,
+                            "itype": 0
+                        },
+                        {
+                            "ientityid": 41,
+                            "widget": {
+                                "load_template": [
+                                    {
+                                        "label": "高",
+                                        "value": 1
+                                    },
+                                    {
+                                        "label": "中",
+                                        "value": 2
+                                    },
+                                    {
+                                        "label": "低",
+                                        "value": 3
+                                    }
+                                ],
+                                "default_value": "1",
+                                "default_label": "1"
+                            },
+                            "field_label": "优先级别",
+                            "validator": {
+                                "required": false
+                            },
+                            "default_value": 1,
+                            "irelationentityid": 0,
+                            "widget_type": "select",
+                            "field_name": "iprior",
+                            "iconstraint": 1,
+                            "ilength": 22,
+                            "inorule": 1,
+                            "idictionaryid": 30,
+                            "showdetail": true,
+                            "readonly": true,
+                            "iwidth": 0,
+                            "propertyType": 7,
+                            "imobileshow": 0,
+                            "all_line": 1,
+                            "default_label": "高",
+                            "disabled": true,
+                            "itype": 0
+                        },
+                        {
+                            "ientityid": 41,
+                            "widget": {
+                                "load_template": [],
+                                "default_label": ""
+                            },
+                            "iid": "9",
+                            "field_label": "关联原业务需求",
+                            "validator": {
+                                "required": false
+                            },
+                            "irelationentityid": 41,
+                            "urlparam": "",
+                            "widget_type": "selectmodel",
+                            "url": "vfm/ChooseEntity/ChooseEntity",
+                            "field_name": "rr_req",
+                            "iconstraint": 1,
+                            "ilength": 22,
+                            "inorule": 1,
+                            "idictionaryid": 0,
+                            "showdetail": true,
+                            "readonly": true,
+                            "iwidth": 0,
+                            "propertyType": 13,
+                            "imobileshow": 0,
+                            "all_line": 1,
+                            "disabled": true,
+                            "itype": 0
+                        },
+                        {
+                            "ientityid": 41,
+                            "widget": {
+                                "default_value": "brs-2020-000008",
+                                "default_label": "brs-2020-000008"
+                            },
+                            "field_label": "需求编号",
+                            "validator": {
+                                "required": false
+                            },
+                            "irelationentityid": 0,
+                            "widget_type": "text",
+                            "field_name": "scode",
+                            "iconstraint": 2,
+                            "ilength": 60,
+                            "inorule": 1,
+                            "showdetail": true,
+                            "readonly": true,
+                            "iwidth": 0,
+                            "propertyType": 1,
+                            "imobileshow": 0,
+                            "all_line": 1,
+                            "disabled": true,
+                            "itype": 0
+                        },
+                        {
+                            "ientityid": 41,
+                            "widget": {
+                                "load_template": [],
+                                "default_value": "1",
+                                "default_label": "管理员"
+                            },
+                            "iid": "9",
+                            "field_label": "需求提出人",
+                            "validator": {
+                                "message": "输入内容不能为空！",
+                                "required": true
+                            },
+                            "irelationentityid": 2,
+                            "urlparam": "",
+                            "widget_type": "selectmodel",
+                            "url": "vfm/ChooseEntity/ChooseEntity",
+                            "field_name": "rbrproposerperson",
+                            "iconstraint": 0,
+                            "ilength": 22,
+                            "inorule": 1,
+                            "idictionaryid": 0,
+                            "showdetail": true,
+                            "readonly": true,
+                            "iwidth": 0,
+                            "propertyType": 13,
+                            "imobileshow": 0,
+                            "all_line": 1,
+                            "disabled": true,
+                            "itype": 0
+                        },
+                        {
+                            "widget": {
+                                "default_value": "1",
+                                "default_label": "管理员"
+                            },
+                            "iid": "9",
+                            "field_label": "负责人",
+                            "validator": {
+                                "required": true
+                            },
+                            "irelationentityid": 2,
+                            "urlparam": "",
+                            "widget_type": "selectmodel",
+                            "url": "vfm/ChooseEntity/ChooseEntity",
+                            "field_name": "roleid18",
+                            "iconstraint": "1",
+                            "showdetail": true,
+                            "readonly": true,
+                            "propertyType": 13,
+                            "iprincipal": "1",
+                            "all_line": 1,
+                            "disabled": true,
+                            "itype": 0
+                        },
+                        {
+                            "ientityid": 41,
+                            "widget": {
+                                "load_template": [
+                                    {
+                                        "label": "新建",
+                                        "value": "23"
+                                    },
+                                    {
+                                        "label": "分析中",
+                                        "value": "107"
+                                    },
+                                    {
+                                        "label": "测试中",
+                                        "value": "112"
+                                    },
+                                    {
+                                        "label": "已上线",
+                                        "value": "113"
+                                    },
+                                    {
+                                        "label": "受理中",
+                                        "value": "106"
+                                    },
+                                    {
+                                        "label": "排期中",
+                                        "value": "109"
+                                    },
+                                    {
+                                        "label": "实施中",
+                                        "value": "111"
+                                    },
+                                    {
+                                        "label": "评估中",
+                                        "value": "108"
+                                    },
+                                    {
+                                        "label": "下发中",
+                                        "value": "110"
+                                    },
+                                    {
+                                        "label": "已搁置",
+                                        "value": "245"
+                                    },
+                                    {
+                                        "label": "已完成",
+                                        "value": "114"
+                                    },
+                                    {
+                                        "label": "已退回",
+                                        "value": "115"
+                                    }
+                                ],
+                                "default_value": "107",
+                                "default_label": "分析中"
+                            },
+                            "field_label": "状态",
+                            "validator": {
+                                "required": false
+                            },
+                            "widget_type": "select",
+                            "field_name": "istatusid",
+                            "iconstraint": 1,
+                            "ilength": 22,
+                            "inorule": 1,
+                            "showdetail": true,
+                            "readonly": true,
+                            "iwidth": 0,
+                            "propertyType": 13,
+                            "imobileshow": 0,
+                            "all_line": 1,
+                            "disabled": true,
+                            "itype": 0
+                        },
+                        {
+                            "ientityid": 41,
+                            "widget": {
+                                "load_template": [],
+                                "default_label": ""
+                            },
+                            "iid": "9",
+                            "field_label": "所属系统",
+                            "validator": {
+                                "required": false
+                            },
+                            "irelationentityid": 81,
+                            "urlparam": "",
+                            "widget_type": "selectmodel",
+                            "url": "vfm/ChooseEntity/ChooseEntity",
+                            "field_name": "rssxt",
+                            "iconstraint": 1,
+                            "ilength": 500,
+                            "inorule": 1,
+                            "idictionaryid": 0,
+                            "showdetail": true,
+                            "readonly": true,
+                            "iwidth": 0,
+                            "propertyType": 13,
+                            "imobileshow": 0,
+                            "all_line": 1,
+                            "disabled": true,
+                            "itype": 0
+                        },
+                        {
+                            "ientityid": 41,
+                            "widget": {
+                                "default_label": ""
+                            },
+                            "field_label": "需求概述",
+                            "validator": {
+                                "max": 1000,
+                                "message": "请输入1~1000个字符!",
+                                "required": false
+                            },
+                            "irelationentityid": 0,
+                            "widget_type": "textarea",
+                            "field_name": "sdescription",
+                            "iconstraint": 1,
+                            "ilength": 2000,
+                            "inorule": 1,
+                            "showdetail": true,
+                            "readonly": true,
+                            "iwidth": 0,
+                            "propertyType": 2,
+                            "imobileshow": 0,
+                            "all_line": 2,
+                            "disabled": true,
+                            "itype": 0
+                        },
+                        {
+                            "ientityid": 41,
+                            "widget": {
+                                "load_template": [],
+                                "default_value": "1",
+                                "default_label": "北京维普时代软件有限公司"
+                            },
+                            "iid": "9",
+                            "field_label": "牵头科室",
+                            "validator": {
+                                "message": "输入内容不能为空！",
+                                "required": true
+                            },
+                            "irelationentityid": 1,
+                            "urlparam": "",
+                            "widget_type": "selectmodel",
+                            "url": "vfm/ChooseEntity/ChooseEntity",
+                            "field_name": "rleaddept",
+                            "iconstraint": 0,
+                            "ilength": 22,
+                            "inorule": 1,
+                            "idictionaryid": 0,
+                            "showdetail": true,
+                            "readonly": true,
+                            "iwidth": 0,
+                            "propertyType": 13,
+                            "imobileshow": 0,
+                            "all_line": 1,
+                            "disabled": true,
+                            "itype": 0
+                        },
+                        {
+                            "ientityid": 41,
+                            "widget": {
+                                "load_template": [],
+                                "default_label": ""
+                            },
+                            "iid": "9",
+                            "field_label": "业务需求提出部门",
+                            "validator": {
+                                "required": false
+                            },
+                            "irelationentityid": 1,
+                            "urlparam": "",
+                            "widget_type": "selectmodel",
+                            "url": "vfm/ChooseEntity/ChooseEntity",
+                            "field_name": "rbrproposerdept",
+                            "iconstraint": 1,
+                            "ilength": 22,
+                            "inorule": 1,
+                            "idictionaryid": 0,
+                            "showdetail": true,
+                            "readonly": true,
+                            "iwidth": 0,
+                            "propertyType": 13,
+                            "imobileshow": 0,
+                            "all_line": 1,
+                            "disabled": true,
+                            "itype": 0
+                        },
+                        {
+                            "ientityid": 41,
+                            "widget": {
+                                "default_value": "2020-03-22 18:57:45",
+                                "default_label": "2020-03-22 18:57:45"
+                            },
+                            "field_label": "创建时间",
+                            "validator": {
+                                "required": false
+                            },
+                            "widget_type": "datetime",
+                            "field_name": "dcreatordate",
+                            "iconstraint": 1,
+                            "ilength": 20,
+                            "inorule": 1,
+                            "showdetail": true,
+                            "readonly": true,
+                            "iwidth": 0,
+                            "propertyType": 6,
+                            "imobileshow": 0,
+                            "all_line": 1,
+                            "disabled": true,
+                            "itype": 0
+                        },
+                        {
+                            "ientityid": 41,
+                            "widget": {
+                                "load_template": [],
+                                "default_label": ""
+                            },
+                            "field_label": "需求申请时间",
+                            "validator": {
+                                "required": false
+                            },
+                            "irelationentityid": 0,
+                            "widget_type": "datetime",
+                            "field_name": "tbr_assign_time",
+                            "iconstraint": 1,
+                            "ilength": 20,
+                            "inorule": 1,
+                            "idictionaryid": 0,
+                            "showdetail": true,
+                            "readonly": true,
+                            "iwidth": 0,
+                            "propertyType": 6,
+                            "imobileshow": 0,
+                            "all_line": 1,
+                            "disabled": true,
+                            "itype": 0
+                        },
+                        {
+                            "ientityid": 41,
+                            "widget": {
+                                "load_template": [],
+                                "default_label": ""
+                            },
+                            "field_label": "期望启动日期",
+                            "validator": {
+                                "required": false
+                            },
+                            "irelationentityid": 0,
+                            "widget_type": "date",
+                            "field_name": "dexpstarttime",
+                            "iconstraint": 1,
+                            "ilength": 500,
+                            "inorule": 1,
+                            "idictionaryid": 0,
+                            "showdetail": true,
+                            "readonly": true,
+                            "iwidth": 0,
+                            "propertyType": 17,
+                            "imobileshow": 0,
+                            "all_line": 1,
+                            "disabled": true,
+                            "itype": 0
+                        },
+                        {
+                            "ientityid": 41,
+                            "widget": {
+                                "load_template": [],
+                                "default_label": ""
+                            },
+                            "field_label": "立项日期",
+                            "validator": {
+                                "required": false
+                            },
+                            "irelationentityid": 0,
+                            "widget_type": "date",
+                            "field_name": "dprjbuilddate",
+                            "iconstraint": 1,
+                            "ilength": 20,
+                            "inorule": 1,
+                            "idictionaryid": 0,
+                            "showdetail": true,
+                            "readonly": true,
+                            "iwidth": 0,
+                            "propertyType": 17,
+                            "imobileshow": 0,
+                            "all_line": 1,
+                            "disabled": true,
+                            "itype": 0
+                        },
+                        {
+                            "ientityid": 41,
+                            "widget": {
+                                "default_value": "1",
+                                "default_label": "管理员"
+                            },
+                            "iid": "9",
+                            "field_label": "后续执行人",
+                            "validator": {
+                                "message": "输入内容不能为空！",
+                                "required": true
+                            },
+                            "irelationentityid": 2,
+                            "urlparam": "",
+                            "widget_type": "selectmodel",
+                            "url": "vfm/ChooseEntity/ChooseEntity",
+                            "field_name": "iassignto",
+                            "iconstraint": 0,
+                            "ilength": 22,
+                            "inorule": 1,
+                            "showdetail": true,
+                            "readonly": true,
+                            "iwidth": 0,
+                            "propertyType": 13,
+                            "imobileshow": 0,
+                            "all_line": 1,
+                            "disabled": true,
+                            "itype": 0
+                        },
+                        {
+                            "ientityid": 41,
+                            "widget": {
+                                "load_template": [],
+                                "select_type": [
+                                    {
+                                        "label": "业务需求说明书",
+                                        "value": "3"
+                                    },
+                                    {
+                                        "label": "系统需求说明书",
+                                        "value": "4"
+                                    },
+                                    {
+                                        "label": "总体架构文档",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "label": "软件设计说明书",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "label": "用户场景描述",
+                                        "value": "11"
+                                    },
+                                    {
+                                        "label": "用户手册",
+                                        "value": "12"
+                                    },
+                                    {
+                                        "label": "投产报告",
+                                        "value": "13"
+                                    }
+                                ]
+                            },
+                            "field_label": "附件",
+                            "validator": {
+                                "required": false
+                            },
+                            "widget_type": "upload",
+                            "field_name": "rattachment",
+                            "filestyle": 0,
+                            "iconstraint": 1,
+                            "ilength": 22,
+                            "inorule": 1,
+                            "showdetail": true,
+                            "readonly": true,
+                            "iwidth": 0,
+                            "propertyType": 12,
+                            "imobileshow": 0,
+                            "all_line": 1,
+                            "disabled": true,
+                            "itype": 0,
+                            "ischosefiletype": "1"
+                        }
+                    ]
+                }
+            ]
+        },
+        "ichanglecount": null,
+        "sublist": [],
+        "iuserid": "1",
+        "iparent": "-1"
+    },
+    "status": 200
+}

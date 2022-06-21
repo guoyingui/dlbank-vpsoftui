@@ -1,0 +1,19 @@
+{
+    "timestamp": 1527730167195,
+    "infocode": "VP000000",
+    "msgparam": null,
+    "data": {
+        "data": [{
+            "name": "未执行",
+            "current": true,
+            "value": "1"
+        }, {
+            "name": "已执行",
+            "value": "2"
+        }, {
+            "name": "全部",
+            "value": "3"
+        }]
+    },
+    "msg": "VP000000"
+}

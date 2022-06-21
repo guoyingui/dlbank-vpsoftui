@@ -1,0 +1,42 @@
+{
+    "timestamp": 1527730167197,
+    "infocode": "VP000000",
+    "msgparam": null,
+    "data": {
+        "grid": {
+            "fields": [
+                {
+                    "field_name": "name",
+                    "field_label": "仪表盘名称"
+                },
+                {
+                    "field_name": "sort",
+                    "field_label": "排序码"
+                },
+                {
+                    "field_name": "explain",
+                    "field_label": "说明"
+                }
+            ]
+        },
+        "resultList": [
+            {"name": "需求仪表盘", "sort": "1", "explain": "主要包括"},
+            {"name": "架构仪表盘", "sort": "101001", "explain": "主要包括"},
+            {"name": "开发仪表盘", "sort": "101002", "explain": "主要包括"},
+            {"name": "测试仪表盘", "sort": "101003", "explain": "主要包括"},
+            {"name": "投产仪表盘", "sort": "101004", "explain": "主要包括"},
+            {"name": "PMO仪表盘", "sort": "101005", "explain": "主要包括"},
+            {"name": "乙方类实施中心仪表盘", "sort": "101006", "explain": "主要包括"},
+            {"name": "科技部领导仪表盘", "sort": "101007", "explain": "主要包括"},
+            {"name": "商务中心仪表盘", "sort": "101008", "explain": "主要包括"},
+            {"name": "通用仪表盘", "sort": "101009", "explain": "主要包括"},
+            {"name": "敏捷需求仪表盘", "sort": "1010010", "explain": "主要包括"},
+            {"name": "敏捷项目仪表盘", "sort": "1010011", "explain": "主要包括"}
+        ],
+        "numPerPage": 10,
+        "totalRows": 12,
+        "totalPages": 2,
+        "currentPage": 1
+    },
+    "msg": "VP000000"
+}

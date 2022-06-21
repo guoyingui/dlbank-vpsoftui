@@ -1,0 +1,68 @@
+{
+    "data": {
+        "headers":{
+            "save_number": 5,
+            "fields":[
+                {
+                    "field_name":"title",
+                    "fixed":"none",
+                    "field_label":"批处理号"
+                },
+                {
+                    "field_name":"version",
+                    "fixed":"none",
+                    "field_label":"入库人"
+                },
+                {
+                    "field_name":"zichan",
+                    "fixed":"none",
+                    "field_label":"入库时间"
+                },
+                {
+                    "field_name":"jiedian",
+                    "fixed":"none",
+                    "field_label":"入库资产数"
+                },
+                {
+                    "field_name":"lujing",
+                    "fixed":"none",
+                    "field_label":"成功数"
+                }
+            ]
+        },
+        "resultList":[
+            {
+                "title":"20180612103927",
+                "iid":"111",
+                "moxing":"业务结构",
+                "zichan":"2018-06-12 10:39",
+                "zhuangtai":"检查通过",
+                "jiedian":"4",
+                "version":"管理员",
+                "lujing": "4",
+                "zhonglei": "业务功能",
+                "iaddressval2": "1",
+                "url": "//Json/demandChild1.json"
+            },
+            {
+                "title":"20180612103927",
+                "iid":"112",
+                "moxing":"业务结构",
+                "zichan":"2018-06-12 10:39",
+                "zhuangtai":"检查通过",
+                "jiedian":"4",
+                "version":"管理员",
+                "lujing": "4",
+                "zhonglei": "业务功能",
+                "iaddressval2": "1",
+                "url": "//Json/demandChild1.json"
+            }
+        ],
+        "numPerPage": 10,
+        "totalRows": 1,
+        "totalPages": 1,
+        "currentPage": 1
+    },
+    "status": "success",
+    "infocode": "VP000000"
+}

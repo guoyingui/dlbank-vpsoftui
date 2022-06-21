@@ -1,0 +1,342 @@
+{
+    "timestamp": 1527730167195,
+    "infocode": "VP000000",
+    "msgparam": null,
+    "data": {
+        "headers":{
+            "save_number": 5,
+            "fields":[
+                {
+                    "field_name":"iflag",
+                    "edit_col":true,
+                    "datatype":15,
+                    "widget":{
+                        "widget_type":"text",
+                        "widget_name":"iflag"
+                    },
+                    "fixed":"none",
+                    "field_label":"任务名称",
+                    "iwidth": 120
+                },
+                {
+                    "field_name":"project",
+                    "edit_col":false,
+                    "datatype":15,
+                    "widget":{},
+                    "fixed":"none",
+                    "field_label":"项目名称",
+                    "iwidth": 100
+                },
+                {
+                    "field_name":"iaddress",
+                    "edit_col":true,
+                    "datatype":8,
+                    "iwidth": 80,
+                    "widget":{
+                        "load_template":[
+                            {
+                                "value":"1",
+                                "label":"活动类型"
+                            },
+                            {
+                                "value":"2",
+                                "label":"日常事务"
+                            },
+                            {
+                                "value":"3",
+                                "label":"公共会议"
+                            },
+                            {
+                                "value":"4",
+                                "label":"年会"
+                            }
+                        ],
+                        "default_value_name": "iaddressval",
+                        "widget_type":"select",
+                        "widget_name":"iaddress"
+                    },
+                    "fixed":"none",
+                    "field_label":"活动类型"
+                },
+                {
+                    "field_name":"iaddress2",
+                    "edit_col":false,
+                    "datatype":8,
+                    "widget":{
+                        "default_value_name": "iaddressval",
+                        "widget_type":"multiselect",
+                        "widget_name":"iaddress2"
+                    },
+                    "fixed":"none",
+                    "field_label":"完成百分比"
+                },
+                {
+                    "field_name":"dcreatordate",
+                    "edit_col":true,
+                    "datatype":6,
+                    "iwidth": 50,
+                    "widget":{
+                        "widget_type":"number",
+                        "widget_name":"dcreatordate"
+                    },
+                    "fixed":"none",
+                    "field_label":"正常"
+                },
+                {
+                    "field_name":"icreator",
+                    "edit_col":true,
+                    "datatype":13,
+                    "iwidth": 50,
+                    "widget":{
+                        "widget_type":"number",
+                        "widget_name":"icreator",
+                        "default_value_name": "0.1"
+                    },
+                    "fixed":"none",
+                    "field_label":"加班",
+                    "irelationentityid":2
+                },
+                {
+                    "field_name":"icreator1",
+                    "edit_col":false,
+                    "datatype":13,
+                    "iwidth": 50,
+                    "widget":{
+                        "widget_type":"selectmodel",
+                        "widget_name":"icreator",
+                        "url":"demo/TabDemo3/index",
+                        "default_value_name": "icreatorval"
+                    },
+                    "fixed":"none",
+                    "field_label":"状态",
+                    "irelationentityid":2
+                }
+            ]
+        },
+        "resultList":[
+            {
+                "iclassidval":"1",
+                "project":"任务",
+                "num":"1",
+                "ssequencekey":"人员1",
+                "icreatorval":"2",
+                "iflagdsp":"启用",
+                "iid":"1",
+                "dcreatordate":"0.2",
+                "istatusid":"待处理",
+                "icreator":"0.2",
+                "istatusidval":"1",
+                "iclassid":"1",
+                "iflag":"轮次缺陷测试",
+                "iaddress": "日常事务",
+                "iaddressval": "2",
+                "iaddress2": "23",
+                "iaddressval2": "1",
+                "icreator1": "待审批",
+                "icreator2": "必然出现",
+                "icreator3": "现金管理"
+            },
+            {
+                "iclassidval":"",
+                "project":"任务",
+                "num":"2",
+                "ssequencekey":"人员1",
+                "icreatorval":"",
+                "iflagdsp":"启用",
+                "iid":"2",
+                "dcreatordate":"10",
+                "istatusid":"关闭",
+                "icreator":"0.2",
+                "istatusidval":"1",
+                "iclassid":"2",
+                "iflag":"测试项目测试缺陷",
+                "iaddress": "活动类型",
+                "iaddressval": "1",
+                "iaddress2": "35",
+                "iaddressval2": "1",
+                "icreator1": "待审批",
+                "icreator2": "必然出现",
+                "icreator3": "现金管理"
+            },
+            {
+                "iclassidval":"",
+                "project":"任务",
+                "num":"3",
+                "ssequencekey":"人员1",
+                "icreatorval":"",
+                "iflagdsp":"启用",
+                "iid":"3",
+                "dcreatordate":"1",
+                "istatusid":"修复中",
+                "icreator":"0.2",
+                "istatusidval":"1",
+                "iclassid":"3",
+                "iflag":"测试缺陷",
+                "iaddress": "公共会议",
+                "iaddressval": "3",
+                "iaddress2": "55",
+                "iaddressval2": "1",
+                "icreator1": "已拒绝",
+                "icreator2": "必然出现",
+                "icreator3": "现金管理"
+            },
+            {
+                "iclassidval":"19",
+                "project":"任务",
+                "num":"4",
+                "ssequencekey":"人员2",
+                "icreatorval":"1",
+                "iflagdsp":"启用",
+                "iid":"4",
+                "dcreatordate":"0.0",
+                "istatusid":"待处理",
+                "icreator":"0.2",
+                "istatusidval":"1",
+                "iclassid":"4",
+                "iflag":"bug5552",
+                "iaddress": "年会",
+                "iaddressval": "4",
+                "iaddress2": "21",
+                "iaddressval2": "1",
+                "icreator1": "已拒绝",
+                "icreator2": "必然出现",
+                "icreator3": "现金管理"
+            },
+            {
+                "iclassidval":"0",
+                "project":"任务",
+                "num":"5",
+                "ssequencekey":"人员3",
+                "icreatorval":"1",
+                "iflagdsp":"启用",
+                "iid":"5",
+                "dcreatordate":"0.0",
+                "istatusid":"待处理",
+                "icreator":"0.2",
+                "istatusidval":"1",
+                "iclassid":"5",
+                "iflag":"bug5552",
+                "iaddress": "活动类型",
+                "iaddressval": "1",
+                "iaddress2": "34",
+                "iaddressval2": "1",
+                "icreator1": "已审批",
+                "icreator2": "必然出现",
+                "icreator3": "现金管理"
+            },
+            {
+                "iclassidval":"1",
+                "project":"任务",
+                "num":"1",
+                "ssequencekey":"人员3",
+                "icreatorval":"2",
+                "iflagdsp":"启用",
+                "iid":"6",
+                "dcreatordate":"0.0",
+                "istatusid":"待处理",
+                "icreator":"0.2",
+                "istatusidval":"1",
+                "iclassid":"6",
+                "iflag":"bug5552",
+                "iaddress": "日常事务",
+                "iaddressval": "2",
+                "iaddress2": "88",
+                "iaddressval2": "1",
+                "icreator1": "已审批",
+                "icreator2": "必然出现",
+                "icreator3": "现金管理"
+            },
+            {
+                "iclassidval":"1",
+                "project":"任务",
+                "num":"1",
+                "ssequencekey":"人员4",
+                "icreatorval":"2",
+                "iflagdsp":"启用",
+                "iid":"7",
+                "dcreatordate":"0.0",
+                "istatusid":"待处理",
+                "icreator":"0.2",
+                "istatusidval":"1",
+                "iclassid":"6",
+                "iflag":"bug5552",
+                "iaddress": "年会",
+                "iaddressval": "4",
+                "iaddress2": "25",
+                "iaddressval2": "1",
+                "icreator1": "待审批",
+                "icreator2": "必然出现",
+                "icreator3": "现金管理"
+            },
+            {
+                "iclassidval":"1",
+                "project":"任务",
+                "num":"1",
+                "ssequencekey":"人员5",
+                "icreatorval":"2",
+                "iflagdsp":"启用",
+                "iid":"8",
+                "dcreatordate":"0.0",
+                "istatusid":"待处理",
+                "icreator":"0.2",
+                "istatusidval":"1",
+                "iclassid":"6",
+                "iflag":"bug5552",
+                "iaddress": "活动类型",
+                "iaddressval": "1",
+                "iaddress2": "45",
+                "delete_row": true,
+                "iaddressval2": "1",
+                "icreator1": "待审批",
+                "icreator2": "必然出现",
+                "icreator3": "现金管理"
+            },
+            {
+                "iclassidval":"1",
+                "project":"任务",
+                "num":"1",
+                "ssequencekey":"人员5",
+                "icreatorval":"2",
+                "iflagdsp":"启用",
+                "iid":"9",
+                "dcreatordate":"0.0",
+                "istatusid":"待处理",
+                "icreator":"0.2",
+                "istatusidval":"1",
+                "iclassid":"6",
+                "delete_row": false,
+                "iflag":"bug5552",
+                "iaddress": "活动类型",
+                "iaddressval": "1",
+                "iaddress2": "33",
+                "iaddressval2": "1",
+                "icreator1": "待审批",
+                "icreator2": "必然出现",
+                "icreator3": "现金管理"
+            },
+            {
+                "iclassidval":"1",
+                "project":"任务",
+                "num":"1",
+                "ssequencekey":"人员5",
+                "icreatorval":"2",
+                "iflagdsp":"启用",
+                "iid":"10",
+                "dcreatordate":"0.0",
+                "istatusid":"待处理",
+                "icreator":"0.2",
+                "istatusidval":"1",
+                "iclassid":"6",
+                "iflag":"bug5552",
+                "iaddress": "年会",
+                "iaddressval": "4",
+                "iaddress2": "22",
+                "iaddressval2": "1",
+                "icreator1": "待审批",
+                "icreator2": "必然出现",
+                "icreator3": "现金管理"
+            }
+        ]
+    },
+    "msg": "VP000000"
+}

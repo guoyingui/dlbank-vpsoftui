@@ -1,0 +1,145 @@
+{
+    "timestamp": 1527730167197,
+    "infocode": "VP000000",
+    "msgparam": null,
+    "data": {
+        "grid": {
+            "fields": [
+                {
+                    "field_name": "creatDate",
+                    "field_label": "生成日期"
+                },
+                {
+                    "field_name": "title",
+                    "field_label": "测试任务名称"
+                },
+                {
+                    "field_name": "projectname",
+                    "field_label": "项目名称"
+                },
+                {
+                    "field_name": "prouser",
+                    "field_label": "项目负责人"
+                },
+                {
+                    "field_name": "testuser",
+                    "field_label": "测试负责人"
+                },
+                {
+                    "field_name": "hostsystem",
+                    "field_label": "主办系统"
+                },
+                {
+                    "field_name": "relatedsystem",
+                    "field_label": "相关系统"
+                }
+            ]
+        },
+        "resultList": [
+            {
+                "iid": "1",
+                "creatDate": "2020-03-21",
+                "title": "项目管理系统第二阶段测试申请",
+                "projectname": "项目管理系统建设项目",
+                "prouser": "陈帆",
+                "testuser": "姜玲",
+                "hostsystem": "SALM系统",
+                "relatedsystem": "OA系统柜面系统网银系统"
+            }
+        ],
+        "header2":[
+            {
+                "field_name": "xqname",
+                "field_label": "子需求名称"
+            },
+            {
+                "field_name": "title",
+                "field_label": "测试需求名称"
+            },
+            {
+                "field_name": "gsxt",
+                "field_label": "归属系统"
+            },
+            {
+                "field_name": "xiqiuuser",
+                "field_label": "需求分析人"
+            },
+            {
+                "field_name": "xiafadate",
+                "field_label": "子需求下发时间"
+            },
+            {
+                "field_name": "csyl",
+                "field_label": "对应测试用例"
+            },
+            {
+                "field_name": "xiqiufzr",
+                "field_label": "子需求负责人"
+            }
+        ],
+        "resultList2":[
+            {
+                "iid": "1",
+                "xqname": "TSRS",
+                "title": "项目管理系统第二阶段测试申请",
+                "gsxt": "OA系统柜面系统网银系统",
+                "xiqiuuser": "陈帆",
+                "xiafadate": "2020-03-21",
+                "csyl": "SALM系统",
+                "xiqiufzr": "姜玲"
+            }
+        ],
+        "header3":[
+            {
+                "field_name": "qxname",
+                "field_label": "缺陷名称"
+            },
+            {
+                "field_name": "qxlx",
+                "field_label": "缺陷类型"
+            },
+            {
+                "field_name": "qxzt",
+                "field_label": "缺陷状态"
+            },
+            {
+                "field_name": "qxyxj",
+                "field_label": "缺陷优先级"
+            },
+            {
+                "field_name": "glal",
+                "field_label": "关联案例"
+            },
+            {
+                "field_name": "szxq",
+                "field_label": "所属子需求"
+            },
+            {
+                "field_name": "ssxt",
+                "field_label": "所属系统"
+            },
+            {
+                "field_name": "user",
+                "field_label": "登记人"
+            }
+        ],
+        "resultList3":[
+            {
+                "iid": "1",
+                "qxname": "测试变迁1",
+                "qxlx": "开发缺陷",
+                "qxzt": "分析中",
+                "qxyxj": "高",
+                "glal": "TC10001",
+                "szxq": "SALM系统",
+                "ssxt": "SALM系统",
+                "user": "姜玲"
+            }
+        ],
+        "numPerPage": 10,
+        "totalRows": 5,
+        "totalPages": 5,
+        "currentPage": 1
+    },
+    "msg": "VP000000"
+}

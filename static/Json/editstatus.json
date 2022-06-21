@@ -1,0 +1,39 @@
+{
+    "timestamp": 1527730167197,
+    "infocode": "VP000000",
+    "msgparam": null,
+    "data": {
+        "grid": {
+            "fields": [
+                {
+                    "field_name": "showname",
+                    "field_label": "显示名称",
+                    "edit_col": true,
+                    "widget": {
+                        "widget_type": "text",
+                        "widget_name": "showname"
+                    }
+                },
+                {
+                    "field_name": "systemname",
+                    "field_label": "系统名称"
+                }
+            ]
+        },
+        "resultList": [
+            {"id": 1, "showname": "需求", "systemname": "需求仪表盘"},
+            {"id": 2, "showname": "架构", "systemname": "架构仪表盘"},
+            {"id": 3, "showname": "开发", "systemname": "开发仪表盘"},
+            {"id": 4, "showname": "测试", "systemname": "测试仪表盘"},
+            {"id": 5, "showname": "投产", "systemname": "投产仪表盘"},
+            {"id": 6, "showname": "PMO", "systemname": "PMO仪表盘"},
+            {"id": 7, "showname": "乙方类实施中心", "systemname": "乙方类实施中心仪表盘"},
+            {"id": 8, "showname": "科技部领导", "systemname": "科技部领导仪表盘"}
+        ],
+        "numPerPage": 10,
+        "totalRows": 8,
+        "totalPages": 2,
+        "currentPage": 1
+    },
+    "msg": "VP000000"
+}

@@ -1,0 +1,319 @@
+{
+    "groups": [
+        {
+            "group_label": "计算结果显示",
+            "group_type": 1,
+            "fields": [
+                {
+                    "field_name": "address",
+                    "widget_type": "select",
+                    "seventinfo": "aaaa",
+                    "iconstraint": 1,
+                    "validator": {
+                        "required": true
+                    },
+                    "iwidth": 0,
+                    "onchange": "onSelectChange",
+                    "itype": 2,
+                    "ieventtype": 0,
+                    "idictionaryid": 5,
+                    "default_value": 3,
+                    "widget": {
+                        "load_template": [
+                            {
+                                "value": 0,
+                                "label": "1.6"
+                            },
+                            {
+                                "value": 1,
+                                "label": "1.5"
+                            },
+                            {
+                                "value": 2,
+                                "label": "1.4"
+                            },
+                            {
+                                "value": 3,
+                                "label": "1.3"
+                            }
+                        ],
+                        "default_label": "2",
+                        "default_value": "2"
+                    },
+                    "field_label": "GSC调整因子",
+                    "all_line": 1,
+                    "irelationentityid": 0
+                },
+                {
+                    "field_name": "address2",
+                    "widget_type": "select",
+                    "seventinfo": "aaaa",
+                    "iconstraint": 1,
+                    "validator": {},
+                    "iwidth": 0,
+                    "onchange": "onSelectChange2",
+                    "itype": 2,
+                    "ieventtype": 0,
+                    "idictionaryid": 5,
+                    "default_value": 3,
+                    "widget": {
+                        "load_template": [
+                            {
+                                "value": 0,
+                                "label": "1.6"
+                            },
+                            {
+                                "value": 1,
+                                "label": "1.5"
+                            },
+                            {
+                                "value": 2,
+                                "label": "1.4"
+                            },
+                            {
+                                "value": 3,
+                                "label": "1.3"
+                            }
+                        ],
+                        "default_label": "2",
+                        "default_value": "2"
+                    },
+                    "field_label": "需求变更调整因子值",
+                    "all_line": 1,
+                    "irelationentityid": 0
+                },
+                {
+                    "field_name": "sname",
+                    "widget_type": "number",
+                    "iconstraint": 1,
+                    "validator": {},
+                    "iwidth": 0,
+                    "field_label": "人月费率",
+                    "all_line": 1,
+                    "itype": 0,
+                    "widget": {
+                        "load_template": 0.1,
+                        "default_value": ""
+                    }
+                },
+                {
+                    "field_name": "address3",
+                    "widget_type": "select",
+                    "seventinfo": "aaaa",
+                    "iconstraint": 1,
+                    "validator": {
+                        "required": true
+                    },
+                    "iwidth": 0,
+                    "onchange": "onSelectChange",
+                    "itype": 2,
+                    "ieventtype": 0,
+                    "idictionaryid": 5,
+                    "default_value": 3,
+                    "widget": {
+                        "load_template": [
+                            {
+                                "value": 0,
+                                "label": "1.6"
+                            },
+                            {
+                                "value": 1,
+                                "label": "1.5"
+                            },
+                            {
+                                "value": 2,
+                                "label": "1.4"
+                            },
+                            {
+                                "value": 3,
+                                "label": "1.3"
+                            }
+                        ],
+                        "default_label": "2",
+                        "default_value": "2"
+                    },
+                    "field_label": "应用类型调整因子",
+                    "all_line": 1,
+                    "irelationentityid": 0
+                },
+                {
+                    "field_name": "address4",
+                    "widget_type": "select",
+                    "seventinfo": "aaaa",
+                    "iconstraint": 1,
+                    "validator": {
+                        "required": true
+                    },
+                    "iwidth": 0,
+                    "onchange": "onSelectChange",
+                    "itype": 2,
+                    "ieventtype": 0,
+                    "idictionaryid": 5,
+                    "default_value": 3,
+                    "widget": {
+                        "load_template": [
+                            {
+                                "value": 0,
+                                "label": "1.6"
+                            },
+                            {
+                                "value": 1,
+                                "label": "1.5"
+                            },
+                            {
+                                "value": 2,
+                                "label": "1.4"
+                            },
+                            {
+                                "value": 3,
+                                "label": "1.3"
+                            }
+                        ],
+                        "default_label": "2",
+                        "default_value": "2"
+                    },
+                    "field_label": "业务领域调整因子",
+                    "all_line": 1,
+                    "irelationentityid": 0
+                },
+                {
+                    "field_name": "address5",
+                    "widget_type": "select",
+                    "seventinfo": "aaaa",
+                    "iconstraint": 1,
+                    "validator": {
+                        "required": true
+                    },
+                    "iwidth": 0,
+                    "onchange": "onSelectChange",
+                    "itype": 2,
+                    "ieventtype": 0,
+                    "idictionaryid": 5,
+                    "default_value": 3,
+                    "widget": {
+                        "load_template": [
+                            {
+                                "value": 0,
+                                "label": "1.6"
+                            },
+                            {
+                                "value": 1,
+                                "label": "1.5"
+                            },
+                            {
+                                "value": 2,
+                                "label": "1.4"
+                            },
+                            {
+                                "value": 3,
+                                "label": "1.3"
+                            }
+                        ],
+                        "default_label": "2",
+                        "default_value": "2"
+                    },
+                    "field_label": "团队经验调整因子",
+                    "all_line": 1,
+                    "irelationentityid": 0
+                },
+                {
+                    "field_name": "address6",
+                    "widget_type": "select",
+                    "seventinfo": "aaaa",
+                    "iconstraint": 1,
+                    "validator": {
+                        "required": true
+                    },
+                    "iwidth": 0,
+                    "onchange": "onSelectChange",
+                    "itype": 2,
+                    "ieventtype": 0,
+                    "idictionaryid": 5,
+                    "default_value": 3,
+                    "widget": {
+                        "load_template": [
+                            {
+                                "value": 0,
+                                "label": "1.6"
+                            },
+                            {
+                                "value": 1,
+                                "label": "1.5"
+                            },
+                            {
+                                "value": 2,
+                                "label": "1.4"
+                            },
+                            {
+                                "value": 3,
+                                "label": "1.3"
+                            }
+                        ],
+                        "default_label": "2",
+                        "default_value": "2"
+                    },
+                    "field_label": "质量要求调整因子",
+                    "all_line": 1,
+                    "irelationentityid": 0
+                },
+                {
+                    "field_name": "address7",
+                    "widget_type": "select",
+                    "seventinfo": "aaaa",
+                    "iconstraint": 1,
+                    "validator": {
+                        "required": true
+                    },
+                    "iwidth": 0,
+                    "onchange": "onSelectChange",
+                    "itype": 2,
+                    "ieventtype": 0,
+                    "idictionaryid": 5,
+                    "default_value": 3,
+                    "widget": {
+                        "load_template": [
+                            {
+                                "value": 0,
+                                "label": "1.6"
+                            },
+                            {
+                                "value": 1,
+                                "label": "1.5"
+                            },
+                            {
+                                "value": 2,
+                                "label": "1.4"
+                            },
+                            {
+                                "value": 3,
+                                "label": "1.3"
+                            }
+                        ],
+                        "default_label": "2",
+                        "default_value": "2"
+                    },
+                    "field_label": "开发语言调整因子",
+                    "all_line": 1,
+                    "irelationentityid": 0
+                },
+                {
+                    "field_name": "tont",
+                    "widget_type": "number",
+                    "iconstraint": 1,
+                    "validator": {},
+                    "iwidth": 0,
+                    "field_label": "工作量调整因子",
+                    "all_line": 1,
+                    "itype": 0,
+                    "readOnly":true,
+                    "widget": {
+                        "load_template": 0.1,
+                        "default_value": ""
+                    }
+                }
+            ]
+        }
+    ],
+    "status": "success",
+    "infocode": "VP000001"
+}

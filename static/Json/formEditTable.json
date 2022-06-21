@@ -1,0 +1,593 @@
+{
+    "timestamp":1526367924911,
+    "infocode":"VP000001",
+    "msgparam":null,
+    "data":{
+        "form":{
+            "groups":[
+                {
+                    "group_label":"表单",
+                    "group_type":1,
+                    "fields":[
+                        {
+                            "field_name":"scode",
+                            "ientityid":7,
+                            "widget_type":"text",
+                            "iconstraint":1,
+                            "validator":{
+                                "required":false
+                            },
+                            "iwidth":100,
+                            "readonly":false,
+                            "widget":{
+
+                            },
+                            "field_label":"项目编号",
+                            "all_line":1,
+                            "itype":0,
+                            "inorule":0
+                        },
+                        {
+                            "field_name":"sname",
+                            "ientityid":7,
+                            "widget_type":"text",
+                            "iconstraint":1,
+                            "validator":{
+                                "required":false
+                            },
+                            "iwidth":100,
+                            "readonly":false,
+                            "widget":{
+
+                            },
+                            "field_label":"项目名称",
+                            "all_line":1,
+                            "itype":0,
+                            "inorule":0
+                        },
+                        {
+                            "ientityid":7,
+                            "field_name":"idepartmentid",
+                            "widget_type":"selectmodel",
+                            "iconstraint":1,
+                            "validator":{
+                                "required":false
+                            },
+                            "iwidth":100,
+                            "url":"demo/TabDemo3/index",
+                            "itype":0,
+                            "readonly":false,
+                            "field_label":"部门",
+                            "widget":{
+
+                            },
+                            "all_line":1,
+                            "inorule":0,
+                            "irelationentityid":1
+                        },
+                        {
+                            "field_name":"istatusid",
+                            "ientityid":7,
+                            "widget_type":"select",
+                            "iconstraint":1,
+                            "validator":{
+                                "required":false
+                            },
+                            "iwidth":100,
+                            "readonly":false,
+                            "widget":{
+                                "load_template":[
+                                    {
+                                        "value":"5",
+                                        "label":"初始状态"
+                                    }
+                                ]
+                            },
+                            "field_label":"状态",
+                            "all_line":1,
+                            "itype":0,
+                            "inorule":0
+                        },
+                        {
+                            "field_name":"iclassid",
+                            "ientityid":7,
+                            "widget_type":"select",
+                            "iconstraint":1,
+                            "validator":{
+                                "required":false
+                            },
+                            "iwidth":100,
+                            "readonly":false,
+                            "widget":{
+                                "load_template":[
+                                    {
+                                        "value":"5",
+                                        "label":"项目"
+                                    }
+                                ]
+                            },
+                            "field_label":"类别",
+                            "all_line":1,
+                            "itype":0,
+                            "inorule":0
+                        },
+                        {
+                            "field_name":"sdescription",
+                            "ientityid":7,
+                            "widget_type":"textarea",
+                            "iconstraint":1,
+                            "validator":{
+                                "required":false
+                            },
+                            "iwidth":100,
+                            "readonly":false,
+                            "widget":{
+
+                            },
+                            "field_label":"描述",
+                            "all_line":2,
+                            "itype":0,
+                            "inorule":0
+                        },
+                        {
+                            "field_name": "selectobject",
+                            "widget_type": "selectobject",
+                            "select_type": "checkbox",
+                            "onchange": "onSubmit",
+                            "validator": {},
+                            "field_label": "selectobject",
+                            "all_line": 1,
+                            "widget": {
+                                "default_value": "3,4",
+                                "default_label": "交付部,交付部",
+                                "treeUrl": "http://localhost:8101//Json/getTreedata.json",
+                                "treeParams": {
+                                    "method": "getDepartmentTreeData"
+                                },
+                                "treeKey": "iid",
+                                "tableHeaderUrl": "http://localhost:8101//Json/getlistHeader.json",
+                                "tableDataUrl": "http://localhost:8101//Json/getlistdata.json",
+                                "tableMethod": "GET",
+                                "tableParams": {
+                                    "entity": 1
+                                },
+                                "tableKey": "iid"
+                            }
+                        },
+                        {
+                            "field_name": "doc",
+                            "widget_type": "inputupload",
+                            "validator": {
+                                "required": true
+                            },
+                            "field_label": "inputupload",
+                            "all_line": 2,
+                            "tips": "请选择项目模板文档（*.doc,*.docx)",
+                            "widget": {
+                                "accept": {
+                                    "title": "Doc",
+                                    "extensions": "docx,doc"
+                                }
+                            }
+                        },
+                        {
+                            "ientityid":7,
+                            "field_name":"seditGrid",
+                            "headers":{
+                                "fields":[
+                                    {
+                                        "field_name":"icreator",
+                                        "edit_col":true,
+                                        "datatype":13,
+                                        "widget":{
+                                            "widget_type":"selectmodel",
+                                            "widget_name":"icreator",
+                                            "url":"demo/TabDemo3/index",
+                                            "default_value_name": "icreatorval"
+                                        },
+                                        "fixed":"none",
+                                        "field_label":"创建人2",
+                                        "irelationentityid":2
+                                    },
+                                    {
+                                        "field_name": "treeselectchoose",
+                                        "edit_col": true,
+                                        "datatype": 6,
+                                        "widget": {
+                                            "tree_checkable": false,
+                                            "widget_type": "treeselect",
+                                            "widget_name": "treeselectchoose",
+                                            "load_template": [
+                                               { 
+                                                   "label": "节点一", 
+                                                   "value": "0-0", 
+                                                   "key": "0-0", 
+                                                    "children": [
+                                                        { "label": "节点一", "value": "0-0-0", "key": "0-0-0"}
+                                                    ]
+                                                },
+                                                { 
+                                                    "label": "节点二", 
+                                                    "value": "0-1", 
+                                                    "key": "0-1", 
+                                                    "children": [
+                                                        { "label": "子节点三", "value": "0-1-0", "key": "0-1-0"},
+                                                        { "label": "子节点四", "value": "0-1-1", "key": "0-1-1"},
+                                                        { "label": "子节点五", "value": "0-1-2", "key": "0-1-2"}
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        "fixed": "none",
+                                        "field_label": "下拉树选择"
+                                    },
+                                    {
+                                        "field_name":"dcreatordate",
+                                        "edit_col":true,
+                                        "datatype":6,
+                                        "widget":{
+                                            "widget_type":"datetime",
+                                            "widget_name":"dcreatordate"
+                                        },
+                                        "fixed":"none",
+                                        "field_label":"创建时间"
+                                    },
+                                    {
+                                        "field_name": "slider",
+                                        "edit_col": true,
+                                        "datatype": 6,
+                                        "widget": {
+                                            "widget_type": "slider",
+                                            "widget_name": "slider"
+                                        },
+                                        "fixed": "none",
+                                        "field_label": "滑动输入条"
+                                    },
+                                    {
+                                        "field_name":"ssequencekey",
+                                        "edit_col":true,
+                                        "datatype":1,
+                                        "widget":{
+                                            "widget_type":"number",
+                                            "widget_name":"ssequencekey"
+                                        },
+                                        "validator": {"required":true, "min": 1,"max": 50, "message": "请输入1-50"},
+                                        "fixed":"none",
+                                        "field_label":"序列码"
+                                    },
+                                    {
+                                        "field_name":"iflag",
+                                        "edit_col":true,
+                                        "datatype":15,
+                                        "widget":{
+                                            "widget_type":"radio",
+                                            "load_template":[
+                                                {
+                                                    "value":"1",
+                                                    "label":"A"
+                                                },
+                                                {
+                                                    "value":"2",
+                                                    "label":"B"
+                                                },
+                                                {
+                                                    "value":"3",
+                                                    "label":"C"
+                                                },
+                                                {
+                                                    "value":"4",
+                                                    "label":"D"
+                                                }
+                                            ],
+                                            "widget_name":"iflag",
+                                            "default_value_name":"iflagval"
+                                        },
+                                        "fixed":"none",
+                                        "field_label":"标志"
+                                    },
+                                    {
+                                        "field_name":"istatusid",
+                                        "edit_col":true,
+                                        "datatype":13,
+                                        "widget":{
+                                            "load_template":[
+                                                {
+                                                    "value":"1",
+                                                    "label":"初始状态"
+                                                },
+                                                {
+                                                    "value":"19",
+                                                    "label":"流程中"
+                                                }
+                                            ],
+                                            "widget_name":"istatusid"
+                                        },
+                                        "fixed":"none",
+                                        "field_label":"状态"
+                                    },
+                                    {
+                                        "field_name":"iclassid",
+                                        "edit_col":true,
+                                        "datatype":13,
+                                        "widget":{
+                                            "load_template":[
+                                                {
+                                                    "value":"1",
+                                                    "label":"部门"
+                                                },
+                                                {
+                                                    "value":"19",
+                                                    "label":"新建类"
+                                                }
+                                            ],
+                                            "widget_name":"iclassid"
+                                        },
+                                        "fixed":"none",
+                                        "field_label":"类别"
+                                    },
+                                    {
+                                        "field_name":"iaddress",
+                                        "edit_col":true,
+                                        "datatype":8,
+                                        "widget":{
+                                            "load_template":[
+                                                {
+                                                    "value":"1",
+                                                    "label":"武汉"
+                                                },
+                                                {
+                                                    "value":"2",
+                                                    "label":"长沙"
+                                                },
+                                                {
+                                                    "value":"3",
+                                                    "label":"北京"
+                                                },
+                                                {
+                                                    "value":"4",
+                                                    "label":"四合院"
+                                                },
+                                                {
+                                                    "value":"5",
+                                                    "label":"天安门"
+                                                }
+                                            ],
+                                            "default_value_name": "iaddressval",
+                                            "widget_type":"select",
+                                            "widget_name":"iaddress"
+                                        },
+                                        "fixed":"none",
+                                        "field_label":"家庭地址"
+                                    },
+                                    {
+                                        "field_name":"iaddress2",
+                                        "edit_col":true,
+                                        "datatype":8,
+                                        "widget":{
+                                            "load_template":[
+                                                {
+                                                    "value":"1",
+                                                    "label":"武汉"
+                                                },
+                                                {
+                                                    "value":"2",
+                                                    "label":"长沙"
+                                                },
+                                                {
+                                                    "value":"3",
+                                                    "label":"北京"
+                                                },
+                                                {
+                                                    "value":"4",
+                                                    "label":"四合院"
+                                                },
+                                                {
+                                                    "value":"5",
+                                                    "label":"天安门"
+                                                }
+                                            ],
+                                            "default_value_name": "iaddressval",
+                                            "widget_type":"multiselect",
+                                            "widget_name":"iaddress2"
+                                        },
+                                        "fixed":"none",
+                                        "field_label":"家庭地址2"
+                                    }
+                                ]
+                            },
+                            "widget_type":"iframe",
+                            "iconstraint":1,
+                            "iwidth":0,
+                            "itype":2,
+                            "idictionaryid":0,
+                            "field_label":"项目经费",
+                            "listdata":{
+                                "numPerPage":10,
+                                "totalRows":7,
+                                "totalPages":1,
+                                "currentPage":1,
+                                "startIndex":0,
+                                "lastIndex":7,
+                                "resultList":[
+                                    {
+                                        "iclassidval":"1",
+                                        "num":"1",
+                                        "ssequencekey":"000",
+                                        "icreatorval":"2",
+                                        "iflagdsp":"启用",
+                                        "iid":"1",
+                                        "dcreatordate":"",
+                                        "istatusid":"初始状态",
+                                        "icreator":"研发部",
+                                        "istatusidval":"1",
+                                        "iclassid":"部门",
+                                        "iflag":"A",
+                                        "iflagval":"1",
+                                        "iaddress": "武汉",
+                                        "iaddressval": "1",
+                                        "iaddress2": "武汉",
+                                        "iaddressval2": "2",
+                                        "treeselectchoose": "",
+                                        "slider": 0
+                                    },
+                                    {
+                                        "iclassidval":"",
+                                        "num":"2",
+                                        "ssequencekey":"000001",
+                                        "icreatorval":"",
+                                        "iflagdsp":"启用",
+                                        "iid":"2",
+                                        "dcreatordate":"",
+                                        "istatusid":"初始状态",
+                                        "icreator":"",
+                                        "istatusidval":"1",
+                                        "iclassid":"",
+                                        "iflag":"B",
+                                        "iflagval":"2",
+                                        "treeselectchoose": "",
+                                        "slider": 0
+                                    },
+                                    {
+                                        "iclassidval":"",
+                                        "num":"3",
+                                        "ssequencekey":"000002",
+                                        "icreatorval":"",
+                                        "iflagdsp":"启用",
+                                        "iid":"3",
+                                        "dcreatordate":"",
+                                        "istatusid":"初始状态",
+                                        "icreator":"",
+                                        "istatusidval":"1",
+                                        "iclassid":"",
+                                        "iflag":"C",
+                                        "iflagval":"3",
+                                        "treeselectchoose": "",
+                                        "slider": 0
+                                    },
+                                    {
+                                        "iclassidval":"19",
+                                        "num":"4",
+                                        "ssequencekey":"",
+                                        "icreatorval":"1",
+                                        "iflagdsp":"启用",
+                                        "iid":"9",
+                                        "dcreatordate":"",
+                                        "istatusid":"初始状态",
+                                        "icreator":"管理员",
+                                        "istatusidval":"1",
+                                        "iclassid":"新建类",
+                                        "iflag":"D",
+                                        "iflagval":"4",
+                                        "treeselectchoose": "",
+                                        "slider": 0
+                                    },
+                                    {
+                                        "iclassidval":"0",
+                                        "num":"5",
+                                        "ssequencekey":"",
+                                        "icreatorval":"1",
+                                        "iflagdsp":"启用",
+                                        "iid":"12",
+                                        "dcreatordate":"",
+                                        "istatusid":"初始状态",
+                                        "icreator":"管理员",
+                                        "istatusidval":"1",
+                                        "iclassid":"",
+                                        "iflag":"A",
+                                        "iflagval":"1",
+                                        "treeselectchoose": "",
+                                        "slider": 0
+                                    },
+                                    {
+                                        "iclassidval":"",
+                                        "num":"6",
+                                        "ssequencekey":"",
+                                        "icreatorval":"1",
+                                        "iflagdsp":"启用",
+                                        "iid":"13",
+                                        "dcreatordate":"",
+                                        "istatusid":"",
+                                        "icreator":"管理员",
+                                        "istatusidval":"",
+                                        "iclassid":"",
+                                        "iflag":"A",
+                                        "iflagval":"1",
+                                        "treeselectchoose": "",
+                                        "slider": 0
+                                    },
+                                    {
+                                        "iclassidval":"",
+                                        "num":"7",
+                                        "ssequencekey":"",
+                                        "icreatorval":"",
+                                        "iflagdsp":"启用",
+                                        "iid":"20",
+                                        "dcreatordate":"",
+                                        "istatusid":"",
+                                        "icreator":"",
+                                        "istatusidval":"",
+                                        "iclassid":"",
+                                        "iflag":"A",
+                                        "iflagval":"1",
+                                        "treeselectchoose": "",
+                                        "slider": 0
+                                    }
+                                ]
+                            },
+                            "all_line":1,
+                            "inorule":0,
+                            "irelationentityid":0
+                        },
+                        {
+                            "field_name": "tabslist",
+                            "ientityid": 13,
+                            "widget_type": "tabs",
+                            "tabs_type": "card",
+                            "iconstraint": 1,
+                            "field_label": "项目编号",
+                            "tabsdata": [
+                                {
+                                    "title": "测试一",
+                                    "icon": "",
+                                    "url": "demo/TabDemo2/index",
+                                    "props": {
+                                        "test": "xxxx"
+                                    }
+                                }, 
+                                {
+                                    "title": "测试二",
+                                    "disabled": true,
+                                    "icon": "",
+                                    "url": "demo/TabDemo1/index"
+                                }, {
+                                    "title": "外链",
+                                    "icon": "",
+                                    "url": "http://www.vpsoft.cn/"
+                                }
+                            ],
+                            "all_line": 1,
+                            "itype": 0,
+                            "inorule": 0
+                        }
+                    ]
+                },
+                {
+                    "group_label": "子页面",
+                    "group_type": 1,
+                    "fields": [
+                        {
+                            "widget_type": "childpage",
+                            "url": "http://www.vpsoft.cn/",
+                            "urltype": "1",
+                            "height": 600,
+                            "param": {
+                                "className": "test"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "msg":"VP000001"
+}

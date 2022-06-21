@@ -1,0 +1,350 @@
+{
+    "data": {
+        "headers": {
+            "save_number": 5,
+            "fields": [{
+                    "field_name": "ssequencekey",
+                    "edit_col": false,
+                    "datatype": 1,
+                    "widget": {
+                        "widget_type": "text",
+                        "widget_name": "ssequencekey"
+                    },
+                    "field_sort": true,
+                    "filter_widget": {
+                        "filter_type": "text",
+                        "filter_rule": "like"
+                    },
+                    "renderFn": "renderFn",
+                    "iwidth": 200,
+                    "fixed": "none",
+                    "field_label": "用例编码"
+                },
+                {
+                    "field_name": "istatusid",
+                    "edit_col": true,
+                    "datatype": 13,
+                    "filter_widget": {
+                        "filter_type": "rangedate",
+                        "filter_rule": "like"
+                    },
+                    "widget": {
+                        "widget_type": "text",
+                        "widget_name": "istatusid",
+                        "combine": true,
+                        "combine_name": "iflag"
+                    },
+                    "fixed": "none",
+                    "field_label": "优先级"
+                },
+                {
+                    "field_name": "iclassid",
+                    "edit_col": true,
+                    "datatype": 13,
+                    "widget": {
+                        "widget_type": "text",
+                        "widget_name": "iclassid",
+                        "combine": true,
+                        "combine_name": "iflag"
+                    },
+                    "fixed": "none",
+                    "field_label": "前置条件"
+                },
+                {
+                    "field_name": "iaddress",
+                    "field_label": "步骤",
+                    "edit_col": true,
+                    "datatype": 8,
+                    "widget": {
+                        "load_template": [{
+                                "value": "1",
+                                "label": "1111",
+                                "disabled": false
+                            },
+                            {
+                                "value": "2",
+                                "label": "步骤2",
+                                "disabled": false
+                            },
+                            {
+                                "value": "3",
+                                "label": "步骤3",
+                                "disabled": false
+                            },
+                            {
+                                "value": "4",
+                                "label": "步骤4",
+                                "disabled": false
+                            },
+                            {
+                                "value": "5",
+                                "label": "步骤5",
+                                "disabled": false
+                            }
+                        ],
+                        "default_value_name": "iaddressval",
+                        "widget_type": "select",
+                        "widget_name": "iaddress"
+                    }
+                },
+                {
+                    "field_name": "iflag",
+                    "edit_col": true,
+                    "datatype": 15,
+                    "field_sort": "sortFn",
+                    "widget": {
+                        "widget_type": "textarea",
+                        "widget_name": "iflag"
+                    },
+                    "fixed": "none",
+                    "field_label": "用例名称"
+                },
+                {
+                    "field_name": "iaddress2",
+                    "edit_col": true,
+                    "datatype": 8,
+                    "widget": {
+                        "load_template": [{
+                                "value": "1",
+                                "label": "结果1"
+                            },
+                            {
+                                "value": "2",
+                                "label": "结果2"
+                            },
+                            {
+                                "value": "3",
+                                "label": "结果3"
+                            },
+                            {
+                                "value": "4",
+                                "label": "结果4"
+                            },
+                            {
+                                "value": "5",
+                                "label": "结果5"
+                            }
+                        ],
+                        "default_value_name": "iaddressval",
+                        "widget_type": "select",
+                        "widget_name": "iaddress2"
+                    },
+                    "fixed": "none",
+                    "field_label": "预期结果"
+                },
+                {
+                    "field_name": "dcreatordate",
+                    "edit_col": true,
+                    "datatype": 6,
+                    "widget": {
+                        "widget_type": "date",
+                        "widget_name": "dcreatordate"
+                    },
+                    "fixed": "none",
+                    "field_label": "用例类型"
+                },
+                {
+                    "field_name": "icreator",
+                    "edit_col": true,
+                    "datatype": 13,
+                    "widget": {
+                        "widget_type": "selectmodel",
+                        "widget_name": "icreator",
+                        "url": "demo/TabDemo3/index",
+                        "default_value_name": "icreatorval"
+                    },
+                    "fixed": "none",
+                    "field_label": "风险级别",
+                    "irelationentityid": 2
+                }
+            ]
+        },
+        "resultList": [{
+                "iclassidval": "1",
+                "num": "1",
+                "ssequencekey": "T00008-00000",
+                "icreatorval": "2",
+                "iflagdsp": "启用",
+                "iid": "1",
+                "dcreatordate": "2018-6-1",
+                "istatusid": "高",
+                "icreator": "研发部",
+                "istatusidval": "1",
+                "iclassid": "前置条件1",
+                "iflag": "工单完成流程需求1",
+                "iaddress": "步骤1",
+                "iaddressval": "1",
+                "iaddress2": "",
+                "iaddressval2": "1"
+            },
+            {
+                "iclassidval": "",
+                "num": "2",
+                "ssequencekey": "T00008-00001",
+                "icreatorval": "",
+                "iflagdsp": "启用",
+                "iid": "2",
+                "dcreatordate": "2018-6-1",
+                "istatusid": "高",
+                "icreator": "",
+                "istatusidval": "1",
+                "iclassid": "前置条件2",
+                "iflag": "工单完成流程需求2",
+                "iaddress": "步骤1",
+                "iaddressval": "1",
+                "iaddress2": "结果1",
+                "iaddressval2": "1"
+            },
+            {
+                "iclassidval": "",
+                "num": "3",
+                "ssequencekey": "T00008-00002",
+                "icreatorval": "",
+                "iflagdsp": "启用",
+                "iid": "3",
+                "dcreatordate": "2018-6-1",
+                "istatusid": "高",
+                "icreator": "",
+                "istatusidval": "1",
+                "iclassid": "前置条件3",
+                "iflag": "工单完成流程需求3",
+                "iaddress": "步骤1",
+                "iaddressval": "1",
+                "iaddress2": "结果1",
+                "iaddressval2": "1"
+            },
+            {
+                "iclassidval": "19",
+                "num": "4",
+                "ssequencekey": "T00008-00003",
+                "icreatorval": "1",
+                "iflagdsp": "启用",
+                "iid": "4",
+                "dcreatordate": "2018-05-10",
+                "istatusid": "高",
+                "icreator": "管理员",
+                "istatusidval": "1",
+                "iclassid": "前置条件4",
+                "iflag": "工单完成流程需求4",
+                "iaddress": "步骤1",
+                "iaddressval": "1",
+                "iaddress2": "结果1",
+                "iaddressval2": "1"
+            },
+            {
+                "iclassidval": "0",
+                "num": "5",
+                "ssequencekey": "T00008-00004",
+                "icreatorval": "1",
+                "iflagdsp": "启用",
+                "iid": "5",
+                "dcreatordate": "2018-05-11",
+                "istatusid": "高",
+                "icreator": "管理员",
+                "istatusidval": "1",
+                "iclassid": "前置条件5",
+                "iflag": "工单完成流程需求5",
+                "iaddress": "步骤1",
+                "iaddressval": "1",
+                "iaddress2": "结果1",
+                "iaddressval2": "1"
+            },
+            {
+                "iclassidval": "1",
+                "num": "1",
+                "ssequencekey": "T00008-00005",
+                "icreatorval": "2",
+                "iflagdsp": "启用",
+                "iid": "6",
+                "dcreatordate": "2018-6-1",
+                "istatusid": "高",
+                "icreator": "研发部",
+                "istatusidval": "1",
+                "iclassid": "前置条件6",
+                "iflag": "工单完成流程需求6",
+                "iaddress": "步骤1",
+                "iaddressval": "1",
+                "iaddress2": "结果1",
+                "iaddressval2": "1"
+            },
+            {
+                "iclassidval": "",
+                "num": "2",
+                "ssequencekey": "T00008-00006",
+                "icreatorval": "",
+                "iflagdsp": "启用",
+                "iid": "7",
+                "dcreatordate": "2018-6-1",
+                "istatusid": "高",
+                "icreator": "",
+                "istatusidval": "1",
+                "iclassid": "前置条件7",
+                "iflag": "工单完成流程需求7",
+                "iaddress": "步骤1",
+                "iaddressval": "1",
+                "iaddress2": "结果1",
+                "iaddressval2": "1"
+            },
+            {
+                "iclassidval": "",
+                "num": "3",
+                "ssequencekey": "T00008-00007",
+                "icreatorval": "",
+                "iflagdsp": "启用",
+                "iid": "8",
+                "dcreatordate": "2018-6-1",
+                "istatusid": "高",
+                "icreator": "",
+                "istatusidval": "1",
+                "iclassid": "前置条件8",
+                "iflag": "工单完成流程需求8",
+                "iaddress": "步骤1",
+                "iaddressval": "1",
+                "iaddress2": "结果1",
+                "iaddressval2": "1"
+            },
+            {
+                "iclassidval": "19",
+                "num": "4",
+                "ssequencekey": "T00008-00008",
+                "icreatorval": "1",
+                "iflagdsp": "启用",
+                "iid": "9",
+                "dcreatordate": "2018-05-10",
+                "istatusid": "高",
+                "icreator": "管理员",
+                "istatusidval": "1",
+                "iclassid": "前置条件9",
+                "iflag": "工单完成流程需求9",
+                "iaddress": "步骤1",
+                "iaddressval": "1",
+                "iaddress2": "结果1",
+                "iaddressval2": "1"
+            },
+            {
+                "iclassidval": "0",
+                "num": "5",
+                "ssequencekey": "T00008-00009",
+                "icreatorval": "1",
+                "iflagdsp": "启用",
+                "iid": "102",
+                "dcreatordate": "2018-05-11",
+                "istatusid": "高",
+                "icreator": "管理员",
+                "istatusidval": "1",
+                "iclassid": "前置条件10",
+                "iflag": "工单完成流程需求10",
+                "iaddress": "步骤1",
+                "iaddressval": "1",
+                "iaddress2": "结果1",
+                "iaddressval2": "1"
+            }
+        ],
+        "numPerPage": 10,
+        "totalRows": 12,
+        "totalPages": 2,
+        "currentPage": 1
+    },
+    "status": "success",
+    "infocode": "VP000000"
+}

@@ -1,0 +1,93 @@
+{
+    "timestamp": 1528273762011,
+    "infocode": "VP000000",
+    "msgparam": null,
+    "data": {
+        "resultList": [{
+            "id": "1",
+            "title": "标题1",
+            "type": "公司动态",
+            "issuer": "北京维普时代",
+            "date": "2018-2-13 8:00:00",
+            "status": 0,
+            "content": "内容测试，发布人北京维普时代"
+        }, {
+            "id": "2",
+            "title": "标题1s0",
+            "type": "项目动态",
+            "issuer": "研发部",
+            "date": "2018-2-13 8:00:00",
+            "status": 0,
+            "content": "内容测试，发布人研发部"
+        }, {
+            "id": "3",
+            "title": "标题s10",
+            "type": "项目动态",
+            "issuer": "交付部",
+            "date": "2018-2-13 8:00:00",
+            "status": 0,
+            "content": "内容测试，发布人交付部"
+        }, {
+            "id": "4",
+            "title": "标题1s0",
+            "type": "项目动态",
+            "issuer": "交付部",
+            "date": "2018-2-13 8:00:00",
+            "status": 0,
+            "content": "内容测试，发布人交付部"
+        }, {
+            "id": "5",
+            "title": "标题1s0",
+            "type": "项目动态",
+            "issuer": "交付部",
+            "date": "2018-2-13 8:00:00",
+            "status": 0,
+            "content": "内容测试，发布人交付部"
+        }, {
+            "id": "6",
+            "title": "标题1s0",
+            "type": "公司动态",
+            "issuer": "交付部",
+            "date": "2018-2-13 8:00:00",
+            "status": 0,
+            "content": "内容测试，发布人交付部"
+        }, {
+            "id": "7",
+            "title": "标题1s0",
+            "type": "公司动态",
+            "issuer": "交付部",
+            "date": "2018-2-13 8:00:00",
+            "status": 0,
+            "content": "内容测试，发布人交付部"
+        }, {
+            "id": "8",
+            "title": "标题1s0",
+            "type": "公司动态",
+            "issuer": "交付部",
+            "date": "2018-2-13 8:00:00",
+            "status": 0,
+            "content": "内容测试，发布人交付部"
+        }, {
+            "id": "9",
+            "title": "标题1s0",
+            "type": "部门动态",
+            "issuer": "交付部",
+            "date": "2018-2-13 8:00:00",
+            "status": 0,
+            "content": "内容测试，发布人交付部"
+        }, {
+            "id": "10",
+            "title": "标题1s0",
+            "type": "部门动态",
+            "issuer": "交付部",
+            "date": "2018-2-13 8:00:00",
+            "status": 0,
+            "content": "内容测试，发布人交付部"
+        }],
+        "numPerPage": 10,
+        "totalRows": 12,
+        "totalPages": 2,
+        "currentPage": 1
+    },
+    "msg": "VP000000"
+}

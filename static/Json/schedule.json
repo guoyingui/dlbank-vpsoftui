@@ -1,0 +1,27 @@
+{
+    "groups": [{
+        "group_label": "基本信息",
+        "group_type": 1,
+        "fields": [{
+            "field_name": "date",
+            "widget_type": "date",
+            "validator": {
+                "required": true
+            },
+            "field_label": "需求立项时间",
+            "all_line": 1
+        },{
+            "field_name": "icreator",
+            "widget_type": "selectmodel",
+            "onchange": "onSelectChange",
+            "url": "demo/TabDemo3/index",
+            "validator": {
+                "required": true
+            },
+            "field_label": "所属项目",
+            "all_line": 1
+        }]
+    }],
+    "status": "success",
+    "infocode": "VP000001"
+}

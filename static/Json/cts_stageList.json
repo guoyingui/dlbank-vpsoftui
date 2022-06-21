@@ -1,0 +1,216 @@
+{
+    "timestamp": 1527730167197,
+    "infocode": "VP000000",
+    "msgparam": null,
+    "data": {
+        "grid": {
+            "fields": [
+                {
+                    "field_name": "name",
+                    "field_label": "项目名称"
+                },
+                {
+                    "field_name": "title",
+                    "field_label": "归属部门"
+                },
+                {
+                    "field_name": "supplier",
+                    "field_label": "项目经理"
+                },
+                {
+                    "field_name": "period",
+                    "field_label": "项目阶段"
+                },
+                {
+                    "field_name": "tcorzj",
+                    "field_label": "投产或在建"
+                },
+                {
+                    "field_name": "planwork",
+                    "field_label": "计划开始时间"
+                },
+                {
+                    "field_name": "ctualwork",
+                    "field_label": "计划完成时间"
+                },
+                {
+                    "field_name": "plancomplete",
+                    "field_label": "计划完成百分比"
+                },
+                {
+                    "field_name": "sjksdate",
+                    "field_label": "实际开始时间"
+                },
+                {
+                    "field_name": "sjjsdate",
+                    "field_label": "实际完成时间"
+                },
+                {
+                    "field_name": "sjcomplete",
+                    "field_label": "实际完成百分比"
+                },
+                {
+                    "field_name": "loadrate",
+                    "field_label": "进度偏差"
+                },
+                {
+                    "field_name": "cause",
+                    "field_label": "偏差原因"
+                }
+            ]
+        },
+        "resultList": [
+            {
+                "iid": "1",
+                "name": "台州银行IT项目管理系统二期",
+                "title": "产品交付部",
+                "supplier": "彭志文",
+                "period": "项目准备",
+                "tcorzj": "已完成",
+                "planwork": "2017-07-04",
+                "ctualwork": "2017-07-12",
+                "plancomplete": 8.96,
+                "sjksdate": "2017-07-04",
+                "sjjsdate": "2017-07-12",
+                "sjcomplete": 8.96,
+                "loadrate": 0,
+                "cause": "-"
+            },
+            {
+                "iid": "2",
+                "name": "台州银行IT项目管理系统二期",
+                "title": "产品交付部",
+                "supplier": "彭志文",
+                "period": "标准产品安装交付",
+                "tcorzj": "已完成",
+                "planwork": "2017-07-12",
+                "ctualwork": "2017-07-19",
+                "plancomplete": 8.96,
+                "sjksdate": "2017-07-12",
+                "sjjsdate": "2017-07-19",
+                "sjcomplete": 8.96,
+                "loadrate": 0,
+                "cause": "-"
+            },
+            {
+                "iid": "3",
+                "name": "台州银行IT项目管理系统二期",
+                "title": "产品交付部",
+                "supplier": "彭志文",
+                "period": "需求分析",
+                "tcorzj": "已完成",
+                "planwork": "2017-07-10",
+                "ctualwork": "2017-07-21",
+                "plancomplete": 14.93,
+                "sjksdate": "2017-07-10",
+                "sjjsdate": "2017-07-21",
+                "sjcomplete": 14.93,
+                "loadrate": 0,
+                "cause": "-"
+            },
+            {
+                "iid": "4",
+                "name": "台州银行IT项目管理系统二期",
+                "title": "产品交付部",
+                "supplier": "彭志文",
+                "period": "系统实施",
+                "tcorzj": "已完成",
+                "planwork": "2017-07-24",
+                "ctualwork": "2017-09-08",
+                "plancomplete": 52.24,
+                "sjksdate": "2017-07-24",
+                "sjjsdate": "2017-09-08",
+                "sjcomplete": 52.24,
+                "loadrate": 0,
+                "cause": "-"
+            },
+            {
+                "iid": "5",
+                "name": "贵阳银行项目管理系统实施",
+                "title": "产品交付部",
+                "supplier": "李小松",
+                "period": "系统实施",
+                "tcorzj": "已完成",
+                "planwork": "2017-07-24",
+                "ctualwork": "2017-09-08",
+                "plancomplete": 52.24,
+                "sjksdate": "2017-07-24",
+                "sjjsdate": "2017-09-08",
+                "sjcomplete": 52.24,
+                "loadrate": 0,
+                "cause": "-"
+            },
+            {
+                "iid": "6",
+                "name": "贵阳银行项目管理系统实施",
+                "title": "产品交付部",
+                "supplier": "李小松",
+                "period": "系统实施",
+                "tcorzj": "已完成",
+                "planwork": "2017-07-24",
+                "ctualwork": "2017-09-08",
+                "plancomplete": 52.24,
+                "sjksdate": "2017-07-24",
+                "sjjsdate": "2017-09-08",
+                "sjcomplete": 52.24,
+                "loadrate": 0,
+                "cause": "-"
+            },
+            {
+                "iid": "7",
+                "name": "贵阳银行项目管理系统实施",
+                "title": "产品交付部",
+                "supplier": "李小松",
+                "period": "系统实施",
+                "tcorzj": "已完成",
+                "planwork": "2017-07-24",
+                "ctualwork": "2017-09-08",
+                "plancomplete": 52.24,
+                "sjksdate": "2017-07-24",
+                "sjjsdate": "2017-09-08",
+                "sjcomplete": 52.24,
+                "loadrate": 0,
+                "cause": "-"
+            },
+            {
+                "iid": "8",
+                "name": "贵阳银行项目管理系统实施",
+                "title": "产品交付部",
+                "supplier": "李小松",
+                "period": "项目启动",
+                "tcorzj": "已完成",
+                "planwork": "2017-11-20",
+                "ctualwork": "2017-11-24",
+                "plancomplete": 52.24,
+                "sjksdate": "2017-11-20",
+                "sjjsdate": "2017-11-24",
+                "sjcomplete": 52.24,
+                "loadrate": 0,
+                "cause": "-"
+            },
+            {
+                "iid": "9",
+                "name": "安徽省农村信用社联合社-新一代核心业务系统项目需求管理工具",
+                "title": "产品交付部",
+                "supplier": "林贤国",
+                "period": "项目启动",
+                "tcorzj": "已完成",
+                "planwork": "2017-11-20",
+                "ctualwork": "2017-11-24",
+                "plancomplete": 52.24,
+                "sjksdate": "2017-11-20",
+                "sjjsdate": "2017-11-24",
+                "sjcomplete": 52.24,
+                "loadrate": 0,
+                "cause": "-"
+            }
+            
+            
+        ],
+        "numPerPage": 10,
+        "totalRows": 5,
+        "totalPages": 5,
+        "currentPage": 1
+    },
+    "msg": "VP000000"
+}

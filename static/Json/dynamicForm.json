@@ -1,0 +1,316 @@
+{
+    "groups": [{
+            "group_label": "基本信息",
+            "group_type": 1,
+            "fields": [{
+                    "field_name": "address",
+                    "widget_type": "select",
+                    "seventinfo": "aaaa",
+                    "iconstraint": 1,
+                    "validator": {
+                        "required": true
+                    },
+                    "iwidth": 0,
+                    "onchange": "onSelectChange",
+                    "itype": 2,
+                    "ieventtype": 0,
+                    "idictionaryid": 5,
+                    "default_value": 3,
+                    "widget": {
+                        "load_template": [{
+                                "value": 0,
+                                "label": "北京"
+                            },
+                            {
+                                "value": 1,
+                                "label": "上海"
+                            },
+                            {
+                                "value": 2,
+                                "label": "杭州"
+                            },
+                            {
+                                "value": 3,
+                                "label": "武汉"
+                            }
+                        ],
+                        "default_label": "2",
+                        "default_value": "2"
+                    },
+                    "field_label": "家庭地址",
+                    "all_line": 1,
+                    "irelationentityid": 0
+                },
+                {
+                    "field_name": "selectobject",
+                    "widget_type": "selectobject",
+                    "select_type": "checkbox",
+                    "onchange": "onSubmit",
+                    "validator": {},
+                    "field_label": "选择实体",
+                    "all_line": 1,
+                    "widget": {
+                        "default_value": "3,4",
+                        "default_label": "交付部,交付部",
+                        "treeUrl": "/pages/Json/getTreedata.json",
+                        "treeParams": {
+                            "method": "getDepartmentTreeData"
+                        },
+                        "treeKey": "iid",
+                        "tableHeaderUrl": "/pages/Json/getlistHeader.json",
+                        "tableDataUrl": "/pages/Json/getlistdata.json",
+                        "tableParams": {
+                            "entity": 1
+                        },
+                        "tableKey": "iid"
+                    }
+                },
+                {
+                    "field_name": "address2",
+                    "widget_type": "multiselect",
+                    "seventinfo": "aaaa",
+                    "iconstraint": 1,
+                    "validator": {},
+                    "iwidth": 0,
+                    "onchange": "onSelectChange2",
+                    "itype": 2,
+                    "ieventtype": 0,
+                    "idictionaryid": 5,
+                    "default_value": 3,
+                    "widget": {
+                        "load_template": [{
+                                "value": 0,
+                                "label": "北京"
+                            },
+                            {
+                                "value": 1,
+                                "label": "上海"
+                            },
+                            {
+                                "value": 2,
+                                "label": "杭州"
+                            },
+                            {
+                                "value": 3,
+                                "label": "武汉"
+                            }
+                        ],
+                        "default_label": "2",
+                        "default_value": "2"
+                    },
+                    "field_label": "家庭地址",
+                    "all_line": 1,
+                    "irelationentityid": 0
+                },
+                {
+                    "field_name": "icreator",
+                    "widget_type": "selectmodel",
+                    "onchange": "onSelectChange",                    
+                    "url": "demo/TabDemo3/index",
+                    "iconstraint": 1,
+                    "validator": {
+                        "required": true
+                    },
+                    "iwidth": 0,
+                    "field_label": "创建人",
+                    "all_line": 1,
+                    "itype": 0,
+                    "readonly": true,
+                    "disabled": false,
+                    "widget": {
+                        "default_value": "3",
+                        "default_label": "交付部"
+                    }
+                },
+                {
+                    "field_name": "istatusid",
+                    "widget_type": "selectmodel",
+                    "url": "demo/TabDemo3/index",
+                    "iconstraint": 1,
+                    "validator": {},
+                    "iwidth": 0,
+                    "field_label": "状态",
+                    "all_line": 1,
+                    "itype": 0,
+                    "widget": {}
+                },
+                {
+                    "field_name": "sname",
+                    "widget_type": "number",
+                    "iconstraint": 1,
+                    "validator": {},
+                    "iwidth": 0,
+                    "field_label": "项目名称",
+                    "all_line": 1,
+                    "itype": 0,
+                    "widget": {
+                        "load_template": 0.01,
+                        "default_value": ""
+                    }
+                },
+                {
+                    "field_name": "iflag",
+                    "widget_type": "hidden",
+                    "iconstraint": 1,
+                    "validator": {},
+                    "iwidth": 0,
+                    "field_label": "标志",
+                    "all_line": 1,
+                    "itype": 0
+                },
+                {
+                    "field_name": "idepartmentid",
+                    "widget_type": "text",
+                    "iconstraint": 1,
+                    "validator": {},
+                    "iwidth": 0,
+                    "field_label": "部门",
+                    "all_line": 1,
+                    "itype": 0,
+                    "irelationentityid": 1
+                },
+                {
+                    "field_name": "iid",
+                    "widget_type": "hidden",
+                    "iconstraint": 0,
+                    "validator": {},
+                    "iwidth": 0,
+                    "field_label": "项目ID",
+                    "all_line": 1,
+                    "itype": 0
+                },
+                {
+                    "field_name": "scode",
+                    "widget_type": "text",
+                    "iconstraint": 1,
+                    "validator": {},
+                    "iwidth": 0,
+                    "field_label": "项目编号",
+                    "all_line": 1,
+                    "itype": 0
+                },
+                {
+                    "field_name": "iclassid",
+                    "widget_type": "selectmodel",
+                    "url": "demo/DynamicForm/index",
+                    "iconstraint": 1,
+                    "validator": {},
+                    "iwidth": 0,
+                    "field_label": "类别",
+                    "all_line": 1,
+                    "itype": 0
+                },
+                {
+                    "field_name": "sdescription",
+                    "widget_type": "textarea",
+                    "iconstraint": 1,
+                    "validator": {},
+                    "iwidth": 0,
+                    "field_label": "描述",
+                    "all_line": 2,
+                    "itype": 0
+                },
+                {
+                    "field_name": "ientityid",
+                    "widget_type": "selectmodel",
+                    "url": "demo/TabDemo3/index",
+                    "iconstraint": 0,
+                    "validator": {},
+                    "iwidth": 0,
+                    "field_label": "实体ID",
+                    "all_line": 1,
+                    "itype": 0
+                },
+                {
+                    "field_name": "uploadfile",
+                    "widget_type": "upload",
+                    "iconstraint": 1,
+                    "validator": {},
+                    "iwidth": 0,
+                    "field_label": "上传附件",
+                    "all_line": 1,
+                    "itype": 0,
+                    "widget": {
+                        "load_template": [
+                            {
+                                "fileid": 197,
+                                "filename": "ceshi.png",
+                                "size": "8888",
+                                "creator": "cs",
+                                "createtime": "1527040056935",
+                                "status": "complete",
+                                "options": {
+                                    "delete": true,
+                                    "download": true,
+                                    "preview": true,
+                                    "edit": true,
+                                    "update": true
+                                }
+                            }
+                        ],
+                        "default_value": [197]
+                    }
+                },
+                {
+                    "field_name": "uploadfile2",
+                    "widget_type": "upload",
+                    "iconstraint": 1,
+                    "validator": {},
+                    "iwidth": 0,
+                    "field_label": "上传附件2",
+                    "all_line": 1,
+                    "itype": 0,
+                    "readonly": false,
+                    "disabled": false,
+                    "widget": {
+                        "load_template": [],
+                        "default_value": []
+                    }
+                },
+                {
+                    "field_name": "dcreatordate",
+                    "widget_type": "richtext",
+                    "iconstraint": 1,
+                    "validator": {},
+                    "iwidth": 0,
+                    "field_label": "项目简述",
+                    "all_line": 1,
+                    "itype": 0,
+                    "readonly": false,
+                    "disabled": false,
+                    "widget": {
+                        "default_value": "<p style='color: red'>测试代码</p>"
+                    }
+                }
+            ]
+        },
+        {
+            "group_label": "系统信息",
+            "group_type": 1,
+            "fields": [{
+                    "field_name": "dmodifieddata",
+                    "widget_type": "datetext",
+                    "iconstraint": 0,
+                    "validator": {},
+                    "iwidth": 0,
+                    "field_label": "修改时间",
+                    "all_line": 1,
+                    "itype": 0
+                },
+                {
+                    "field_name": "imodified",
+                    "widget_type": "selectmodel",
+                    "url": "demo/TabDemo3/index",
+                    "iconstraint": 0,
+                    "validator": {},
+                    "iwidth": 0,
+                    "field_label": "修改人",
+                    "all_line": 1,
+                    "itype": 0
+                }
+            ]
+        }
+    ],
+    "status": "success",
+    "infocode": "VP000001"
+}

@@ -1,0 +1,52 @@
+{
+    "timestamp": 1527730167197,
+    "infocode": "VP000000",
+    "msgparam": null,
+    "data": {
+        "grid": {
+            "fields": [
+                {
+                    "field_name": "quota",
+                    "field_label": "指标"
+                },
+                {
+                    "field_name": "num",
+                    "field_label": "数量"
+                },
+                {
+                    "field_name": "compared",
+                    "field_label": "上年同比"
+                },
+                {
+                    "field_name": "ratio",
+                    "field_label": "上月环比"
+                },
+                {
+                    "field_name": "operation",
+                    "field_label": "交付压力"
+                }
+            ]
+        },
+        "resultList": [
+            {
+                "iid": "1",
+                "quota": "本月新增需求",
+                "num": "9",
+                "compared": "8",
+                "ratio": "6"
+            },
+            {
+                "iid": "2",
+                "quota": "本月投产需求",
+                "num": "10",
+                "compared": "9",
+                "ratio": "5"
+            }
+        ],
+        "numPerPage": 10,
+        "totalRows": 5,
+        "totalPages": 1,
+        "currentPage": 1
+    },
+    "msg": "VP000000"
+}

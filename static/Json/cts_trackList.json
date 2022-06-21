@@ -1,0 +1,265 @@
+{
+    "timestamp": 1527730167197,
+    "infocode": "VP000000",
+    "msgparam": null,
+    "data": {
+        "grid": {
+            "fields": [
+                {
+                    "field_name": "plan",
+                    "field_label": "投产计划",
+                    "iwidth": 80
+                },
+                {
+                    "field_name": "code",
+                    "field_label": "业务需求编号"
+                },
+                {
+                    "field_name": "title",
+                    "field_label": "业务需求名称"
+                },
+                {
+                    "field_name": "charge",
+                    "field_label": "需求负责人"
+                },
+                {
+                    "field_name": "system",
+                    "field_label": "应用系统"
+                },
+                {
+                    "field_name": "status",
+                    "field_label": "需求状态"
+                },
+                {
+                    "field_name": "propose",
+                    "field_label": "提出部门"
+                },
+                {
+                    "field_name": "deamBatch",
+                    "field_label": "需求批次"
+                }
+            ]
+        },
+        "resultList": [
+            {
+                "iid": "1",
+                "plan": "2020.5版本",
+                "code": "TC000001",
+                "title": "XQ零售20180705-1011",
+                "propose": "零售业务部",
+                "charge": "祝志辉",
+                "department": "软件开发五部",
+                "status": "受理",
+                "system": "核心新系统",
+                "deamBatch": "xxxxx"
+            },
+            {
+                "iid": "2",
+                "code": "TC000002",
+                "title": "XQ零售20180705-1011",
+                "propose": "零售业务部",
+                "charge": "祝志辉",
+                "department": "软件开发五部",
+                "status": "受理",
+                "system": "核心新系统",
+                "deamBatch": "xxxxx"
+            },
+            {
+                "iid": "3",
+                "code": "TC000003",
+                "title": "XQ零售20180705-1011",
+                "propose": "零售业务部",
+                "charge": "祝志辉",
+                "department": "软件开发五部",
+                "status": "受理",
+                "system": "核心新系统",
+                "deamBatch": "xxxxx"
+            },
+            {
+                "iid": "4",
+                "code": "TC000004",
+                "title": "XQ零售20180705-1011",
+                "propose": "零售业务部",
+                "charge": "祝志辉",
+                "department": "软件开发五部",
+                "status": "受理",
+                "system": "核心新系统",
+                "deamBatch": "xxxxx"
+            },
+            {
+                "iid": "5",
+                "code": "TC000005",
+                "title": "XQ零售20180705-1011",
+                "propose": "零售业务部",
+                "charge": "祝志辉",
+                "department": "软件开发五部",
+                "status": "受理",
+                "system": "核心新系统",
+                "deamBatch": "xxxxx"
+            }
+        ],
+        "header":[
+            {
+                "field_name": "system",
+                "field_label": "应用系统",
+                "iwidth": 80
+            },
+            {
+                "field_name": "code",
+                "field_label": "业务需求编号"
+            },
+            {
+                "field_name": "title",
+                "field_label": "业务需求名称"
+            },
+            {
+                "field_name": "charge",
+                "field_label": "需求负责人"
+            },
+
+            {
+                "field_name": "plan",
+                "field_label": "投产窗口"
+            },
+            {
+                "field_name": "status",
+                "field_label": "需求状态"
+            },
+            {
+                "field_name": "propose",
+                "field_label": "提出部门"
+            },
+            {
+                "field_name": "deamBatch",
+                "field_label": "需求批次"
+            }
+        ],
+        "datasoure":[
+            {
+                "iid": "1",
+                "plan": "2020.6版本",
+                "code": "TC000001",
+                "title": "XQ零售20180705-1011",
+                "propose": "零售业务部",
+                "charge": "祝志辉",
+                "department": "软件开发五部",
+                "status": "受理",
+                "system": "核心新系统",
+                "deamBatch": "xxxxx"
+            },
+            {
+                "iid": "2",
+                "plan": "2020.7版本",
+                "code": "TC000002",
+                "title": "XQ零售20180705-1011",
+                "propose": "零售业务部",
+                "charge": "祝志辉",
+                "department": "软件开发五部",
+                "status": "受理",
+                "system": "核心新系统",
+                "deamBatch": "xxxxx"
+            },
+            {
+                "iid": "3",
+                "plan": "2020.8版本",
+                "code": "TC000003",
+                "title": "XQ零售20180705-1011",
+                "propose": "零售业务部",
+                "charge": "祝志辉",
+                "department": "软件开发五部",
+                "status": "受理",
+                "system": "核心新系统",
+                "deamBatch": "xxxxx"
+            },
+            {
+                "iid": "4",
+                "plan": "2020.9版本",
+                "code": "TC000004",
+                "title": "XQ零售20180705-1011",
+                "propose": "零售业务部",
+                "charge": "祝志辉",
+                "department": "软件开发五部",
+                "status": "受理",
+                "system": "核心新系统",
+                "deamBatch": "xxxxx"
+            },
+            {
+                "iid": "5",
+                "plan": "2020.10版本",
+                "code": "TC000005",
+                "title": "XQ零售20180705-1011",
+                "propose": "零售业务部",
+                "charge": "祝志辉",
+                "department": "软件开发五部",
+                "status": "受理",
+                "system": "核心新系统",
+                "deamBatch": "xxxxx"
+            },
+            {
+                "iid": "6",
+                "plan": "2020.5版本",
+                "code": "TC000001",
+                "title": "XQ零售20180705-1011",
+                "propose": "零售业务部",
+                "charge": "祝志辉",
+                "department": "软件开发五部",
+                "status": "受理",
+                "system": "财务系统",
+                "deamBatch": "xxxxx"
+            },
+            {
+                "iid": "7",
+                "plan": "2020.6版本",
+                "code": "TC000002",
+                "title": "XQ零售20180705-1011",
+                "propose": "零售业务部",
+                "charge": "祝志辉",
+                "department": "软件开发五部",
+                "status": "受理",
+                "system": "财务系统",
+                "deamBatch": "xxxxx"
+            },
+            {
+                "iid": "8",
+                "plan": "2020.7版本",
+                "code": "TC000003",
+                "title": "XQ零售20180705-1011",
+                "propose": "零售业务部",
+                "charge": "祝志辉",
+                "department": "软件开发五部",
+                "status": "受理",
+                "system": "财务系统",
+                "deamBatch": "xxxxx"
+            },
+            {
+                "iid": "9",
+                "plan": "2020.8版本",
+                "code": "TC000004",
+                "title": "XQ零售20180705-1011",
+                "propose": "零售业务部",
+                "charge": "祝志辉",
+                "department": "软件开发五部",
+                "status": "受理",
+                "system": "财务系统",
+                "deamBatch": "xxxxx"
+            },
+            {
+                "iid": "10",
+                "plan": "2020.9版本",
+                "code": "TC000005",
+                "title": "XQ零售20180705-1011",
+                "propose": "零售业务部",
+                "charge": "祝志辉",
+                "department": "软件开发五部",
+                "status": "受理",
+                "system": "财务系统",
+                "deamBatch": "xxxxx"
+            }
+        ],
+        "numPerPage": 10,
+        "totalRows": 5,
+        "totalPages": 5,
+        "currentPage": 1
+    },
+    "msg": "VP000000"
+}

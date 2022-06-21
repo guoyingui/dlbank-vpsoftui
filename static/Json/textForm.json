@@ -1,0 +1,235 @@
+{
+    "data": {
+        "form": {
+            "groups": [{
+                "group_label": "表单字段",
+                "group_type": 0,
+                "fields": [{
+                        "field_name": "select",
+                        "field_label": "select",
+                        "all_line": 1,
+                        "widget_type": "select",
+                        "onchange": "onSelectChange",
+                        "widget": {
+                            "load_template": [{
+                                    "value": "1",
+                                    "label": "置空区域1"
+                                },
+                                {
+                                    "value": "2",
+                                    "label": "置空区域2"
+                                },
+                                {
+                                    "value": "3",
+                                    "label": "置空区域3"
+                                }
+                            ]
+                        }
+                    }, {
+                        "field_name": "password",
+                        "field_label": "密码",
+                        "all_line": 1,
+                        "widget_type": "password",
+                        "validator": {
+                            "required": true,
+                            "message": "必填数字",
+                            "max": 200
+                        }
+                    },
+                    {
+                        "field_name": "text1",
+                        "field_label": "账户名1",
+                        "all_line": 1,
+                        "widget_type": "text",
+                        "validator": {
+                            "required": false,
+                            "message": "必填"
+                        }
+                    },
+                    {
+                        "field_name": "name1",
+                        "field_label": "name1",
+                        "all_line": 1,
+                        "widget_type": "text",
+                        "validator": {
+                            "required": false,
+                            "message": "必填"
+                        }
+                    },
+                    {
+                        "field_name": "text2",
+                        "field_label": "账户名2",
+                        "all_line": 1,
+                        "widget_type": "text",
+                        "validator": {
+                            "required": false,
+                            "message": "必填"
+                        }
+                    },
+                    {
+                        "field_name": "name2",
+                        "field_label": "name2",
+                        "all_line": 1,
+                        "widget_type": "text",
+                        "validator": {
+                            "required": false,
+                            "message": "必填"
+                        }
+                    },
+                    {
+                        "field_name": "text3",
+                        "field_label": "账户名3",
+                        "all_line": 1,
+                        "widget_type": "text",
+                        "validator": {
+                            "required": false,
+                            "message": "必填"
+                        }
+                    },
+                    {
+                        "field_name": "name3",
+                        "field_label": "name3",
+                        "all_line": 1,
+                        "widget_type": "text",
+                        "validator": {
+                            "required": false,
+                            "message": "必填"
+                        }
+                    },
+                    {
+                        "field_name": "select_two",
+                        "widget_type": "select",
+                        "field_label": "区域",
+                        "all_line": 1,
+                        "onchange": "onSelectChange444",
+                        "widget": {
+                            "default_value": "3",
+                            "load_template": [{
+                                    "value": "0",
+                                    "label": "北京"
+                                },
+                                {
+                                    "value": "1",
+                                    "label": "上海"
+                                },
+                                {
+                                    "value": "2",
+                                    "label": "杭州"
+                                },
+                                {
+                                    "value": "3",
+                                    "label": "武汉"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "field_name": "multiselect",
+                        "widget_type": "multiselect",
+                        "field_label": "multiselect",
+                        "all_line": 1,
+                        "onchange": "onSelectChange3",
+                        "widget": {
+                            "default_value": "3",
+                            "load_template": [{
+                                "group_title": "分组一",
+                                "group_show": true,
+                                "group_data": [{
+                                        "value": "0",
+                                        "label": "北京"
+                                    },
+                                    {
+                                        "value": "1",
+                                        "label": "上海"
+                                    },
+                                    {
+                                        "value": "2",
+                                        "label": "杭州"
+                                    },
+                                    {
+                                        "value": "3",
+                                        "label": "武汉"
+                                    }
+                                ]
+                            }]
+                        }
+                    },
+                    {
+                        "field_name": "selectmodel",
+                        "widget_type": "selectmodel",
+                        "url": "demo/TabDemo3/index",
+                        "field_label": "选择部门",
+                        "all_line": 1,
+                        "onchange": "onSelectModelChange",
+                        "widget":{
+                            
+                        }
+                    },
+                    {
+                        "field_name": "code",
+                        "field_label": "select联动此字段",
+                        "all_line": 1,
+                        "widget_type": "text"
+                    },
+                    {
+                        "field_name": "selectform",
+                        "field_label": "改变部门和下拉数据源",
+                        "all_line": 1,
+                        "widget_type": "select",
+                        "onchange": "onSelectChangeForm",
+                        "widget": {
+                            "load_template": [{
+                                    "value": "1",
+                                    "label": "选我-改变选择部门的值"
+                                },
+                                {
+                                    "value": "2",
+                                    "label": "选我-改变下拉数据"
+                                },
+                                {
+                                    "value": "3",
+                                    "label": "选我-改变是否必填"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "field_name": "selectoption",
+                        "field_label": "下拉数据源被改",
+                        "all_line": 1,
+                        "widget_type": "select",
+                        "onchange": "onSelectChangeOption",
+                        "widget": {
+                            "load_template": []
+                        }
+                    },
+                    {
+                        "field_name": "sname",
+                        "field_label": "是否必填",
+                        "all_line": 1,
+                        "widget_type": "text",
+                        "validator": {
+                            "required": true,
+                            "message": "我是必填字段"
+                        }
+                    },
+                    {
+                        "field_name": "filett",
+                        "field_label": "附件",
+                        "all_line": 1,
+                        "widget_type": "upload",
+                        "validator": {
+                            "required": true,
+                            "message": "我是必填字段"
+                        },
+                        "widget": {
+                            "select_type": [{"value":"aaaa","label":"上海"}], 
+                            "default_value": "", 
+                            "default_label": ""
+                        }
+                    }
+                ]
+            }]
+        }
+    }
+}

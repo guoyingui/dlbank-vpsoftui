@@ -1,0 +1,49 @@
+{
+    "data": {
+        "resultList":[
+            {
+                "iclassidval":"",
+                "num":"6",
+                "ssequencekey":"T00008-000010",
+                "icreatorval":"1",
+                "iflagdsp":"启用",
+                "iid":"130",
+                "dcreatordate":"2018-05-13",
+                "istatusid":"高",
+                "icreator":"管理员",
+                "istatusidval":"",
+                "iclassid":"前置条件11",
+                "iflag":"工单完成流程需求11",
+                "iaddress": "步骤1",
+                "iaddressval": "1",
+                "iaddress2": "结果1",
+                "iaddressval2": "1"
+            },
+            {
+                "iclassidval":"",
+                "num":"7",
+                "ssequencekey":"T00008-000011",
+                "icreatorval":"",
+                "iflagdsp":"启用",
+                "iid":"200",
+                "dcreatordate":"2018-6-1",
+                "istatusid":"高",
+                "icreator":"",
+                "istatusidval":"",
+                "iclassid":"前置条件12",
+                "iflag":"工单完成流程需求12",
+                "iaddress": "步骤1",
+                "iaddressval": "1",
+                "iaddress2": "结果1",
+                "iaddressval2": "1"
+            }
+        ],
+        "numPerPage": 10,
+        "totalRows": 12,
+        "totalPages": 2,
+        "currentPage": 2
+    },
+    "status": "success",
+    "infocode": "VP000001",
+    "msg": "VP000000"
+}

@@ -1,0 +1,93 @@
+.team{
+	.ant-tabs{
+		.ant-tabs-bar {
+			position: inherit;
+			.ant-tabs-nav{
+				margin-left: 0;
+			}
+		}
+	}
+	.ant-tabs-vertical.ant-tabs-left > .ant-tabs-bar .ant-tabs-tab .ant-tabs-tab-inner{
+		width: auto !important;
+	}
+	.rolegroup li{
+		height: 40px;
+		line-height: 40px;
+		border-bottom: 1px dotted #e8e8e8;
+		text-overflow: ellipsis;
+	    overflow: hidden;
+	    white-space: nowrap;
+	    a{
+	    	color: #333;
+	    	&:hover,&.active{
+				color: #2db7f5;
+	    	};
+	    }
+	}
+	.set-box-team{
+		padding-top: 40px;
+		.set-title{
+			position: absolute;
+			left: 10px;
+			right: 10px;
+			top: 0;
+		}
+	}
+
+	.li-layout {
+		position: relative;
+		& > div {
+			display: inline-block;
+		}
+		.left {
+			width: 100%;
+			padding-right: 35px;
+
+			& > a {
+				display: block;
+				width: 100%;
+				text-overflow: ellipsis;
+				overflow: hidden;
+				white-space: nowrap;
+			}
+		}
+		.right {
+			position: absolute;
+			width: 28px;
+			right: 0;
+			top: 0;
+			background: white;
+		}
+	}
+}
+.height(){
+	height: 100%;
+}
+.team-task-view {
+	position: relative;
+	.height();
+	.team-task-action {
+		position: absolute;
+		left:0;
+		top:0;
+		z-index: 1;
+		padding: 5px 0;
+		width: 100%;
+		text-align: right;
+		background: white;
+	}
+	.team-task-content {
+		padding-top: 38px;
+		.height();
+	}
+	.business-container {
+		padding-top: 40px;
+		.subAssembly {
+			top:0 !important;
+		}
+	}
+}
+
+.edit-table-tree.full-height.bg-white > div {
+	height: 100%;
+}

@@ -1,0 +1,55 @@
+{
+    "timestamp": 1527730167185,
+    "infocode": "VP000000",
+    "msgparam": null,
+    "data": {
+        "form": {
+            "groups": [{
+                "group_label": "搜索条件",
+                "group_type": 0,
+                "fields": [{
+                    "field_name": "sname",
+                    "widget_type": "multiselectmodel",
+                    "field_label": "项目名称",
+                    "validator": {},
+                    "all_line": 2,
+                    "url": "demo/TabDemo3/index"
+                }, {
+                    "field_name": "scode",
+                    "widget_type": "multiselectmodel",
+                    "field_label": "项目经理",
+                    "validator": {},
+                    "all_line": 2,
+                    "url": "demo/TabDemo3/index"
+                }, {
+                    "validator": {},
+                    "field_name": "idepartmentid",
+                    "widget_type": "multiselectmodel",
+                    "field_label": "所属部门",
+                    "url": "demo/TabDemo3/index",
+                    "all_line": 2,
+                    "irelationentityid": "1"
+                }, {
+                    "field_name": "iflag",
+                    "validator": {},
+                    "widget_type": "checkbox",
+                    "widget": {
+                        "load_template": [{
+                            "value": 0,
+                            "label": "严重延迟"
+                        }, {
+                            "value": 1,
+                            "label": "有延迟"
+                        }, {
+                            "value": 2,
+                            "label": "正常"
+                        }]
+                    },
+                    "field_label": "延迟程度",
+                    "all_line": 2
+                }]
+            }]
+        }
+    },
+    "msg": "VP000000"
+}

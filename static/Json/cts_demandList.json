@@ -1,0 +1,358 @@
+{
+    "timestamp": 1527730167197,
+    "infocode": "VP000000",
+    "msgparam": null,
+    "data": {
+        "grid": {
+            "fields": [
+                {
+                    "field_name": "code",
+                    "field_label": "需求编号",
+                    "fixed":"left"
+                },
+                {
+                    "field_name": "title",
+                    "field_label": "需求名称",
+                    "fixed":"left"
+                },
+                {
+                    "field_name": "describe",
+                    "field_label": "需求描述"
+                },
+                {
+                    "field_name": "propose",
+                    "field_label": "需求提出部门"
+                },
+                {
+                    "field_name": "sponsor",
+                    "field_label": "需求发起人"
+                },
+                {
+                    "field_name": "charge",
+                    "field_label": "需求负责人"
+                },
+                {
+                    "field_name": "department",
+                    "field_label": "牵头科室"
+                },
+                {
+                    "field_name": "departmentuser",
+                    "field_label": "牵头部室负责人"
+                },
+                {
+                    "field_name": "category",
+                    "field_label": "需求类别"
+                },
+                {
+                    "field_name": "urgent",
+                    "field_label": "紧急需求"
+                },
+                {
+                    "field_name": "needs",
+                    "field_label": "重点需求"
+                },
+                {
+                    "field_name": "status",
+                    "field_label": "需求状态"
+                },
+                {
+                    "field_name": "progress",
+                    "field_label": "进展情况"
+                },
+                {
+                    "field_name": "completionDate",
+                    "field_label": "期望完成时间"
+                },
+                {
+                    "field_name": "productionDate",
+                    "field_label": "计划投产日期"
+                },
+                {
+                    "field_name": "productionType",
+                    "field_label": "投产类型"
+                },
+                {
+                    "field_name": "firstProductionDate",
+                    "field_label": "首次排期投产日期"
+                },
+                {
+                    "field_name": "actualProductionDate",
+                    "field_label": "实际投产日期"
+                },
+                {
+                    "field_name": "productionBatch",
+                    "field_label": "投产批次"
+                },
+                {
+                    "field_name": "putInto",
+                    "field_label": "全部投产"
+                },
+                {
+                    "field_name": "estimatedHours",
+                    "field_label": "估算工时"
+                },
+                {
+                    "field_name": "actualHours",
+                    "field_label": "实际工时"
+                }
+            ]
+        },
+        "resultList": [
+            {
+                "iid": "1",
+                "code": "123",
+                "title": "XQ零售20180705-1011",
+                "describe": "关于人保消费贷款短信服务功能的需求",
+                "propose": "零售业务部",
+                "sponsor": "王嘉骏",
+                "charge": "祝志辉",
+                "department": "软件开发五部",
+                "departmentuser": "唐云瑶",
+                "category": "升级类需求",
+                "urgent": "一般",
+                "needs": "",
+                "status": "受理",
+                "progress": "正常",
+                "completionDate": "2018-08-21",
+                "productionDate": "2018-10-13",
+                "productionType": "计划投产",
+                "firstProductionDate": "2018-08-21",
+                "actualProductionDate": "",
+                "productionBatch": "",
+                "putInto": "",
+                "estimatedHours": "106",
+                "actualHours": ""
+            },
+            {
+                "iid": "2",
+                "code": "123",
+                "title": "XQ零售20180705-1011",
+                "describe": "关于人保消费贷款短信服务功能的需求",
+                "propose": "零售业务部",
+                "sponsor": "王嘉骏",
+                "charge": "祝志辉",
+                "department": "软件开发五部",
+                "departmentuser": "唐云瑶",
+                "category": "升级类需求",
+                "urgent": "一般",
+                "needs": "",
+                "status": "受理",
+                "progress": "正常",
+                "completionDate": "2018-08-21",
+                "productionDate": "2018-10-13",
+                "productionType": "计划投产",
+                "firstProductionDate": "2018-08-21",
+                "actualProductionDate": "",
+                "productionBatch": "",
+                "putInto": "",
+                "estimatedHours": "106",
+                "actualHours": ""
+            },
+            {
+                "iid": "3",
+                "code": "123",
+                "title": "XQ零售20180705-1011",
+                "describe": "关于人保消费贷款短信服务功能的需求",
+                "propose": "零售业务部",
+                "sponsor": "王嘉骏",
+                "charge": "祝志辉",
+                "department": "软件开发五部",
+                "departmentuser": "唐云瑶",
+                "category": "升级类需求",
+                "urgent": "一般",
+                "needs": "",
+                "status": "受理",
+                "progress": "正常",
+                "completionDate": "2018-08-21",
+                "productionDate": "2018-10-13",
+                "productionType": "计划投产",
+                "firstProductionDate": "2018-08-21",
+                "actualProductionDate": "",
+                "productionBatch": "",
+                "putInto": "",
+                "estimatedHours": "106",
+                "actualHours": ""
+            },
+            {
+                "iid": "4",
+                "code": "123",
+                "title": "XQ零售20180705-1011",
+                "describe": "关于人保消费贷款短信服务功能的需求",
+                "propose": "零售业务部",
+                "sponsor": "王嘉骏",
+                "charge": "祝志辉",
+                "department": "软件开发五部",
+                "departmentuser": "唐云瑶",
+                "category": "升级类需求",
+                "urgent": "一般",
+                "needs": "",
+                "status": "受理",
+                "progress": "正常",
+                "completionDate": "2018-08-21",
+                "productionDate": "2018-10-13",
+                "productionType": "计划投产",
+                "firstProductionDate": "2018-08-21",
+                "actualProductionDate": "",
+                "productionBatch": "",
+                "putInto": "",
+                "estimatedHours": "106",
+                "actualHours": ""
+            },
+            {
+                "iid": "5",
+                "code": "123",
+                "title": "XQ零售20180705-1011",
+                "describe": "关于人保消费贷款短信服务功能的需求",
+                "propose": "零售业务部",
+                "sponsor": "王嘉骏",
+                "charge": "祝志辉",
+                "department": "软件开发五部",
+                "departmentuser": "唐云瑶",
+                "category": "升级类需求",
+                "urgent": "一般",
+                "needs": "",
+                "status": "受理",
+                "progress": "正常",
+                "completionDate": "2018-08-21",
+                "productionDate": "2018-10-13",
+                "productionType": "计划投产",
+                "firstProductionDate": "2018-08-21",
+                "actualProductionDate": "",
+                "productionBatch": "",
+                "putInto": "",
+                "estimatedHours": "106",
+                "actualHours": ""
+            },
+            {
+                "iid": "6",
+                "code": "123",
+                "title": "XQ零售20180705-1011",
+                "describe": "关于人保消费贷款短信服务功能的需求",
+                "propose": "零售业务部",
+                "sponsor": "王嘉骏",
+                "charge": "祝志辉",
+                "department": "软件开发五部",
+                "departmentuser": "唐云瑶",
+                "category": "升级类需求",
+                "urgent": "一般",
+                "needs": "",
+                "status": "受理",
+                "progress": "正常",
+                "completionDate": "2018-08-21",
+                "productionDate": "2018-10-13",
+                "productionType": "计划投产",
+                "firstProductionDate": "2018-08-21",
+                "actualProductionDate": "",
+                "productionBatch": "",
+                "putInto": "",
+                "estimatedHours": "106",
+                "actualHours": ""
+            },
+            {
+                "iid": "7",
+                "code": "123",
+                "title": "XQ零售20180705-1011",
+                "describe": "关于人保消费贷款短信服务功能的需求",
+                "propose": "零售业务部",
+                "sponsor": "王嘉骏",
+                "charge": "祝志辉",
+                "department": "软件开发五部",
+                "departmentuser": "唐云瑶",
+                "category": "升级类需求",
+                "urgent": "一般",
+                "needs": "",
+                "status": "受理",
+                "progress": "正常",
+                "completionDate": "2018-08-21",
+                "productionDate": "2018-10-13",
+                "productionType": "计划投产",
+                "firstProductionDate": "2018-08-21",
+                "actualProductionDate": "",
+                "productionBatch": "",
+                "putInto": "",
+                "estimatedHours": "106",
+                "actualHours": ""
+            },
+            {
+                "iid": "8",
+                "code": "123",
+                "title": "XQ零售20180705-1011",
+                "describe": "关于人保消费贷款短信服务功能的需求",
+                "propose": "零售业务部",
+                "sponsor": "王嘉骏",
+                "charge": "祝志辉",
+                "department": "软件开发五部",
+                "departmentuser": "唐云瑶",
+                "category": "升级类需求",
+                "urgent": "一般",
+                "needs": "",
+                "status": "受理",
+                "progress": "正常",
+                "completionDate": "2018-08-21",
+                "productionDate": "2018-10-13",
+                "productionType": "计划投产",
+                "firstProductionDate": "2018-08-21",
+                "actualProductionDate": "",
+                "productionBatch": "",
+                "putInto": "",
+                "estimatedHours": "106",
+                "actualHours": ""
+            },
+            {
+                "iid": "9",
+                "code": "123",
+                "title": "XQ零售20180705-1011",
+                "describe": "关于人保消费贷款短信服务功能的需求",
+                "propose": "零售业务部",
+                "sponsor": "王嘉骏",
+                "charge": "祝志辉",
+                "department": "软件开发五部",
+                "departmentuser": "唐云瑶",
+                "category": "升级类需求",
+                "urgent": "一般",
+                "needs": "",
+                "status": "受理",
+                "progress": "正常",
+                "completionDate": "2018-08-21",
+                "productionDate": "2018-10-13",
+                "productionType": "计划投产",
+                "firstProductionDate": "2018-08-21",
+                "actualProductionDate": "",
+                "productionBatch": "",
+                "putInto": "",
+                "estimatedHours": "106",
+                "actualHours": ""
+            },
+            {
+                "iid": "10",
+                "code": "123",
+                "title": "XQ零售20180705-1011",
+                "describe": "关于人保消费贷款短信服务功能的需求",
+                "propose": "零售业务部",
+                "sponsor": "王嘉骏",
+                "charge": "祝志辉",
+                "department": "软件开发五部",
+                "departmentuser": "唐云瑶",
+                "category": "升级类需求",
+                "urgent": "一般",
+                "needs": "",
+                "status": "受理",
+                "progress": "正常",
+                "completionDate": "2018-08-21",
+                "productionDate": "2018-10-13",
+                "productionType": "计划投产",
+                "firstProductionDate": "2018-08-21",
+                "actualProductionDate": "",
+                "productionBatch": "",
+                "putInto": "",
+                "estimatedHours": "106",
+                "actualHours": ""
+            }
+        ],
+        "numPerPage": 10,
+        "totalRows": 5,
+        "totalPages": 5,
+        "currentPage": 1
+    },
+    "msg": "VP000000"
+}

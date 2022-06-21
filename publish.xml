@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.vpsoft.project.dlbank</groupId>
+    <artifactId>dlbankweb</artifactId>
+    <version>8.1.1-RELEASE</version>
+	<packaging>pom</packaging>
+    <name>dlbankweb</name>
+    <url>http://www.vpsoft.cn</url>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+    <build>
+		<plugins>
+			<!-- maven deploy 部署插件 -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-deploy-plugin</artifactId>
+				<version>2.8.2</version>
+				<configuration>
+					<repositoryId>${project.distributionManagement.repository.id}</repositoryId>
+					<url>${project.distributionManagement.repository.url}</url>
+					<file>${project.build.directory}/${project.artifactId}-${project.version}.zip</file>
+					<groupId>${project.groupId}</groupId>
+					<artifactId>${project.artifactId}</artifactId>
+					<version>${project.version}</version>
+				</configuration>
+			</plugin>
+			<!-- maven 任意格式打包插件 -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-assembly-plugin</artifactId>
+				<version>2.5.3</version>
+				<configuration>
+					<appendAssemblyId>false</appendAssemblyId>
+					<descriptor>publish_zip.xml</descriptor>
+				</configuration>
+				<executions>
+					<execution>
+						<id>create-archive</id>
+						<phase>package</phase>
+						<goals>
+							<goal>single</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+    </build>
+    <!-- maven 私有中央仓库推送配置 -->
+    <distributionManagement>
+        <snapshotRepository>
+            <id>nexus</id>
+            <url>http://172.17.81.200:8081/repository/maven-snapshots/</url>
+        </snapshotRepository>
+
+        <repository>
+            <id>nexus</id>
+            <url>http://172.17.81.200:8081/repository/maven-releases/</url>
+        </repository>
+    </distributionManagement>
+
+	<!-- maven 私有中央仓库 -->
+	<repositories>
+		<repository>
+			<id>vpsoft</id>
+			<url>https://yfnexus.vpsoft.cn/repository/maven-public/</url>
+		</repository>
+	</repositories>
+</project>

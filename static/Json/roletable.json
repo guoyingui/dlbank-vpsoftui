@@ -1,0 +1,50 @@
+{
+    "msg": "VP000000",
+    "data": {
+        "grid": {
+            "fields": [
+                {
+                    "field_label": "角色编码",
+                    "field_name": "code"
+                },
+                {
+                    "field_label": "角色名称",
+                    "field_name": "name"
+                },
+                {
+                    "field_label": "描述信息",
+                    "field_name": "description"
+                }
+            ]
+        },
+        "numPerPage": 10,
+        "totalRows": 3,
+        "totalPages": 1,
+        "currentPage": 1,
+        "startIndex": 0,
+        "lastIndex": 2,
+        "resultList": [
+            { 
+                "tid": 1, 
+                "code": "EA1001", 
+                "name": "测试角色", 
+                "description": "测试角色测试角色测试角色"
+            }, 
+            { 
+                "tid": 2, 
+                "code": "EA1002",  
+                "name": "项目办领导", 
+                "description": "查看需求信息、了解进度，浏览和下载需"
+            }, 
+            { 
+                "tid": 3, 
+                "code": "EA1003", 
+                "name": "需求组负责人", 
+                "description": "负责需求基线发布的审核，查看需求信"
+            }
+        ]
+    },
+    "infocode": "VP000000",
+    "msgparam": null,
+    "timestamp": 1528876781142
+}

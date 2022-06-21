@@ -1,0 +1,140 @@
+{
+    "timestamp": 1527730167197,
+    "infocode": "VP000000",
+    "msgparam": null,
+    "data": {
+        "grid": {
+            "fields": [
+                {
+                    "field_name": "name",
+                    "field_label": "姓名"
+                },
+                {
+                    "field_name": "title",
+                    "field_label": "部门"
+                },
+                {
+                    "field_name": "supplier",
+                    "field_label": "供应商"
+                },
+                {
+                    "field_name": "period",
+                    "field_label": "查询时段"
+                },
+                {
+                    "field_name": "planwork",
+                    "field_label": "计划工时"
+                },
+                {
+                    "field_name": "ctualwork",
+                    "field_label": "实际工时"
+                },
+                {
+                    "field_name": "overallocation",
+                    "field_label": "过度分配"
+                },
+                {
+                    "field_name": "loadrate",
+                    "field_label": "负载率"
+                }
+            ]
+        },
+        "resultList": [
+            {
+                "iid": "1",
+                "name": "刘晓宇",
+                "title": "产品交付部",
+                "supplier": "中世传媒",
+                "period": "2019/12/23",
+                "planwork": "46",
+                "ctualwork": "57",
+                "overallocation": "6",
+                "loadrate": 115
+            },
+            {
+                "iid": "2",
+                "name": "刘晓宇",
+                "title": "产品交付部",
+                "supplier": "中世传媒",
+                "period": "2019/12/30",
+                "planwork": "60",
+                "ctualwork": "50",
+                "overallocation": "20",
+                "loadrate": 150
+            },
+            {
+                "iid": "3",
+                "name": "刘晓宇",
+                "title": "产品交付部",
+                "supplier": "中世传媒",
+                "period": "2020/1/6",
+                "planwork": "55",
+                "ctualwork": "40",
+                "overallocation": "15",
+                "loadrate": 138
+            },
+            {
+                "iid": "4",
+                "name": "刘晓宇",
+                "title": "产品交付部",
+                "supplier": "中世传媒",
+                "period": "2020/1/13",
+                "planwork": "35",
+                "ctualwork": "",
+                "overallocation": "-5",
+                "loadrate": 68
+            },
+
+            {
+                "iid": "5",
+                "name": "张振东",
+                "title": "测试部",
+                "supplier": "润和软件",
+                "period": "2019/12/23",
+                "planwork": "46",
+                "ctualwork": "57",
+                "overallocation": "6",
+                "loadrate": 115
+            },
+            {
+                "iid": "6",
+                "name": "张振东",
+                "title": "测试部",
+                "supplier": "润和软件",
+                "period": "2019/12/30",
+                "planwork": "60",
+                "ctualwork": "50",
+                "overallocation": "20",
+                "loadrate": 105
+            },
+            {
+                "iid": "7",
+                "name": "张振东",
+                "title": "测试部",
+                "supplier": "润和软件",
+                "period": "2020/1/6",
+                "planwork": "55",
+                "ctualwork": "40",
+                "overallocation": "15",
+                "loadrate": 138
+            },
+            {
+                "iid": "8",
+                "name": "张振东",
+                "title": "测试部",
+                "supplier": "润和软件",
+                "period": "2020/1/13",
+                "planwork": "35",
+                "ctualwork": "",
+                "overallocation": "-5",
+                "loadrate": 88
+            }
+            
+        ],
+        "numPerPage": 10,
+        "totalRows": 5,
+        "totalPages": 5,
+        "currentPage": 1
+    },
+    "msg": "VP000000"
+}

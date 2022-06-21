@@ -1,0 +1,76 @@
+{
+    "timestamp": 1527730167185,
+    "infocode": "VP000000",
+    "msgparam": null,
+    "data": {
+        "form": {
+            "groups": [{
+                "group_label": "搜索条件",
+                "group_type": 0,
+                "fields": [{
+                    "field_name": "sname",
+                    "widget_type": "text",
+                    "field_label": "名称",
+                    "validator": {},
+                    "all_line": 2
+                }, {
+                    "field_name": "scode",
+                    "widget_type": "text",
+                    "field_label": "编号",
+                    "validator": {},                    
+                    "all_line": 2
+                }, {
+                    "field_name": "iflag",
+                    "validator": {},
+                    "widget_type": "checkbox",
+                    "widget": {
+                        "load_template": [{
+                            "value": 0,
+                            "label": "启动"
+                        }, {
+                            "value": 1,
+                            "label": "禁用"
+                        }]
+                    },
+                    "field_label": "状态",
+                    "all_line": 2
+                }, {
+                    "validator": {},
+                    "field_name": "idepartmentid",
+                    "widget_type": "multiselectmodel",
+                    "field_label": "部门",
+                    "url": "demo/TabDemo3/index",
+                    "all_line": 2,
+                    "irelationentityid": "1"
+                },{
+                    "field_name": "datetime",
+                    "widget_type": "datetime",
+                    "iconstraint": 0,
+                    "validator": {},
+                    "iwidth": 0,
+                    "onchange": "onSelectChange",                    
+                    "field_label": "时间",
+                    "all_line": 2,
+                    "itype": 0,
+                    "widget": {
+                        "default_value": "2018-05-28 22:22:22"
+                    }
+                },{
+                    "field_name": "time",
+                    "widget_type": "time",
+                    "iconstraint": 0,
+                    "validator": {},
+                    "iwidth": 0,
+                    "onchange": "onSelectChange",                    
+                    "field_label": "时间",
+                    "all_line": 2,
+                    "itype": 0,
+                    "widget": {
+                        "default_value": "2018-05-28 22:22:22"
+                    }
+                }]
+            }]
+        }
+    },
+    "msg": "VP000000"
+}

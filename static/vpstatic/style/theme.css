@@ -1,0 +1,67 @@
+/* 
+    全局菜单主题颜色自定义 
+*/
+
+/* 顶部导航背景色*/
+#themeid .top-silder,
+#themeid .top-silder .ant-menu{
+    /* background: #0d3a68; */
+}
+/*顶部导航更多下拉层的背景色及文字颜色*/
+#themeid .top-silder > div > div .ant-dropdown.ant-dropdown-placement-bottomLeft,
+#themeid .top-silder > div > div .ant-dropdown.ant-dropdown-placement-bottomRight {
+    /* background: rgba(0, 33, 64, .8); */
+}
+/*顶部导航右侧用户信息文字颜色*/
+
+/*导航文字颜色*/
+#themeid .sider .ant-menu,
+#themeid .top-silder .more,
+#themeid .sider .title-status a,
+#themeid .commos-silder .ant-menu,
+#themeid .commos-silder .ant-menu a,
+#themeid .theme-title .ant-dropdown-link {
+    /* color: #d8e9fd; */
+}
+
+/*左侧导航logo背景色*/
+#themeid .sider .user-img,.sider .slogo {
+    /* background: #94bbe2; */
+}
+/*左侧导航背景色*/
+#themeid .sider .ant-menu,#themeid .layout-sider
+{
+    /* background: #114c86; */
+}
+/*导航滑过时的背景色*/
+#themeid .top-silder .more:hover,
+#themeid .commos-silder .ant-menu .ant-menu-item:hover,
+#themeid .commos-silder .ant-menu .ant-menu-item-active,
+#themeid .commos-silder .ant-menu .ant-menu-item-selected,
+#themeid .commos-silder .ant-menu .ant-menu-submenu-active,
+#themeid .commos-silder .ant-menu .ant-menu-submenu-title:hover,
+#themeid .sider .ant-menu .vertical-li.ant-menu-submenu-selected
+{
+    /* background: #9ec81f; */
+}
+/*当前导航文字或滑过时的颜色*/
+#themeid .top-silder .more:hover,
+#themeid .commos-silder .ant-menu .ant-menu-item:hover,
+#themeid .commos-silder .ant-menu .ant-menu-item-active,
+#themeid .commos-silder .ant-menu .ant-menu-item-active a,
+#themeid .commos-silder .ant-menu .ant-menu-item-selected,
+#themeid .commos-silder .ant-menu .ant-menu-submenu-active,
+#themeid .commos-silder .ant-menu .ant-menu-item-selected a,
+#themeid .commos-silder .ant-menu .ant-menu-submenu-title:hover,
+#themeid .top-silder .ant-dropdown.ant-dropdown-placement-bottomLeft .dropdown-menu-list li:hover a,
+#themeid .top-silder .ant-dropdown.ant-dropdown-placement-bottomLeft .dropdown-menu-list>div.menu:hover a,
+#themeid .top-silder .ant-dropdown.ant-dropdown-placement-bottomRight .dropdown-menu-list>div.menu:hover a,
+#themeid .top-silder .ant-dropdown.ant-dropdown-placement-bottomRight .dropdown-menu-list li:hover a,
+#themeid .sider .ant-menu .vertical-li.ant-menu-submenu-selected {
+    /* color: #fff; */
+} 
+/* 选中导航文字颜色 */
+#themeid .sider .ant-menu .ant-menu-submenu-selected
+{
+    /* color: #9ec81f; */
+}

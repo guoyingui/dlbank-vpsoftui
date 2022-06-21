@@ -1,0 +1,26 @@
+{
+    "timestamp": 1534494917869,
+    "infocode": "VP000000",
+    "msgparam": null,
+    "data": [
+        {
+            "inamerole": "",
+            "tid": "412186354437324810",
+            "count": 0,
+            "isPrimSys": "是",
+            "checked": false,
+            "name": "增值税管理平台",
+            "code": "VTAX"
+        },
+        {
+            "inamerole": "",
+            "tid": "412186357834711041",
+            "count": 0,
+            "isPrimSys": "否",
+            "checked": false,
+            "name": "产品创新服务平台",
+            "code": "cpgk"
+        }
+    ],
+    "msg": "VP000000"
+}

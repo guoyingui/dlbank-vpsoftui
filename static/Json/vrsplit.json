@@ -1,0 +1,78 @@
+{
+    "timestamp": 1527730167197,
+    "infocode": "VP000000",
+    "msgparam": null,
+    "data": {
+        "resultList": [
+            {
+                "iid": 1,
+                "serial_number": 1,
+                "code": "cpkg",
+                "name": "产品创新服务平台",
+                "principal": "管理员",
+                "subjection": "人力资源部"
+            },
+            {
+                "iid": 2,
+                "serial_number": 2,
+                "code": "cpkg",
+                "name": "产品创新服务平台",
+                "principal": "管理员",
+                "subjection": "人力资源部"
+            },
+            {
+                "iid": 3,
+                "serial_number": 3,
+                "code": "cpkg",
+                "name": "产品创新服务平台",
+                "principal": "管理员",
+                "subjection": "人力资源部"
+            },
+            {
+                "iid": 4,
+                "serial_number": 4,
+                "code": "cpkg",
+                "name": "产品创新服务平台",
+                "principal": "管理员",
+                "subjection": "人力资源部"
+            },
+            {
+                "iid": 5,
+                "serial_number": 5,
+                "code": "cpkg",
+                "name": "产品创新服务平台",
+                "principal": "管理员",
+                "subjection": "人力资源部"
+            },
+            {
+                "iid": 6,
+               "serial_number": 6,
+                "code": "cpkg",
+                "name": "产品创新服务平台",
+                "principal": "管理员",
+                "subjection": "人力资源部"
+            },
+            {
+                "iid": 7,
+                "serial_number": 7,
+                "code": "cpkg",
+                "name": "产品创新服务平台",
+                "principal": "管理员",
+                "subjection": "人力资源部"
+            },
+            {
+                "iid": 8,
+                "serial_number": 8,
+                "code": "cpkg",
+                "name": "产品创新服务平台",
+                "principal": "管理员",
+                "subjection": "人力资源部"
+            }
+        ],
+        "numPerPage": 10,
+        "totalRows": 8,
+        "totalPages": 2,
+        "currentPage": 1
+    },
+    "msg": "VP000000"
+}

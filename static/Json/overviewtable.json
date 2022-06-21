@@ -1,0 +1,248 @@
+{
+    "timestamp": 1527730167197,
+    "infocode": "VP000000",
+    "msgparam": null,
+    "data": {
+        "grid": {
+            "fields": [
+                {
+                    "field_name": "number",
+                    "field_label": "项目编号1"
+                },
+                {
+                    "field_name": "title",
+                    "field_label": "需求名称"
+                },
+                {
+                    "field_name": "tcuser",
+                    "field_label": "提出人"
+                },
+                {
+                    "field_name": "tcbm",
+                    "field_label": "提出部门"
+                },
+                {
+                    "field_name": "tctime",
+                    "field_label": "提出时间"
+                },
+                {
+                    "field_name": "user",
+                    "field_label": "负责人"
+                },
+                {
+                    "field_name": "yxj",
+                    "field_label": "优先级"
+                },
+                {
+                    "field_name": "status",
+                    "field_label": "状态"
+                }
+            ]
+        },
+        "resultList": [
+            {
+                "iid": "1",
+                "number": "PJ-20180409626",
+                "title": "项目名称1",
+                "tcuser": "张三",
+                "tcbm": "公司业务部",
+                "tctime": "2020-02-10",
+                "user": "oyq",
+                "yxj": "高",
+                "status": "提出"
+            },
+            {
+                "iid": "2",
+                "number": "PJ-20180409627",
+                "title": "项目名称2",
+                "tcuser": "",
+                "tcbm": "",
+                "tctime": "",
+                "user": "oyq",
+                "yxj": "",
+                "status": "提出"
+            },
+            {
+                "iid": "3",
+                "number": "PJ-20180409628",
+                "title": "项目名称3",
+                "tcuser": "",
+                "tcbm": "",
+                "tctime": "",
+                "user": "oyq",
+                "yxj": "",
+                "status": "提出"
+            },
+            {
+                "iid": "4",
+                "number": "PJ-20180409629",
+                "title": "项目名称4",
+                "tcuser": "",
+                "tcbm": "",
+                "tctime": "",
+                "user": "oyq",
+                "yxj": "",
+                "status": "提出"
+            },
+            {
+                "iid": "5",
+                "number": "PJ-20180409630",
+                "title": "项目名称5",
+                "tcuser": "",
+                "tcbm": "",
+                "tctime": "",
+                "user": "oyq",
+                "yxj": "",
+                "status": "提出"
+            },
+            {
+                "iid": "6",
+                "number": "PJ-20180409631",
+                "title": "项目名称6",
+                "tcuser": "",
+                "tcbm": "",
+                "tctime": "",
+                "user": "oyq",
+                "yxj": "",
+                "status": "提出"
+            },
+            {
+                "iid": "7",
+                "number": "PJ-20180409626",
+                "title": "项目名称7",
+                "tcuser": "",
+                "tcbm": "",
+                "tctime": "",
+                "user": "oyq",
+                "yxj": "",
+                "status": "提出"
+            },
+            {
+                "iid": "8",
+                "number": "PJ-20180409627",
+                "title": "项目名称8",
+                "tcuser": "",
+                "tcbm": "",
+                "tctime": "",
+                "user": "oyq",
+                "yxj": "",
+                "status": "提出"
+            },
+            {
+                "iid": "9",
+                "number": "PJ-20180409628",
+                "title": "项目名称9",
+                "tcuser": "",
+                "tcbm": "",
+                "tctime": "",
+                "user": "oyq",
+                "yxj": "",
+                "status": "提出"
+            },
+            {
+                "iid": "10",
+                "number": "PJ-20180409629",
+                "title": "项目名称10",
+                "tcuser": "",
+                "tcbm": "",
+                "tctime": "",
+                "user": "oyq",
+                "yxj": "",
+                "status": "提出"
+            },
+            {
+                "iid": "11",
+                "number": "PJ-20180409630",
+                "title": "项目名称11",
+                "tcuser": "",
+                "tcbm": "",
+                "tctime": "",
+                "user": "oyq",
+                "yxj": "",
+                "status": "提出"
+            },
+            {
+                "iid": "12",
+                "number": "PJ-20180409631",
+                "title": "项目名称12",
+                "tcuser": "",
+                "tcbm": "",
+                "tctime": "",
+                "user": "oyq",
+                "yxj": "",
+                "status": "提出"
+            },
+            {
+                "iid": "13",
+                "number": "PJ-20180409626",
+                "title": "项目名称13",
+                "tcuser": "",
+                "tcbm": "",
+                "tctime": "",
+                "user": "oyq",
+                "yxj": "",
+                "status": "提出"
+            },
+            {
+                "iid": "14",
+                "number": "PJ-20180409627",
+                "title": "项目名称14",
+                "tcuser": "",
+                "tcbm": "",
+                "tctime": "",
+                "user": "oyq",
+                "yxj": "",
+                "status": "提出"
+            },
+            {
+                "iid": "15",
+                "number": "PJ-20180409628",
+                "title": "项目名称15",
+                "tcuser": "",
+                "tcbm": "",
+                "tctime": "",
+                "user": "oyq",
+                "yxj": "",
+                "status": "提出"
+            },
+            {
+                "iid": "16",
+                "number": "PJ-20180409629",
+                "title": "项目名称16",
+                "tcuser": "",
+                "tcbm": "",
+                "tctime": "",
+                "user": "oyq",
+                "yxj": "",
+                "status": "提出"
+            },
+            {
+                "iid": "17",
+                "number": "PJ-20180409630",
+                "title": "项目名称17",
+                "tcuser": "",
+                "tcbm": "",
+                "tctime": "",
+                "user": "oyq",
+                "yxj": "",
+                "status": "提出"
+            },
+            {
+                "iid": "18",
+                "number": "PJ-20180409631",
+                "title": "项目名称18",
+                "tcuser": "",
+                "tcbm": "",
+                "tctime": "",
+                "user": "oyq",
+                "yxj": "",
+                "status": "提出"
+            }
+        ],
+        "numPerPage": 10,
+        "totalRows": 5,
+        "totalPages": 1,
+        "currentPage": 1
+    },
+    "msg": "VP000000"
+}

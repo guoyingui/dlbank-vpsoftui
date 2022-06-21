@@ -1,0 +1,183 @@
+{
+    "timestamp":1526367924911,
+    "infocode":"VP000001",
+    "msgparam":null,
+    "data":{
+        "form":{
+            "groups":[
+                {
+                    "group_label":"表单",
+                    "group_type":1,
+                    "fields":[
+                        {
+                            "field_name":"scode",
+                            "ientityid":7,
+                            "widget_type":"text",
+                            "iconstraint":1,
+                            "validator":{
+                                "required":false
+                            },
+                            "iwidth":100,
+                            "readonly":false,
+                            "widget":{
+
+                            },
+                            "field_label":"项目编号",
+                            "all_line":1,
+                            "itype":0,
+                            "inorule":0
+                        },
+                        {
+                            "field_name":"sname",
+                            "ientityid":7,
+                            "widget_type":"text",
+                            "iconstraint":1,
+                            "validator":{
+                                "required":false
+                            },
+                            "iwidth":100,
+                            "readonly":false,
+                            "widget":{
+
+                            },
+                            "field_label":"项目名称",
+                            "all_line":1,
+                            "itype":0,
+                            "inorule":0
+                        },
+                        {
+                            "ientityid":7,
+                            "field_name":"idepartmentid",
+                            "widget_type":"selectmodel",
+                            "iconstraint":1,
+                            "validator":{
+                                "required":false
+                            },
+                            "iwidth":100,
+                            "url":"demo/TabDemo3/index",
+                            "itype":0,
+                            "readonly":false,
+                            "field_label":"部门(我受状态控制)",
+                            "widget":{
+
+                            },
+                            "all_line":1,
+                            "inorule":0,
+                            "irelationentityid":1
+                        },
+                        {
+                            "field_name":"istatusid",
+                            "ientityid":7,
+                            "widget_type":"select",
+                            "iconstraint":1,
+                            "validator":{
+                                "required":false
+                            },
+                            "onchange": "onSelectChange",
+                            "iwidth":100,
+                            "readonly":false,
+                            "widget":{
+                                "load_template":[
+                                    {
+                                        "value":"1",
+                                        "label":"部门非必填"
+                                    },
+                                    {
+                                        "value":"2",
+                                        "label":"部门必填"
+                                    }
+                                ]
+                            },
+                            "field_label":"状态",
+                            "all_line":1,
+                            "itype":0,
+                            "inorule":0
+                        },
+                        {
+                            "field_name":"iclassid",
+                            "ientityid":7,
+                            "widget_type":"select",
+                            "iconstraint":1,
+                            "validator":{
+                                "required":false
+                            },
+                            "iwidth":100,
+                            "readonly":false,
+                            "widget":{
+                                "load_template":[
+                                    {
+                                        "value":"5",
+                                        "label":"项目"
+                                    }
+                                ]
+                            },
+                            "field_label":"类别",
+                            "all_line":1,
+                            "itype":0,
+                            "inorule":0
+                        },
+                        {
+                            "field_name":"sdescription",
+                            "ientityid":7,
+                            "widget_type":"textarea",
+                            "iconstraint":1,
+                            "validator":{
+                                "required":false
+                            },
+                            "iwidth":100,
+                            "readonly":false,
+                            "widget":{
+
+                            },
+                            "field_label":"描述",
+                            "all_line":2,
+                            "itype":0,
+                            "inorule":0
+                        },
+                        {
+                            "field_name": "selectobject",
+                            "widget_type": "selectobject",
+                            "select_type": "checkbox",
+                            "validator": {},
+                            "field_label": "selectobject",
+                            "all_line": 1,
+                            "widget": {
+                                "default_value": "3,4",
+                                "default_label": "交付部,交付部",
+                                "treeUrl": "http://localhost:8101//Json/getTreedata.json",
+                                "treeParams": {
+                                    "method": "getDepartmentTreeData"
+                                },
+                                "treeKey": "iid",
+                                "tableHeaderUrl": "http://localhost:8101//Json/getlistHeader.json",
+                                "tableDataUrl": "http://localhost:8101//Json/getlistdata.json",
+                                "tableMethod": "GET",
+                                "tableParams": {
+                                    "entity": 1
+                                },
+                                "tableKey": "iid"
+                            }
+                        },
+                        {
+                            "field_name": "doc",
+                            "widget_type": "inputupload",
+                            "validator": {
+                                "required": true
+                            },
+                            "field_label": "inputupload",
+                            "all_line": 2,
+                            "tips": "请选择项目模板文档（*.doc,*.docx)",
+                            "widget": {
+                                "accept": {
+                                    "title": "Doc",
+                                    "extensions": "docx,doc"
+                                }
+                            }
+                        } 
+                    ]
+                }
+            ]
+        }
+    },
+    "msg":"VP000001"
+}

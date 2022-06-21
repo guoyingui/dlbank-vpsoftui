@@ -1,0 +1,79 @@
+.vp-discuss{
+    .change-icon {
+        width: 1%;
+        left: -10px;
+    }
+    .ant-row {
+        overflow: hidden;
+    }
+    .toolkit-content {
+    & > div {
+        width: 240px;
+    }
+    }
+    
+    .member-involve-content {
+		padding: 0 10px;
+        margin: 10px 5px;
+        .activity {
+            line-height: 20px;
+            margin: 15px 0;
+            .body {
+                margin: 0 15px;
+                .body-content {
+                    display: block;
+                    border-left: 5px solid #a6a6a6;
+                    padding: 0 10px;
+                }
+            }
+           
+        }
+    }
+    .avatar-body {
+        margin: 0 10px;
+    }
+    .avatar {
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        display: inline-block;
+        overflow: hidden;
+        cursor: pointer;
+        margin-left: -3px;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .member-involve-list {
+        .avatar {
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            display: inline-block;
+            overflow: hidden;
+            cursor: pointer;
+            margin: 0 5px;
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+    .userfile{
+        cursor:pointer
+    } 
+}
+// 以下代码是为处理动态表单节内容中插入动态页签时不需要固定及计算高度……
+.vp-dynamic-form{
+    .ant-collapse-item{
+        .vp-discuss{
+            .member-involve-content{
+                height: auto!important;
+            }
+            .member-involve-footer.footFixed{
+                position: relative !important;
+            }
+        }
+    }
+}

@@ -1,0 +1,771 @@
+{
+    "timestamp": 1588910282216,
+    "infocode": "VP000000",
+    "msg": null,
+    "redirectUrl": null,
+    "data": {
+        "form":  {
+            "groups": [{
+                "group_scode": "jbxx",
+                "group_label": "基本信息",
+                "group_type": 1,
+                "fields": [{
+                    "ientityid": 64,
+                    "widget": {
+                        "default_value": "bug1001",
+                        "default_label": "bug1001"
+                    },
+                    "field_label": "缺陷概述",
+                    "validator": {
+                        "max": 200,
+                        "message": "请输入1~200个字符!",
+                        "required": true
+                    },
+                    "irelationentityid": 0,
+                    "widget_type": "text",
+                    "field_name": "sname",
+                    "iconstraint": 0,
+                    "ilength": 200,
+                    "inorule": 1,
+                    "showdetail": true,
+                    "readonly": false,
+                    "iwidth": 0,
+                    "propertyType": 1,
+                    "imobileshow": 0,
+                    "all_line": 1,
+                    "itype": 0
+                },
+                {
+                    "ientityid": 64,
+                    "widget": {
+                        "load_template": [{
+                            "label": "第三方测试",
+                            "value": "29"
+                        },
+                        {
+                            "label": "FAT测试",
+                            "value": "334"
+                        },
+                        {
+                            "label": "UAT测试",
+                            "value": "335"
+                        },
+                        {
+                            "label": "合版测试",
+                            "value": "336"
+                        },
+                        {
+                            "label": "回归测试",
+                            "value": "337"
+                        }],
+                        "default_value": "334",
+                        "default_label": "FAT测试"
+                    },
+                    "field_label": "类别",
+                    "validator": {
+                        "required": false
+                    },
+                    "widget_type": "select",
+                    "field_name": "iclassid",
+                    "iconstraint": 2,
+                    "ilength": 22,
+                    "inorule": 1,
+                    "showdetail": true,
+                    "iwidth": 0,
+                    "propertyType": 13,
+                    "imobileshow": 0,
+                    "all_line": 1,
+                    "disabled": true,
+                    "itype": 0
+                },
+                {
+                    "ientityid": 64,
+                    "widget": {
+                        "load_template": [{
+                            "label": "开发缺陷",
+                            "value": 1
+                        },
+                        {
+                            "label": "生产缺陷",
+                            "value": 2
+                        },
+                        {
+                            "label": "配置缺陷",
+                            "value": 3
+                        },
+                        {
+                            "label": "优化需求",
+                            "value": 4
+                        },
+                        {
+                            "label": "数据缺陷",
+                            "value": 5
+                        },
+                        {
+                            "label": "需求缺陷",
+                            "value": 6
+                        },
+                        {
+                            "label": "设计缺陷",
+                            "value": 7
+                        },
+                        {
+                            "label": "其他",
+                            "value": 10
+                        }],
+                        "default_label": ""
+                    },
+                    "field_label": "缺陷类型",
+                    "validator": {
+                        "required": false
+                    },
+                    "irelationentityid": 0,
+                    "widget_type": "select",
+                    "field_name": "ibug_type",
+                    "iconstraint": 1,
+                    "ilength": 22,
+                    "inorule": 1,
+                    "idictionaryid": 40,
+                    "showdetail": true,
+                    "readonly": false,
+                    "iwidth": 0,
+                    "propertyType": 7,
+                    "imobileshow": 0,
+                    "all_line": 1,
+                    "itype": 0
+                },
+                {
+                    "ientityid": 64,
+                    "widget": {
+                        "default_label": ""
+                    },
+                    "field_label": "提出日期",
+                    "validator": {
+                        "required": false
+                    },
+                    "widget_type": "date",
+                    "field_name": "dproposetime",
+                    "iconstraint": 1,
+                    "ilength": 20,
+                    "inorule": 1,
+                    "showdetail": true,
+                    "readonly": false,
+                    "iwidth": 0,
+                    "propertyType": 17,
+                    "imobileshow": 0,
+                    "all_line": 1,
+                    "itype": 0
+                },
+                {
+                    "ientityid": 64,
+                    "widget": {
+                        "load_template": [{
+                            "label": "新建",
+                            "value": "95"
+                        },
+                        {
+                            "label": "延期处理",
+                            "value": "424"
+                        },
+                        {
+                            "label": "开发中",
+                            "value": "97"
+                        },
+                        {
+                            "label": "分析中",
+                            "value": "101"
+                        },
+                        {
+                            "label": "出厂测试中",
+                            "value": "96"
+                        },
+                        {
+                            "label": "是否缺陷验证中",
+                            "value": "102"
+                        },
+                        {
+                            "label": "验证中",
+                            "value": "98"
+                        },
+                        {
+                            "label": "不是缺陷",
+                            "value": "99"
+                        },
+                        {
+                            "label": "已关闭",
+                            "value": "425"
+                        }],
+                        "default_value": "95",
+                        "default_label": "新建"
+                    },
+                    "field_label": "状态",
+                    "validator": {
+                        "required": false
+                    },
+                    "widget_type": "select",
+                    "field_name": "istatusid",
+                    "iconstraint": 2,
+                    "ilength": 22,
+                    "inorule": 1,
+                    "showdetail": true,
+                    "iwidth": 0,
+                    "propertyType": 13,
+                    "imobileshow": 0,
+                    "all_line": 1,
+                    "disabled": true,
+                    "itype": 0
+                },
+                {
+                    "ientityid": 64,
+                    "widget": {
+                        "load_template": [{
+                            "label": "高",
+                            "value": 1
+                        },
+                        {
+                            "label": "中",
+                            "value": 2
+                        },
+                        {
+                            "label": "低",
+                            "value": 3
+                        }],
+                        "default_label": ""
+                    },
+                    "field_label": "缺陷优先级",
+                    "validator": {
+                        "required": false
+                    },
+                    "irelationentityid": 0,
+                    "widget_type": "select",
+                    "field_name": "ibug_priorty",
+                    "iconstraint": 1,
+                    "ilength": 22,
+                    "inorule": 1,
+                    "idictionaryid": 67,
+                    "showdetail": true,
+                    "readonly": false,
+                    "iwidth": 0,
+                    "propertyType": 7,
+                    "imobileshow": 0,
+                    "all_line": 1,
+                    "itype": 0
+                },
+                {
+                    "ientityid": 64,
+                    "widget": {
+                        "load_template": [{
+                            "label": "严重(不能工作)",
+                            "value": 1
+                        },
+                        {
+                            "label": "中等(干扰工作)",
+                            "value": 2
+                        },
+                        {
+                            "label": "轻微(可以工作)",
+                            "value": 3
+                        }],
+                        "default_label": ""
+                    },
+                    "field_label": "严重程度",
+                    "validator": {
+                        "required": false
+                    },
+                    "irelationentityid": 0,
+                    "widget_type": "select",
+                    "field_name": "ibug_severity",
+                    "iconstraint": 1,
+                    "ilength": 22,
+                    "inorule": 1,
+                    "idictionaryid": 36,
+                    "showdetail": true,
+                    "readonly": false,
+                    "iwidth": 0,
+                    "propertyType": 7,
+                    "imobileshow": 0,
+                    "all_line": 1,
+                    "itype": 0
+                },
+                {
+                    "widget": {
+                        "default_value": "2",
+                        "default_label": "超级用户"
+                    },
+                    "iid": "1",
+                    "field_label": "负责人",
+                    "validator": {
+                        "required": true
+                    },
+                    "irelationentityid": 2,
+                    "urlparam": "",
+                    "widget_type": "selectmodel",
+                    "url": "vfm/ChooseEntity/ChooseEntity",
+                    "field_name": "roleid24",
+                    "iconstraint": "1",
+                    "showdetail": true,
+                    "propertyType": 13,
+                    "iprincipal": "1",
+                    "all_line": 1,
+                    "itype": 0
+                },
+                {
+                    "ientityid": 64,
+                    "widget": {
+                        "load_template": [],
+                        "default_value": "1",
+                        "default_label": "TC1001"
+                    },
+                    "iid": "1",
+                    "field_label": "关联测试用例",
+                    "validator": {
+                        "message": "输入内容不能为空！",
+                        "required": true
+                    },
+                    "irelationentityid": 62,
+                    "urlparam": "",
+                    "widget_type": "selectmodel",
+                    "url": "vfm/ChooseEntity/ChooseEntity",
+                    "field_name": "rglcsyl",
+                    "iconstraint": 0,
+                    "ilength": 20,
+                    "inorule": 1,
+                    "idictionaryid": 0,
+                    "showdetail": true,
+                    "readonly": false,
+                    "iwidth": 0,
+                    "propertyType": 13,
+                    "imobileshow": 0,
+                    "all_line": 1,
+                    "itype": 0
+                },
+                {
+                    "ientityid": 64,
+                    "widget": {
+                        "load_template": [],
+                        "default_value": "4",
+                        "default_label": "测试任务1002"
+                    },
+                    "iid": "1",
+                    "field_label": "测试任务",
+                    "validator": {
+                        "message": "输入内容不能为空！",
+                        "required": true
+                    },
+                    "irelationentityid": 114,
+                    "urlparam": "",
+                    "widget_type": "selectmodel",
+                    "url": "vfm/ChooseEntity/ChooseEntity",
+                    "field_name": "rcsrw",
+                    "iconstraint": 0,
+                    "ilength": 22,
+                    "inorule": 1,
+                    "idictionaryid": 0,
+                    "showdetail": true,
+                    "readonly": false,
+                    "iwidth": 0,
+                    "propertyType": 13,
+                    "imobileshow": 0,
+                    "all_line": 1,
+                    "itype": 0
+                },
+                {
+                    "ientityid": 64,
+                    "widget": {
+                        "load_template": [],
+                        "default_value": "1",
+                        "default_label": "TSRS"
+                    },
+                    "iid": "1",
+                    "field_label": "测试需求",
+                    "validator": {
+                        "message": "输入内容不能为空！",
+                        "required": true
+                    },
+                    "irelationentityid": 61,
+                    "urlparam": "",
+                    "widget_type": "selectmodel",
+                    "url": "vfm/ChooseEntity/ChooseEntity",
+                    "field_name": "rcsxq",
+                    "iconstraint": 0,
+                    "ilength": 22,
+                    "inorule": 1,
+                    "idictionaryid": 0,
+                    "showdetail": true,
+                    "readonly": false,
+                    "iwidth": 0,
+                    "propertyType": 13,
+                    "imobileshow": 0,
+                    "all_line": 1,
+                    "itype": 0
+                },
+                {
+                    "ientityid": 64,
+                    "widget": {
+                        "load_template": [],
+                        "default_label": ""
+                    },
+                    "iid": "1",
+                    "field_label": "所属项目",
+                    "validator": {
+                        "required": false
+                    },
+                    "irelationentityid": 7,
+                    "urlparam": "",
+                    "widget_type": "selectmodel",
+                    "url": "vfm/ChooseEntity/ChooseEntity",
+                    "field_name": "rprjid",
+                    "iconstraint": 1,
+                    "ilength": 22,
+                    "inorule": 1,
+                    "idictionaryid": 0,
+                    "showdetail": true,
+                    "readonly": false,
+                    "iwidth": 0,
+                    "propertyType": 13,
+                    "imobileshow": 0,
+                    "all_line": 1,
+                    "itype": 0
+                },
+                {
+                    "ientityid": 64,
+                    "widget": {
+                        "load_template": [],
+                        "default_value": "1",
+                        "default_label": "核心新系统"
+                    },
+                    "iid": "1",
+                    "field_label": "所属系统",
+                    "validator": {
+                        "message": "输入内容不能为空！",
+                        "required": true
+                    },
+                    "irelationentityid": 81,
+                    "urlparam": "",
+                    "widget_type": "selectmodel",
+                    "url": "vfm/ChooseEntity/ChooseEntity",
+                    "field_name": "rsysid",
+                    "iconstraint": 0,
+                    "ilength": 22,
+                    "inorule": 1,
+                    "idictionaryid": 0,
+                    "showdetail": true,
+                    "readonly": false,
+                    "iwidth": 0,
+                    "propertyType": 13,
+                    "imobileshow": 0,
+                    "all_line": 1,
+                    "itype": 0
+                },
+                {
+                    "ientityid": 64,
+                    "widget": {
+                        "load_template": [{
+                            "label": "是",
+                            "value": 1
+                        },
+                        {
+                            "label": "否",
+                            "value": 2
+                        }],
+                        "default_value": "2",
+                        "default_label": "2"
+                    },
+                    "field_label": "是否重复",
+                    "validator": {
+                        "required": false
+                    },
+                    "default_value": 2,
+                    "irelationentityid": 0,
+                    "widget_type": "radio",
+                    "field_name": "isfcf",
+                    "iconstraint": 1,
+                    "ilength": 22,
+                    "inorule": 1,
+                    "idictionaryid": 231,
+                    "showdetail": true,
+                    "readonly": false,
+                    "iwidth": 0,
+                    "propertyType": 9,
+                    "imobileshow": 0,
+                    "all_line": 1,
+                    "default_label": "否",
+                    "itype": 0
+                },
+                {
+                    "ientityid": 64,
+                    "widget": {
+                        "load_template": [],
+                        "default_label": ""
+                    },
+                    "field_label": "是否重复描述",
+                    "validator": {
+                        "max": 400,
+                        "message": "请输入1~400个字符!",
+                        "required": false
+                    },
+                    "irelationentityid": 0,
+                    "widget_type": "text",
+                    "field_name": "ssfcfms",
+                    "iconstraint": 1,
+                    "ilength": 400,
+                    "inorule": 1,
+                    "idictionaryid": 0,
+                    "showdetail": true,
+                    "readonly": false,
+                    "iwidth": 0,
+                    "propertyType": 1,
+                    "imobileshow": 0,
+                    "all_line": 2,
+                    "itype": 0
+                },
+                {
+                    "ientityid": 64,
+                    "widget": {
+                        "default_value": "d",
+                        "default_label": "d"
+                    },
+                    "field_label": "缺陷描述",
+                    "validator": {
+                        "max": 2000,
+                        "message": "请输入1~2000个字符!",
+                        "required": true
+                    },
+                    "irelationentityid": 0,
+                    "widget_type": "textarea",
+                    "field_name": "sdescription",
+                    "iconstraint": 0,
+                    "ilength": 2000,
+                    "inorule": 1,
+                    "showdetail": true,
+                    "readonly": false,
+                    "iwidth": 0,
+                    "propertyType": 2,
+                    "imobileshow": 0,
+                    "all_line": 2,
+                    "itype": 0
+                },
+                {
+                    "ientityid": 64,
+                    "widget": {
+                        "load_template": [],
+                        "default_label": ""
+                    },
+                    "field_label": "图片",
+                    "validator": {
+                        "required": false
+                    },
+                    "irelationentityid": 0,
+                    "widget_type": "richtext",
+                    "field_name": "otp",
+                    "iconstraint": 1,
+                    "ilength": 4000,
+                    "inorule": 1,
+                    "idictionaryid": 0,
+                    "showdetail": true,
+                    "readonly": false,
+                    "iwidth": 0,
+                    "propertyType": 3,
+                    "imobileshow": 0,
+                    "all_line": 2,
+                    "itype": 0
+                },
+                {
+                    "ientityid": 64,
+                    "widget": {
+                        "load_template": [],
+                        "select_type": [{
+                            "label": "业务需求说明书",
+                            "value": "3"
+                        },
+                        {
+                            "label": "系统需求说明书",
+                            "value": "4"
+                        },
+                        {
+                            "label": "总体架构文档",
+                            "value": "1"
+                        },
+                        {
+                            "label": "软件设计说明书",
+                            "value": "2"
+                        },
+                        {
+                            "label": "用户场景描述",
+                            "value": "11"
+                        },
+                        {
+                            "label": "用户手册",
+                            "value": "12"
+                        },
+                        {
+                            "label": "投产报告",
+                            "value": "13"
+                        }]
+                    },
+                    "field_label": "附件",
+                    "validator": {
+                        "required": false
+                    },
+                    "widget_type": "upload",
+                    "field_name": "rattachment",
+                    "filestyle": 0,
+                    "iconstraint": 1,
+                    "ilength": 22,
+                    "inorule": 1,
+                    "showdetail": true,
+                    "readonly": false,
+                    "iwidth": 0,
+                    "propertyType": 12,
+                    "imobileshow": 0,
+                    "all_line": 2,
+                    "itype": 0,
+                    "ischosefiletype": "1"
+                }]
+            },
+            {
+                "group_scode": "sysinfo",
+                "group_label": "系统信息",
+                "group_type": 1,
+                "fields": [{
+                    "ientityid": 64,
+                    "widget": {
+                        "default_value": "bug2020000001",
+                        "default_label": "bug2020000001"
+                    },
+                    "field_label": "缺陷编号",
+                    "validator": {
+                        "required": false
+                    },
+                    "irelationentityid": 0,
+                    "widget_type": "text",
+                    "field_name": "scode",
+                    "iconstraint": 2,
+                    "ilength": 60,
+                    "inorule": 1,
+                    "showdetail": true,
+                    "readonly": true,
+                    "iwidth": 0,
+                    "propertyType": 1,
+                    "imobileshow": 0,
+                    "all_line": 1,
+                    "disabled": true,
+                    "itype": 0
+                },
+                {
+                    "ientityid": 64,
+                    "widget": {
+                        "default_value": "1",
+                        "default_label": "北京维普时代软件有限公司"
+                    },
+                    "iid": "1",
+                    "field_label": "部门",
+                    "validator": {
+                        "message": "输入内容不能为空！",
+                        "required": true
+                    },
+                    "irelationentityid": 1,
+                    "urlparam": "",
+                    "widget_type": "selectmodel",
+                    "url": "vfm/ChooseEntity/ChooseEntity",
+                    "field_name": "idepartmentid",
+                    "iconstraint": 0,
+                    "ilength": 22,
+                    "inorule": 1,
+                    "showdetail": true,
+                    "readonly": false,
+                    "iwidth": 0,
+                    "propertyType": 13,
+                    "imobileshow": 0,
+                    "all_line": 1,
+                    "itype": 0
+                },
+                {
+                    "ientityid": 64,
+                    "widget": {
+                        "load_template": [],
+                        "default_value": "1",
+                        "default_label": "管理员"
+                    },
+                    "iid": "1",
+                    "field_label": "分派给",
+                    "validator": {
+                        "message": "输入内容不能为空！",
+                        "required": true
+                    },
+                    "irelationentityid": 2,
+                    "urlparam": "",
+                    "widget_type": "selectmodel",
+                    "url": "vfm/ChooseEntity/ChooseEntity",
+                    "field_name": "rbugassigner",
+                    "iconstraint": 0,
+                    "ilength": 22,
+                    "inorule": 1,
+                    "idictionaryid": 0,
+                    "showdetail": true,
+                    "readonly": false,
+                    "iwidth": 0,
+                    "propertyType": 13,
+                    "imobileshow": 0,
+                    "all_line": 1,
+                    "itype": 0
+                },
+                {
+                    "ientityid": 64,
+                    "widget": {
+                        "default_value": "2",
+                        "default_label": "超级用户"
+                    },
+                    "iid": "1",
+                    "field_label": "创建人",
+                    "validator": {
+                        "required": false
+                    },
+                    "irelationentityid": 2,
+                    "urlparam": "",
+                    "widget_type": "selectmodel",
+                    "url": "vfm/ChooseEntity/ChooseEntity",
+                    "field_name": "icreator",
+                    "iconstraint": 2,
+                    "ilength": 22,
+                    "inorule": 1,
+                    "showdetail": true,
+                    "iwidth": 0,
+                    "propertyType": 13,
+                    "imobileshow": 0,
+                    "all_line": 1,
+                    "disabled": true,
+                    "itype": 0
+                },
+                {
+                    "ientityid": 64,
+                    "widget": {
+                        "default_value": "2020-03-07 14:11:15",
+                        "default_label": "2020-03-07 14:11:15"
+                    },
+                    "field_label": "创建时间",
+                    "validator": {
+                        "required": false
+                    },
+                    "widget_type": "datetime",
+                    "field_name": "dcreatordate",
+                    "iconstraint": 2,
+                    "ilength": 20,
+                    "inorule": 1,
+                    "showdetail": true,
+                    "iwidth": 0,
+                    "propertyType": 6,
+                    "imobileshow": 0,
+                    "all_line": 1,
+                    "disabled": true,
+                    "itype": 0
+                }]
+            }]
+        },
+        "ichanglecount": null,
+        "sublist": [],
+        "iuserid": "1",
+        "iparent": "-1"
+    },
+    "status": 200
+}

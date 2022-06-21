@@ -1,0 +1,88 @@
+.reportContainer{
+    color:#000;
+    font-size: 14px;
+    padding-bottom: 50px;
+    .ant-col-9{
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+    .ant-col-14{
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+    .calendar-ul{
+        width: 100%;
+        text-align: center;
+        line-height: 30px;
+        margin-top: 5px;
+        color: #fff;
+        li{
+            margin-bottom: 1px;
+            padding: 3px 0;
+            &.bg-gray {
+                color: #666;
+            }
+        }
+        
+    }
+    .p-static{
+        position: static;
+    }
+    .label::after{
+        content: ":";
+        margin: 0 8px 0 2px;
+        position: relative;
+        top: -0.5px;
+    }
+    .vertical-center{
+        position: absolute;
+        left: 20%;
+        top: 50%;
+        margin-top: -12px;  
+        &.left-10{
+            left: 10px;
+        }
+    }
+    .indic-success,
+    .indic-info,
+    .indic-warning,
+    .indic-danger {
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        margin: 0 5px 0 0;
+    }
+    .indic-success {
+        background-color: #1c84c6;
+    }
+    .indic-info {
+        background-color: #23c6c8;
+    }
+    .indic-warning {
+        background-color: #f8ac59;
+    }
+    .indic-danger {
+        background-color: #ed5565;
+    }
+    .height-30{
+        height: 30px;
+        line-height: 30px;
+    }
+    .tip-ul {
+        padding-left: 20px;
+        span {
+            width: 10px;
+            height: 10px;
+        }
+    }
+    .tip-box {
+        width: 400px;
+        margin: 10% auto;
+        i{
+            font-size: 100px;
+        }
+    }
+}

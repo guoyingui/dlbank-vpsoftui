@@ -1,0 +1,115 @@
+{
+    "timestamp": 1527730167197,
+    "infocode": "VP000000",
+    "msgparam": null,
+    "data": {
+        "numPerPage": 10,
+        "totalRows": 6,
+        "totalPages": 1,
+        "currentPage": 1,
+        "startIndex": 0,
+        "lastIndex": 6,
+        "grid": {
+            "fields": [{
+                "field_name": "scode",
+                "idatatype": 1,
+                "iconstraint": 1,
+                "field_sort": true,
+                "iwidth": 100,
+                "datatype": 1,
+                "field_label": "编号",
+                "itype": 0
+            }, {
+                "field_name": "sname",
+                "idatatype": 1,
+                "iconstraint": 1,
+                "field_sort": false,
+                "edit_col": true,
+                "auto": true,
+                "datatype": 1,
+                "field_label": "子系统",
+                "widget": {
+                    "widget_type": "text",
+                    "widget_name": "sname"
+                },
+                "itype": 0
+            }, {
+                "field_name": "idepartmentid",
+                "idatatype": 13,
+                "iconstraint": 1,
+                "field_sort": false,
+                "auto": true,
+                "datatype": 13,
+                "field_label": "模块",
+                "irelationentityid": 1,
+                "itype": 0
+            }, {
+                "field_name": "istatusid",
+                "idatatype": 13,
+                "iconstraint": 1,
+                "field_sort": false,
+                "iwidth": 200,
+                "datatype": 13,
+                "field_label": "功能点计数名称",
+                "itype": 0
+            }, {
+                "field_name": "iclassid",
+                "idatatype": 13,
+                "iconstraint": 1,
+                "field_sort": false,
+                "edit_col":true,
+                "widget": {
+                    "load_template": [{
+                            "value": "1",
+                            "label": "EI",
+                            "disabled": false
+                        },
+                        {
+                            "value": "2",
+                            "label": "EIF",
+                            "disabled": false
+                        },
+                        {
+                            "value": "3",
+                            "label": "EO",
+                            "disabled": false
+                        },
+                        {
+                            "value": "4",
+                            "label": "EQ",
+                            "disabled": false
+                        },
+                        {
+                            "value": "5",
+                            "label": "ILF",
+                            "disabled": false
+                        },
+                        {
+                            "value": "6",
+                            "label": "空白",
+                            "disabled": false
+                        }
+                    ],
+                    "default_value_name": "iclassidval",
+                    "widget_type": "select",
+                    "widget_name": "iclassid"
+                },
+                "iwidth": 150,
+                "datatype": 13,
+                "field_label": "估算类别",
+                "itype": 0
+            }, {
+                "field_name": "num",
+                "idatatype": 13,
+                "iconstraint": 1,
+                "field_sort": false,
+                "iwidth": 150,
+                "datatype": 13,
+                "field_label": "UFP",
+                "irelationentityid": 7,
+                "itype": 0
+            }]
+        }
+    },
+    "msg": "VP000000"
+}

@@ -1,0 +1,209 @@
+{
+    "timestamp": 1527730167197,
+    "infocode": "VP000000",
+    "msgparam": null,
+    "data": {
+        "numPerPage": 10,
+        "totalRows": 6,
+        "totalPages": 1,
+        "currentPage": 1,
+        "startIndex": 0,
+        "lastIndex": 6,
+        "grid": {
+            "fields": [
+                {
+                    "field_name": "sname",
+                    "idatatype": 1,
+                    "iconstraint": 1,
+                    "field_sort": false,
+                    "iwidth": 100,
+                    "datatype": 1,
+                    "field_label": "名称",
+                    "itype": 0
+                },
+                {
+                    "field_name": "scode",
+                    "idatatype": 1,
+                    "iconstraint": 1,
+                    "field_sort": true,
+                    "iwidth": 100,
+                    "datatype": 1,
+                    "field_label": "编号",
+                    "itype": 0
+                },
+                {
+                    "field_name": "s1",
+                    "idatatype": 1,
+                    "iconstraint": 1,
+                    "field_sort": true,
+                    "iwidth": 100,
+                    "datatype": 1,
+                    "field_label": "功能点数",
+                    "itype": 0
+                },
+                {
+                    "field_name": "s2",
+                    "idatatype": 2,
+                    "iconstraint": 1,
+                    "field_sort": false,
+                    "iwidth": 100,
+                    "datatype": 2,
+                    "field_label": "主办系统",
+                    "itype": 0
+                },
+                {
+                    "field_name": "s3",
+                    "idatatype": 2,
+                    "iconstraint": 1,
+                    "field_sort": false,
+                    "iwidth": 100,
+                    "datatype": 2,
+                    "field_label": "工作量",
+                    "itype": 0
+                },
+                {
+                    "field_name": "s4",
+                    "idatatype": 2,
+                    "iconstraint": 1,
+                    "field_sort": false,
+                    "iwidth": 100,
+                    "datatype": 2,
+                    "field_label": "负责人",
+                    "itype": 0
+                },
+                {
+                    "field_name": "s5",
+                    "idatatype": 2,
+                    "iconstraint": 1,
+                    "field_sort": false,
+                    "iwidth": 100,
+                    "datatype": 2,
+                    "field_label": "状态",
+                    "itype": 0
+                },
+                {
+                    "field_name": "s6",
+                    "idatatype": 2,
+                    "iconstraint": 1,
+                    "field_sort": false,
+                    "iwidth": 100,
+                    "datatype": 2,
+                    "field_label": "创建时间",
+                    "itype": 0
+                },
+                {
+                    "field_name": "s7",
+                    "idatatype": 2,
+                    "iconstraint": 1,
+                    "field_sort": false,
+                    "iwidth": 100,
+                    "datatype": 2,
+                    "field_label": "评估时间",
+                    "itype": 0
+                },
+                {
+                    "field_name": "s8",
+                    "idatatype": 2,
+                    "iconstraint": 1,
+                    "field_sort": false,
+                    "iwidth": 100,
+                    "datatype": 2,
+                    "field_label": "项目名称",
+                    "itype": 0
+                },
+                {
+                    "field_name": "s9",
+                    "idatatype": 2,
+                    "iconstraint": 1,
+                    "field_sort": false,
+                    "iwidth": 100,
+                    "datatype": 2,
+                    "field_label": "项目类型",
+                    "itype": 0
+                },
+                {
+                    "field_name": "s10",
+                    "idatatype": 2,
+                    "iconstraint": 1,
+                    "field_sort": false,
+                    "iwidth": 100,
+                    "datatype": 2,
+                    "field_label": "项目状态",
+                    "itype": 0
+                },
+                {
+                    "field_name": "s11",
+                    "idatatype": 2,
+                    "iconstraint": 1,
+                    "field_sort": false,
+                    "iwidth": 100,
+                    "datatype": 2,
+                    "field_label": "项目经理",
+                    "itype": 0
+                }
+            ]
+        },
+        "resultList": [
+            {
+                "iid": "1",
+                "scode": "1",
+                "sname": "L需求1",
+                "key": "1",
+                "s1": "100",
+                "s2": "L1",
+                "s3": "100",
+                "s4": "许三多",
+                "s5": "",
+                "s6": "",
+                "s7": "",
+                "s8": "",
+                "s9": "",
+                "s10": "",
+                "s11": "",
+                "children": [
+                    {
+                        "iid": "22",
+                        "idpttype": "0",
+                        "scode": "1.1",
+                        "sname": "R需求1.1",
+                        "key": "32"
+                    },
+                    {
+                        "iid": "23",
+                        "idpttype": "0",
+                        "scode": "1.2",
+                        "sname": "R需求1.2",
+                        "key": "33",
+                        "children": [
+                            {
+                                "iid": "222",
+                                "idpttype": "0",
+                                "scode": "1.2.1",
+                                "pid": "0",
+                                "sname": "C变更1.2.1",
+                                "key": "322"
+                            },
+                            {
+                                "iid": "223",
+                                "idpttype": "0",
+                                "scode": "1.2.2",
+                                "pid": "0",
+                                "sname": "T测试1.2.1.1",
+                                "key": "333"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "iid": "2",
+                "idpttype": "0",
+                "scode": "2",
+                "sname": "L需求2",
+                "key": "2"
+            }
+            
+        ]
+    },
+    "msg": "VP000000"
+}

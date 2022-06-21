@@ -1,0 +1,28 @@
+{
+    "timestamp": 1527730167195,
+    "infocode": "VP000000",
+    "msgparam": null,
+    "data": {
+        "data": [{
+            "name": "待审核",
+            "current": true,
+            "value": "1"
+        }, {
+            "name": "审核中",
+            "value": "2"
+        }, {
+            "name": "已审核",
+            "value": "3"
+        }, {
+            "name": "已入库",
+            "value": "4"
+        }, {
+            "name": "审核未通过",
+            "value": "5"
+        }, {
+            "name": "全部",
+            "value": "6"
+        }]
+    },
+    "msg": "VP000000"
+}

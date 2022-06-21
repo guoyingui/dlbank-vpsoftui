@@ -1,0 +1,36 @@
+{
+    "timestamp": 1527730167185,
+    "infocode": "VP000000",
+    "msgparam": null,
+    "data": {
+        "field_name": "dictionary",
+        "widget_type": "dictionary",
+        "select_type": "select",
+        "onchange": "onChange",
+        "onsearch": "onSearch",
+        "validator": {},
+        "field_label": "数据字典",
+        "all_line": 1,
+        "widget": {
+            "default_value": "0",
+            "load_template": [{
+                "value": "0",
+                "label": "北京"
+            },
+            {
+                "value": "1",
+                "label": "上海"
+            },
+            {
+                "value": "2",
+                "label": "杭州"
+            },
+            {
+                "value": "3",
+                "label": "武汉"
+            }],
+            "search_url": "/pages/Json/dictionaryoptions.json"
+        }
+    },
+    "msg": "VP000000"
+}

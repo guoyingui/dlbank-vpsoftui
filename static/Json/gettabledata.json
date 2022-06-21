@@ -1,0 +1,52 @@
+{
+    "timestamp": 1527730167197,
+    "infocode": "VP000000",
+    "msgparam": null,
+    "data": {
+        "numPerPage": 10,
+        "totalRows": 3,
+        "totalPages": 1,
+        "currentPage": 1,
+        "startIndex": 0,
+        "lastIndex": 6,
+        "resultList": [
+            {
+                "idepartmentid": "机构管理",
+                "iid": "1",
+                "sname": "预约中心运营平台（A端）",
+                "istatusid": "机构信息",
+                "iclassid": "EI",
+                "iclassidval": "1",
+                "num": "1",
+                "idepartmentidval": "1",
+                "scode": "111",
+                "key": "1"
+            },
+            {
+                "idepartmentid": "机构管理",
+                "iid": "2",
+                "sname": "预约中心运营平台（A端）",
+                "istatusid": "机构信息",
+                "iclassid": "EI",
+                "iclassidval": "1",
+                "num": "1",
+                "idepartmentidval": "1",
+                "scode": "222",
+                "key": "1"
+            },
+            {
+                "idepartmentid": "机构管理",
+                "iid": "3",
+                "sname": "预约中心运营平台（A端）",
+                "istatusid": "机构信息",
+                "iclassid": "EI",
+                "iclassidval": "1",
+                "num": "1",
+                "idepartmentidval": "1",
+                "scode": "333",
+                "key": "1"
+            }
+        ]
+    },
+    "msg": "VP000000"
+}

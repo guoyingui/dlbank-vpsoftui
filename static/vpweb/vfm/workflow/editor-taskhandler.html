@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>工作流</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Cache-control" content="no-cache">
+<meta http-equiv="Cache" content="no-cache">
+<link rel="shortcut icon" href="img/favicon.ico">
+<link href="../../css/bootstrap.min.css?v=3.3.6" rel="stylesheet">
+<link href="../../css/font-awesome.min.css?v=4.7.0" rel="stylesheet">
+<link href="../../css/animate.css" rel="stylesheet">
+<link href="../../css/plugins/datapicker/datepicker3.css"	rel="stylesheet">
+<link href="../../css/plugins/awesome-bootstrap-checkbox/awesome-bootstrap-checkbox.css" rel="stylesheet">
+	
+<!-- zTree树表 -->
+<link href="../../css/plugins/zTree/zTreeStyle/zTreeStyle.css"	rel="stylesheet">
+<!-- layUI表格 -->
+<link rel="stylesheet" href="../../js/plugins/layui/css/layui.css"	media="all">
+<link href="../../css/style.css?v=4.1.0" rel="stylesheet">
+<link href="../../css/common.css" rel="stylesheet">
+<link href="../../css/vp.css" rel="stylesheet">
+    <script src="../../../vpcommon/config.js"></script>
+    <script src="../../../vpcommon/vputils.min.js"></script>
+<!--[if lte IE 9]>
+        <script src="../../js/html5shiv.min.js"></script>
+        <script src="../../js/respond.js"></script>
+    <![endif]-->
+</head>
+<body>
+	<div class="ibox" id="app">
+		<div class="ibox-content newverison" >
+			 <form class="form-horizontal m-t" id="oForm" novalidate="novalidate">
+	            <div class="form-group">
+	                <label class="col-xs-3 text-right control-label">设定模式：</label>
+	                <div class="col-xs-8">
+	                	<div class="radio radio-info radio-inline">
+							<input type="radio" id="isetmodel3" value="2" name="isetmode" checked="true">
+							<label for="isetmodel3">运行时指定</label>
+						</div>
+						<div class="radio radio-info radio-inline">
+							<input type="radio" id="isetmodel2" value="1" name="isetmode">
+							<label for="isetmodel2">发起人指定</label>
+						</div>
+						<div class="radio radio-info radio-inline">
+							<input type="radio" id="isetmodel1" value="0" name="isetmode">
+							<label for="isetmodel1">配置时指定</label>
+						</div>
+	                </div>
+	            </div>
+	            <div class="form-group">
+	                <label class="col-xs-3 text-right control-label">设定范围：</label>
+	                <div class="col-xs-8">
+	                    <div class="radio radio-info radio-inline">
+							<input type="radio" id="iusermode1" value="0" name="iusermode" checked="true">
+							<label for="iusermode1">不限定</label>
+						</div>
+						<div class="radio radio-info radio-inline">
+							<input type="radio" id="iusermode2" value="1" name="iusermode">
+							<label for="iusermode2">特定人员</label>
+						</div>
+						<div class="radio radio-info radio-inline">
+							<input type="radio" id="iusermode3" value="2" name="iusermode">
+							<label for="iusermode3">特定组</label>
+						</div>
+						<div class="radio radio-info radio-inline">
+							<input type="radio" id="iusermode4" value="3" name="iusermode">
+							<label for="iusermode4">特定角色</label>
+						</div>
+						<div class="radio radio-info radio-inline">
+							<input type="radio" id="iusermode5" value="4" name="iusermode">
+							<label for="iusermode5">流程中步骤</label>
+						</div>
+						<div class="radio radio-info radio-inline">
+							<input type="radio" id="iusermode6" value="5" name="iusermode">
+							<label for="iusermode6">自定义</label>
+						</div>
+	                </div>
+	            </div>
+	            <div class="form-group hidegroup group1">
+					<label class="col-xs-3 text-right control-label">处理人：</label>
+					<div class="col-xs-8">
+						<input id="suserid" name="suserid" type="hidden"/>
+					    <input id="usernames" name="usernames" placeholder="处理人" type="text" class="form-control padding-left-10 vp-radius" required="" aria-required="true" onclick="toSearchFlowuser();">
+					</div>
+				</div>
+	            <div class="form-group hidegroup group2">
+					<label class="col-xs-3 text-right control-label">处理组：</label>
+					<div class="col-xs-8">
+						<input id="sgroupid" name="sgroupid" type="hidden"/>
+					    <input id="groupnames" name="groupnames" placeholder="处理组" type="text" class="form-control padding-left-10 vp-radius" required="" aria-required="true" onclick="toSearchFlowgroup();">
+					</div>
+				</div>
+	            <div class="form-group hidegroup group4">
+					<label class="col-xs-3 text-right control-label">处理角色：</label>
+					<div class="col-xs-8">
+						<input id="sroleid" name="sroleid" type="hidden"/>
+					    <input id="srolename" name="srolename" placeholder="处理角色" type="text" class="form-control padding-left-10 vp-radius" required="" aria-required="true" onclick="toSearchRole();">
+					</div>
+				</div>
+	            <div class="form-group hidegroup group4_1">
+					<label class="col-xs-3 text-right control-label">特定部门：</label>
+					<div class="col-xs-8">
+						<input id="sdepartid" name="sdepartid" type="hidden"/>
+					    <input id="sdepartname" name="sdepartname" placeholder="特定部门" type="text" class="form-control padding-left-10 vp-radius" required="" aria-required="true" onclick="toSearchDepart();">
+					</div>
+				</div>
+	            <div class="form-group hidegroup group5">
+					<label class="col-xs-3 text-right control-label">特定步骤：</label>
+					<div class="col-xs-8">
+						<input id="stepid" name="stepid" type="hidden"/>
+					    <input id="steprelname" name="steprelname" placeholder="特定步骤" type="text" class="form-control padding-left-10 vp-radius" required="" aria-required="true" onclick="toSearchStep();">
+					</div>
+				</div>
+	            <div class="form-group hidegroup group6">
+					<label class="col-xs-3 text-right control-label">Rest接口：</label>
+					<div class="col-xs-8">
+					    <input id="scustrest" name="scustrest" placeholder="输入自定义实现rest接口，例如/xxprovider/flowuser/set" type="text" class="form-control padding-left-10 vp-radius" required="" aria-required="true">
+					</div>
+				</div>
+	            <div class="form-group">
+	                <label class="col-xs-3 text-right control-label">处理模式：</label>
+	                <div class="col-xs-8">
+	                    <div class="radio radio-info radio-inline">
+							<input type="radio" id="iprocessmode1" value="0" name="iprocessmode" checked="true">
+							<label for="iprocessmode1">抢占</label>
+						</div>
+						<div class="radio radio-info radio-inline">
+							<input type="radio" id="iprocessmode2" value="1" name="iprocessmode">
+							<label for="iprocessmode2">顺序</label>
+						</div>
+						<div class="radio radio-info radio-inline">
+							<input type="radio" id="iprocessmode3" value="2" name="iprocessmode">
+							<label for="iprocessmode3">会签</label>
+						</div>
+	                </div>
+	            </div>
+	            <div class="form-group hidegroup group3">
+					<label class="col-xs-3 text-right control-label">会签规则：</label>
+					<div class="col-xs-8 sub-head">
+					    <input id="ssignrule" name="ssignrule" placeholder="会签通过的百分比" type="text" class="form-control padding-left-30 padding-right-30 vp-radius" required="" aria-required="true">
+						<i class="fa">%</i>
+					</div>
+				</div>
+	            <div class="form-group">
+	                <label class="col-xs-3 text-right control-label">最近处理者：</label>
+	                <div class="col-xs-8">
+	                    <div class="radio radio-info radio-inline">
+							<input type="radio" id="ilastuserflag1" value="0" name="ilastuserflag" checked="true">
+							<label for="ilastuserflag1">允许修改</label>
+						</div>
+						<div class="radio radio-info radio-inline">
+							<input type="radio" id="ilastuserflag2" value="1" name="ilastuserflag">
+							<label for="ilastuserflag2">禁止修改</label>
+						</div>
+	                </div>
+	            </div>
+	            <div class="form-group">
+	                <label class="col-xs-3 text-right control-label">流转模式：</label>
+	                <div class="col-xs-8">
+	                    <div class="radio radio-info radio-inline">
+							<input type="radio" id="ijump1" value="0" name="ijump" >
+							<label for="ijump1">自由流程</label>
+						</div>
+						<div class="radio radio-info radio-inline">
+							<input type="radio" id="ijump2" value="1" name="ijump" checked="true">
+							<label for="ijump2">按流程定义流转</label>
+						</div>
+						<div class="radio radio-info radio-inline" title="">
+							<input type="radio" id="ijump3" value="2" name="ijump">
+							<label for="ijump3">自动完成(只适合第一个节点)</label>
+						</div>
+	                </div>
+	            </div>
+	        </form>
+		</div>
+		<div class="text-center">
+			<button type="button" class="btn btn-sm btn-outline btn-primary" id="saveBtn">保存</button>
+		</div>
+	</div>
+</body>
+<!-- 全局js -->
+<script src="../../js/jquery-1.11.3.min.js"></script>
+<!--[if IE 8]>
+	<script type="text/javascript" src="../../js/jquery-1.9.1.min.js"></script>
+	<![endif]-->
+<script src="../../js/bootstrap.min.js?v=3.3.6"></script>
+<!-- 自定义js -->
+<script src="../../js/content.js?v=1.0.0"></script>
+<!-- 日期控件 -->
+<script src="../../js/plugins/datapicker/bootstrap-datepicker.js"></script>
+<!-- layer弹出层 -->
+<script src="../../js/plugins/layer/layer.min.js"></script>
+<script src="../../js/plugins/layui/layui.js"></script>
+<!-- 下拉选择列表 -->
+<script src="../../js/plugins/chosen/chosen.jquery.js"></script>
+<!-- jQuery 表单验证-->
+<script src="../../js/plugins/validate/jquery.validate.min.js"></script>
+<script src="../../js/plugins/validate/messages_zh.min.js"></script>
+<!-- zTree模拟树表 -->
+<script src="../../js/plugins/zTree/jquery.ztree.all.min.js"></script>
+<script src="../../js/vpsoft/TreeTable.js"></script>
+<script src="../../js/vpsoft/common.js"></script>
+<script src="../../js/vpsoft/form.js"></script>
+<script src="../../js/plugins/iCheck/icheck.min.js"></script>
+<script src="../../js/vue.js"></script>
+<script src="../../js/vpsoft/getUrlParam.js"></script>
+<script>
+var flowkey = UrlParm.parm("flowkey");
+var stepkey = UrlParm.parm("stepkey");
+var steptype = UrlParm.parm("steptype");
+var stepname = UrlParm.parm("stepname");
+
+function toSearchFlowgroup(){
+    /*
+	parent.parent.parent.layer.open({
+		type: 2,
+		shade: false,
+		title: '流程用户组',
+		area: ['60%', '420px'], //宽高
+		btn: ['确定', '取消'],
+		btnAlign:'c',
+		content: ['editor-taskusergroup.html?groupids='+$("#sgroupid").val()],
+		success: function(layero, index){
+			layero.find('.layui-layer-btn').css('text-align', 'center');
+		},
+		yes: function(index, layero){
+			//var resData = $(layero).find("iframe")[0].contentWindow.returnData();
+            var arr = $("#outlist>option", layero.find("iframe")[0].contentWindow.document);
+            var groupids = arr.map(function () {
+                return this.value;
+            }).get().join(",");
+            var groupnames = arr.map(function () {
+                return this.text;
+            }).get().join(",");
+            $("#sgroupid").val(groupids);
+            $("#groupnames").val(groupnames);
+            parent.parent.parent.layer.close(index);
+		}
+	});
+	*/
+
+    toSearch('groupnames', "flowgroup", function (data) {
+		$('#sgroupid').val(data);
+	});
+}
+
+function toSearchRole(){
+    toSearch('srolename', "flowrole", function (data) {
+		$('#sroleid').val(data);
+		if (data == -2) {
+			$(".group4_1").show();
+		}
+		else {
+			$(".group4_1").hide();
+		}
+	});
+}
+
+function toSearchStep(){
+    toSearch('steprelname', "flowstep", function (data) {
+		$('#stepid').val(data);
+	});
+}
+
+function toSearchDepart(){
+    toSearch('sdepartname', "1", function (data) {
+		$('#sdepartid').val(data);
+	});
+}
+
+//调用
+function toSearchFlowuser(){
+	toSearch('usernames', 2, function (data) {
+		$('#suserid').val(data);
+	});
+}
+
+//选择框
+function toSearch(objid, entityID, callback) {
+	var cfg = new Object();
+	cfg.entityID = entityID;
+	if (entityID == '1')
+	{	
+		cfg.multiple = false;
+	}
+	else {
+		cfg.multiple = true;
+	}
+	var array = new Array();
+	try {
+		cfg.checkedObj = array;
+	} catch (e) {
+	}
+	
+	cfg.condition = "";
+	cfg.custparam = '{ "flowkey": "'+flowkey+'", "stepkey":"'+stepkey+'"}';
+	cfg.width = "70%";//设置弹框宽度
+	cfg.height = "70%";//设置弹框高度
+	parent.parent.parent.Chosen.chosenEntity(cfg, function(data) {
+		var ids = "";
+		var names = "";
+		if (data.length > 0) {
+			for (var i = 0; i < data.length; i++) {
+				if (i == 0) {
+					ids = data[0].id;
+					names = data[0].sname;
+				} else {
+					ids = ids + "," + data[i].id;
+					names = names + "," + data[i].sname;
+				}
+			}
+			$('#' + objid).val(names);
+			$('#' + objid).attr("hidID", ids);
+			callback(ids);
+		} else {
+			$('#' + objid).val('');
+			callback('');
+		}
+	});
+}
+
+$.ajaxSettings.async = false;
+jQuery.getJSON(getWorkflowPath() + "/rest/editor/user", {"flowkey": flowkey, "stepkey": stepkey}, function (result) {
+	//console.log(JSON.stringify(result));
+	if (result.data != null) {
+		$('#suserid').val(result.data.suserid);
+		$('#usernames').val(result.data.usernames);
+		$('#usernames').attr("hidID", result.data.suserid);
+        $('#groupnames').val(result.data.groupnames);
+        $('#groupnames').attr("hidID", result.data.sgroupid);
+		$('#sgroupid').val(result.data.sgroupid);
+		$('#ssignrule').val(result.data.ssignrule);
+        $('#sdepartname').val(result.data.sdepartname);
+        $('#srolename').val(result.data.srolename);
+        $('#sroleid').val(result.data.sroleid);
+        $('#steprelname').val(result.data.steprelname);
+        $('#scustrest').val(result.data.scustrest);
+		
+		$("input[name=ijump][value='" + result.data.ijump + "']").attr("checked", true);
+		$("input[name=ilastuserflag][value='" + result.data.ilastuserflag + "']").attr("checked", true);
+		$("input[name=isetmode][value='" + result.data.isetmode + "']").attr("checked", true);
+		//alert(result.data.iusermode);
+		$("input[name=iusermode][value='" + result.data.iusermode + "']").attr("checked", true);
+		$("input[name=iprocessmode][value='" + result.data.iprocessmode + "']").attr("checked", true);
+		usermodeclick(result.data.iusermode);
+		processmodeclick(result.data.iprocessmode);
+	}
+});
+$("#saveBtn").click(function(){
+	var form = $("#oForm");
+	var validator = form.validate({
+		rules: {
+			ssignrule: {
+				number: true
+			}
+		}
+	});
+	if (!validator.form()) {
+		return;
+	}
+	$("#saveBtn").attr('disabled', "true");
+	var param = form.serializeJSON();
+	param['flowkey'] = flowkey;
+	param['stepkey'] = stepkey;
+	/*
+	jQuery.post(getWorkflowPath()+"/rest/flowuser",param,function(result){
+	});
+	*/
+	$.ajax({
+		type : 'POST',
+		cache : false,
+		async : true,
+		url : getWorkflowPath()+"/rest/editor/user",
+		dataType : "json",
+		data : param ,
+		success : function(result) {
+			$("#saveBtn").removeAttr('disabled');
+		},
+		error : function(xhr, ajaxOptions, thrownError) {
+		}
+	});
+});
+
+function usermodeclick(index){
+	if(index == 0){
+		$(".group1").hide();
+		$(".group2").hide();
+		$(".group4").hide();
+		$(".group4_1").hide();
+		$(".group5").hide();
+		$(".group6").hide();
+	}else if(index == 1){
+		$(".group1").show();
+		$(".group2").hide();
+		$(".group4").hide();
+		$(".group4_1").hide();
+		$(".group5").hide();
+		$(".group6").hide();
+	}else if(index == 2){
+		$(".group1").hide();
+		$(".group2").show();
+		$(".group4").hide();
+		$(".group4_1").hide();
+		$(".group5").hide();
+		$(".group6").hide();
+	}else if(index == 3){
+		$(".group1").hide();
+		$(".group2").hide();
+		$(".group4").show();
+		if ($('#sroleid').val() == -2) {
+			$(".group4_1").show();
+		}
+		else {
+			$(".group4_1").hide();
+		}
+		$(".group5").hide();
+		$(".group6").hide();
+	}else if(index == 4){
+		$(".group1").hide();
+		$(".group2").hide();
+		$(".group4").hide();
+		$(".group4_1").hide();
+		$(".group5").show();
+		$(".group6").hide();
+	}else if(index == 5){
+		$(".group1").hide();
+		$(".group2").hide();
+		$(".group4").hide();
+		$(".group4_1").hide();
+		$(".group5").hide();
+		$(".group6").show();
+	}
+}
+
+function processmodeclick(index){ // 会签规则控制
+	if(index == 2){
+		$(".group3").show();
+	}else{
+		$(".group3").hide();
+	}
+}
+
+jQuery("input[name=iusermode]").click(function () {
+	var index = $(":radio[name='iusermode']").index($(this));
+	usermodeclick(index);
+});
+
+jQuery("input[name=iprocessmode]").click(function(){
+	var index = $(":radio[name='iprocessmode']").index($(this));
+	processmodeclick(index);
+});
+
+</script>
+</html>

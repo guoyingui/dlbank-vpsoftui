@@ -1,0 +1,46 @@
+{
+    "timestamp": 1527579616941,
+    "infocode": "VP000000",
+    "msgparam": null,
+    "data": [
+        {
+            "group_title": "A",
+            "group_show": true,
+            "group_data": [
+                {
+                    "name": "a1",
+                    "value": "valuea1",
+                    "htmlName": "<div style='color:red'>a1</div>",
+                    "disabled": false
+                },
+                {
+                    "name": "a2",
+                    "value": "valuea2",
+                    "disabled": false				
+                }
+            ]
+        },
+        {
+            "group_title": "N",
+            "group_show": true,
+            "group_data": [
+                {
+                    "name": "name1",
+                    "value": "value1",
+                    "disabled": false
+                },
+                {
+                    "name": "name2",
+                    "value": "value2",
+                    "disabled": false				
+                },
+                {
+                    "name": "n2",
+                    "value": "v2",
+                    "disabled": true				
+                }
+            ]
+        }
+    ],
+    "msg": "VP000000"
+}

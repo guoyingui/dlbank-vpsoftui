@@ -1,0 +1,25 @@
+{
+    "timestamp": 1527730167206,
+    "infocode": "VP000000",
+    "msgparam": null,
+    "data": {
+        "tabs": [{
+            "type": 1,
+            "field_label": "高层计划",
+            "url": "demo/TabDemo1/index"
+        }, {
+            "type": 1,
+            "field_label": "团队",
+            "url": "demo/TabDemo4/index"
+        }, {
+            "type": 1,
+            "field_label": "需求",
+            "url": "demo/TabDemo2/index"
+        }, {
+            "type": 0,
+            "field_label": "测试",
+            "url": "www.baidu.com"
+        }]
+    },
+    "msg": "VP000000"
+}

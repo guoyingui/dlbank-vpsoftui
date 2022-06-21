@@ -1,0 +1,33 @@
+{
+    "data": {
+        "load_template": [
+            {
+                "value": "12",
+                "label": "测试1",
+                "disabled": false
+            },
+            {
+                "value": "22",
+                "label": "测试2",
+                "disabled": false
+            },
+            {
+                "value": "32",
+                "label": "测试3",
+                "disabled": false
+            },
+            {
+                "value": "42",
+                "label": "测试4",
+                "disabled": false
+            },
+            {
+                "value": "52",
+                "label": "测试5",
+                "disabled": false
+            }
+        ]
+    },
+    "status": "success",
+    "infocode": "VP000000"
+}

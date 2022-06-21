@@ -1,0 +1,31 @@
+{
+    "timestamp": 1527730167195,
+    "infocode": "VP000000",
+    "msgparam": null,
+    "data": {
+        "data": [{
+            "name": "我负责的",
+            "current": true,
+            "value": "1"
+        }, {
+            "name": "全部",
+            "value": "2"
+        }, {
+            "name": "有红灯",
+            "value": "3"
+        }, {
+            "name": "流程中 ",
+            "value": "4"
+        }, {
+            "name": "已关闭",
+            "value": "5"
+        }, {
+            "name": "新建类",
+            "value": "7"
+        }, {
+            "name": "维护类",
+            "value": "8"
+        }]
+    },
+    "msg": "VP000000"
+}

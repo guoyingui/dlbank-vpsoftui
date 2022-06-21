@@ -1,0 +1,62 @@
+{
+    "data": {
+        "grid":{
+            "fields":[
+                {
+                    "field_name":"ssequencekey",
+                    "fixed":"none",
+                    "field_label":""
+                },
+                {
+                    "field_name":"iflag",
+                    "fixed":"none",
+                    "field_label":"文件计数规模(FP)"
+                },
+                {
+                    "field_name":"istatusid",
+                    "fixed":"none",
+                    "field_label":"调整后规模(FP)"
+                },
+                {
+                    "field_name":"iclassid",
+                    "fixed":"none",
+                    "field_label":"功能点耗时率(人时/FP)"
+                },
+                {
+                    "field_name":"iaddress",
+                    "fixed":"none",
+                    "field_label":"调整后工作量(人月)"
+                }
+            ]
+        },
+        "resultList":[
+            {
+                "ssequencekey":"下限",
+                "istatusid":"587",
+                "iclassid":"6.35",
+                "iflag":"391",
+                "iaddress": "69.90"
+            },
+            {
+                "ssequencekey":"标准值",
+                "istatusid":"587",
+                "iclassid":"7.06",
+                "iflag":"391",
+                "iaddress": "77.67"
+            },
+            {
+                "ssequencekey":"上限",
+                "istatusid":"587",
+                "iclassid":"7.77",
+                "iflag":"391",
+                "iaddress": "85.43"
+            }
+        ],
+        "numPerPage": 10,
+        "totalRows": 10,
+        "totalPages": 1,
+        "currentPage": 1
+    },
+    "status": "success",
+    "infocode": "VP000000"
+}

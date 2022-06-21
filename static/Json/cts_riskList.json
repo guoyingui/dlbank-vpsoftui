@@ -1,0 +1,204 @@
+{
+    "timestamp": 1527730167197,
+    "infocode": "VP000000",
+    "msgparam": null,
+    "data": {
+        "grid": {
+            "fields": [
+                
+                {
+                    "field_name": "title",
+                    "field_label": "部门名称"
+                },
+                {
+                    "field_name": "propose",
+                    "field_label": "所属项目"
+                },
+                {
+                    "field_name": "code",
+                    "field_label": "风险编号"
+                },
+                {
+                    "field_name": "risktitle",
+                    "field_label": "风险名称"
+                },
+                {
+                    "field_name": "riskdes",
+                    "field_label": "风险简述"
+                },
+                {
+                    "field_name": "describe",
+                    "field_label": "风险类别"
+                },
+                {
+                    "field_name": "completionDate",
+                    "field_label": "识别日期"
+                },
+                {
+                    "field_name": "progress",
+                    "field_label": "严重性"
+                },
+                {
+                    "field_name": "charge",
+                    "field_label": "当前处理人"
+                },
+                {
+                    "field_name": "status",
+                    "field_label": "风险状态"
+                },
+                {
+                    "field_name": "department",
+                    "field_label": "当前滞留时长"
+                }
+            ]
+        },
+        "resultList": [
+            {
+                "iid": "1",
+                "title": "产品交付部",
+                "propose": "北京银行项目管理系统",
+                "code": "FX20170923723",
+                "risktitle": "行方开发部评审还未确定",
+                "riskdes": "",
+                "describe": "管理类",
+                "completionDate": "",
+                "progress": "中等",
+                "charge": "段云飞",
+                "status": "新建",
+                "department": "453天"
+            },
+            {
+                "iid": "2",
+                "title": "产品交付部",
+                "propose": "顺德农商银行项目管理系统",
+                "code": "FX201806081047",
+                "risktitle": "源代码管理部分风险",
+                "riskdes": "",
+                "describe": "技术类",
+                "completionDate": "",
+                "progress": "中等",
+                "charge": "王海瑞",
+                "status": "新建",
+                "department": "195天"
+            },
+            {
+                "iid": "3",
+                "title": "产品交付部",
+                "propose": "光大项目管理平台实施",
+                "code": "FX20180518955",
+                "risktitle": "test",
+                "riskdes": "",
+                "describe": "管理类",
+                "completionDate": "",
+                "progress": "低",
+                "charge": "黄君兰",
+                "status": "新建",
+                "department": "216天"
+            },
+            {
+                "iid": "4",
+                "title": "产品交付部",
+                "propose": "上海银行应用开发全流程",
+                "code": "FX20170923723",
+                "risktitle": "数据中心项目流程",
+                "riskdes": "",
+                "describe": "技术类",
+                "completionDate": "",
+                "progress": "高",
+                "charge": "李永印",
+                "status": "新建",
+                "department": "67天"
+            },
+            {
+                "iid": "5",
+                "title": "产品交付部",
+                "propose": "北京银行项目管理系统",
+                "code": "FX20170923723",
+                "risktitle": "行方开发部评审还未确定",
+                "riskdes": "",
+                "describe": "管理类",
+                "completionDate": "",
+                "progress": "中等",
+                "charge": "段云飞",
+                "status": "新建",
+                "department": "453天"
+            },
+            {
+                "iid": "6",
+                "title": "产品交付部",
+                "propose": "北京银行项目管理系统",
+                "code": "FX20170923723",
+                "risktitle": "行方开发部评审还未确定",
+                "riskdes": "",
+                "describe": "管理类",
+                "completionDate": "",
+                "progress": "中等",
+                "charge": "段云飞",
+                "status": "新建",
+                "department": "453天"
+            },
+            {
+                "iid": "7",
+                "title": "产品交付部",
+                "propose": "北京银行项目管理系统",
+                "code": "FX20170923723",
+                "risktitle": "行方开发部评审还未确定",
+                "riskdes": "",
+                "describe": "管理类",
+                "completionDate": "",
+                "progress": "中等",
+                "charge": "段云飞",
+                "status": "新建",
+                "department": "453天"
+            },
+            {
+                "iid": "8",
+                "title": "产品交付部",
+                "propose": "北京银行项目管理系统",
+                "code": "FX20170923723",
+                "risktitle": "行方开发部评审还未确定",
+                "riskdes": "",
+                "describe": "管理类",
+                "completionDate": "",
+                "progress": "中等",
+                "charge": "段云飞",
+                "status": "新建",
+                "department": "453天"
+            },
+            {
+                "iid": "9",
+                "title": "产品交付部",
+                "propose": "北京银行项目管理系统",
+                "code": "FX20170923723",
+                "risktitle": "行方开发部评审还未确定",
+                "riskdes": "",
+                "describe": "管理类",
+                "completionDate": "",
+                "progress": "中等",
+                "charge": "段云飞",
+                "status": "新建",
+                "department": "453天"
+            },
+            {
+                "iid": "10",
+                "title": "产品交付部",
+                "propose": "北京银行项目管理系统",
+                "code": "FX20170923723",
+                "risktitle": "行方开发部评审还未确定",
+                "riskdes": "",
+                "describe": "管理类",
+                "completionDate": "",
+                "progress": "中等",
+                "charge": "段云飞",
+                "status": "新建",
+                "department": "453天"
+            }
+            
+        ],
+        "numPerPage": 10,
+        "totalRows": 5,
+        "totalPages": 5,
+        "currentPage": 1
+    },
+    "msg": "VP000000"
+}

@@ -1,0 +1,571 @@
+{
+    "timestamp": 1527730167206,
+    "infocode": "VP000000",
+    "msgparam": null,
+    "data": {
+        "resultList": [
+            {
+                "iid": "demo-typical",
+                "sname": "典型示例",
+                "icon": "vpicon-workbench",
+                "children": [
+                    {
+                        "iid": "childtoparent",
+                        "sname": "html调react方法",
+                        "surl": "/childtoparent",
+                        "address": "demo/typical/ChildToParent/index"
+                    }
+                ]
+            },
+            {
+                "iid": "demo-treetable",
+                "sname": "树表示例",
+                "icon": "vpicon-workbench",
+                "children": [
+                    {
+                        "iid": "treetablea",
+                        "sname": "树表",
+                        "surl": "/treetablea",
+                        "address": "demo/treetable"
+                    },{
+                        "iid": "model-treetable",
+                        "sname": "treeTable树表",
+                        "surl": "/vpstatic/layuitree/demo/index.html",
+                        "target": "_blank"
+                    }
+                ]
+            },
+            {
+                "iid": "demo-report",
+                "sname": "报表示例",
+                "icon": "vpicon-dashboard-t",
+                "children": [
+                    {
+                        "iid": "tablereport",
+                        "sname": "纯列表展示",
+                        "surl": "/tablereport",
+                        "address": "demo/report/tablereport"
+                    },
+                    {
+                        "iid": "celltablereport",
+                        "sname": "单元格合并列表展示",
+                        "surl": "/celltablereport",
+                        "address": "demo/report/celltablereport"
+                    },
+                    {
+                        "iid": "piereport",
+                        "sname": "纯图形展示",
+                        "surl": "/piereport",
+                        "address": "demo/report/piereport"
+                    },
+                    {
+                        "iid": "pietablereport",
+                        "sname": "左图右表展示",
+                        "surl": "/pietablereport",
+                        "address": "demo/report/pietablereport"
+                    },
+                    {
+                        "iid": "bartablereport",
+                        "sname": "上图下表展示",
+                        "surl": "/bartablereport",
+                        "address": "demo/report/bartablereport"
+                    }
+                ]
+            },
+            {
+                "iid": "demo-hx",
+                "sname": "华兴示例",
+                "icon": "vpicon-workbench",
+                "children": [
+                    {
+                        "iid": "hxedittable",
+                        "sname": "表格编辑联动",
+                        "surl": "/hxedittable",
+                        "address": "demo/huaxing/edittable/index"
+                    }
+                ]
+            },
+            {
+                "iid": "demo-zy",
+                "sname": "中原示例",
+                "icon": "vpicon-workbench",
+                "children": [
+                    {
+                        "iid": "mileage",
+                        "sname": "步骤条",
+                        "surl": "/mileage",
+                        "address": "demo/zhongyuan/mileage/index"
+                    },
+                    {
+                        "iid": "modalcont",
+                        "sname": "弹出框",
+                        "surl": "/modalcont",
+                        "address": "demo/zhongyuan/mileage/modal"
+                    }
+                ]
+            },
+            {
+                "iid": "demo-tk",
+                "sname": "泰康示例",
+                "icon": "vpicon-workbench",
+                "children": [
+                    {
+                        "iid": "estimation",
+                        "sname": "功能点估算",
+                        "surl": "/estimation",
+                        "address": "demo/taikang/estimation/index"
+                    },
+                    {
+                        "iid": "estimationlist",
+                        "sname": "功能点估算清单",
+                        "surl": "/estimationlist",
+                        "address": "demo/taikang/estimationlist/index"
+                    },
+                    {
+                        "iid": "reviewed",
+                        "sname": "待审核项目清单",
+                        "surl": "/reviewed",
+                        "address": "demo/taikang/reviewed/index"
+                    },
+                    {
+                        "iid": "results",
+                        "sname": "专家评审结果",
+                        "surl": "/results",
+                        "address": "demo/taikang/results/index"
+                    }
+                ]
+            },
+            {
+                "iid": "demo-srcb",
+                "sname": "上海农商示列",
+                "icon": "vpicon-workbench",
+                "children": [
+                    {
+                        "iid": "flog",
+                        "sname": "审批历史",
+                        "surl": "/flog",
+                        "address": "demo/srcb/flog/index"
+                    },
+                    {
+                        "iid": "table",
+                        "sname": "列表展示",
+                        "surl": "/table",
+                        "address": "demo/srcb/table/index"
+                    },
+                    {
+                        "iid": "cross",
+                        "sname": "实体选择清除",
+                        "surl": "/cross",
+                        "address": "demo/srcb/cross/index"
+                    },
+                    {
+                        "iid": "changeform",
+                        "sname": "表单联动",
+                        "surl": "/changeform",
+                        "address": "demo/srcb/textForm/index"
+                    }
+                ]
+            },
+            {
+                "iid": "demo-vrm",
+                "sname": "需求示例",
+                "icon": "vpicon-workbench",
+                "children": [
+                    {
+                        "iid": "overviews",
+                        "sname": "需求总览",
+                        "surl": "/overviews",
+                        "address": "demo/Vrm/overview/index"
+                    }
+                ]
+            },
+            
+            {
+                "iid": "demo-model",
+                "sname": "模块演示",
+                "icon": "vpicon-demonstration",
+                "children": [
+                    {
+                        "iid": "workbench",
+                        "sname": "仪表盘",
+                        "surl": "/home",
+                        "address": "demo/Vpm/Home/index"
+                    },
+                    {
+                        "iid": "handleform",
+                        "sname": "任务处理表单",
+                        "surl": "/handleform",
+                        "address": "demo/Vpm/VpHandleForm/index"
+                    }, 
+                    {
+                        "iid": "project-distribution",
+                        "sname": "项目里程碑分布表",
+                        "surl": "/distribution",
+                        "address": "demo/Vpm/VpDistribution/index"
+                    }, 
+                    {
+                        "iid": "project-sd",
+                        "sname": "页高计算显示条数",
+                        "surl": "/distribution",
+                        "address": "demo/Vpm/VpDistribution/index"
+                    }, 
+                    {
+                        "iid": "project-Resource",
+                        "sname": "资源负载状况",
+                        "surl": "/Resource",
+                        "address": "demo/Vpm/VpResource/index"
+                    }, 
+                    {
+                        "iid": "demand-workspace",
+                        "sname": "报表视图",
+                        "surl": "/workspace",
+                        "address": "demo/Vrm/VRWorkSpace/index"
+                    }, 
+                    {
+                        "iid": "new-timesheet",
+                        "sname": "报工页面（新）",
+                        "surl": "/timesheet",
+                        "address": "demo/Vpm/VpNewTimeSheet/index"
+                    },
+                    {
+                        "iid": "model-uploader",
+                        "sname": "附件上传",
+                        "surl": "/webuploader",
+                        "address": "demo/Module/VpUploader/index"
+                    },
+                    {
+                        "iid": "mention",
+                        "sname": "提及",
+                        "surl": "/mention",
+                        "address": "demo/Module/Mention/index"
+                    },
+                    {
+                        "iid": "model-ueditor",
+                        "sname": "富文本",
+                        "surl": "/ueditor",
+                        "address": "demo/Module/VpUEditor/index"
+                    },
+                    {
+                        "iid": "model-editbusiness",
+                        "sname": "批量编辑开关",
+                        "surl": "/editbusiness",
+                        "address": "demo/Module/VpEditBusiness/index"
+                    },
+                    {
+                        "iid": "model-formeditable",
+                        "sname": "动态表单/格",
+                        "surl": "/formeditable",
+                        "address": "demo/Module/VpFormEditTable/index"
+                    },
+                    {
+                        "iid": "model-editabletree",
+                        "sname": "批量树表",
+                        "surl": "/editabletree",
+                        "address": "demo/Module/VpEditTableTree/index"
+                    },
+                    {
+                        "iid": "model-registrationcode",
+                        "sname": "注册码",
+                        "surl": "/exception/registrationcode",
+                        "address": "vfm/Exception/RegistrationCode"
+                    },
+                    {
+                        "iid": "model-colspan",
+                        "sname": "表头合并",
+                        "surl": "/colspan",
+                        "address": "demo/Module/VpColSpan/index"
+                    }
+                ]
+            },
+            {
+                "iid": "demo-buss",
+                "sname": "业务组件",
+                "icon": "vpicon-yewu-o",
+                "children": [
+                    {
+                        "iid": "model-vpdtable",
+                        "sname": "列表/树表",
+                        "surl": "/vpdtable",
+                        "address": "demo/Module/VpDTable/index"
+                    },
+                    {
+                        "iid": "model-dtabs",
+                        "sname": "tab标签页",
+                        "surl": "/dtabs",
+                        "address": "demo/Module/VpDTabs/index"
+                    }
+                ]
+            },
+            {
+                "iid": "demo-demand",
+                "sname": "需求模板",
+                "icon": "vpicon-demand",
+                "children": [
+                    {
+                        "iid": "demand-vrmhome",
+                        "sname": "VRM首页",
+                        "surl": "/vrmhome",
+                        "address": "demo/Vrm/VRMHome/index"
+                    },
+                    {
+                        "iid": "demand-myword",
+                        "sname": "我的文档",
+                        "surl": "/myword",
+                        "address": "demo/Vrm/VRMyWord/index"
+                    },
+                    {
+                        "iid": "demand-editword",
+                        "sname": "编辑文档",
+                        "target": "_blank",
+                        "surl": "../vrm-word/index.html"
+                    },
+                    {
+                        "iid": "demand-eam",
+                        "sname": "包商企业架构",
+                        "target": "_blank",
+                        "surl": "../eam/index.html"
+                    },
+                    {
+                        "iid": "demand-matrix",
+                        "sname": "跟踪矩阵",
+                        "surl": "/matrix",
+                        "address": "demo/Vrm/VRMatrix/index"
+                    },
+                    {
+                        "iid": "demand-assetsview",
+                        "sname": "资产视图",
+                        "surl": "/assetsview",
+                        "address": "demo/Vrm/VRAssetsView/index"
+                    },
+                    {
+                        "iid": "demand-vrform",
+                        "sname": "左树右表单",
+                        "surl": "/vrform",
+                        "address": "demo/Vrm/VRvrform/index"
+                    },
+                    {
+                        "iid": "demand-demand",
+                        "sname": "需求入库审核",
+                        "surl": "/demand",
+                        "address": "demo/Vrm/VRDemand/index"
+                    },
+                    {
+                        "iid": "demand-demandtable",
+                        "sname": "需求入库记录",
+                        "surl": "/demandtable",
+                        "address": "demo/Vrm/VRDemandTable/index"
+                    },
+                    {
+                        "iid": "demand-baseline",
+                        "sname": "需求资产基线",
+                        "surl": "/baseline",
+                        "address": "demo/Vrm/VRBaseLine/index"
+                    },
+                    {
+                        "iid": "demand-menumanage",
+                        "sname": "菜单管理",
+                        "surl": "/menumanage",
+                        "address": "demo/Vrm/VRMenuManage/index"
+                    },
+                    {
+                        "iid": "demand-rolemanage",
+                        "sname": "角色管理",
+                        "surl": "/rolemanage",
+                        "address": "demo/Vrm/VRroleManage/index"
+                    },
+                    {
+                        "iid": "demand-adddemand",
+                        "sname": "新增需求文档",
+                        "surl": "/adddemand",
+                        "address": "demo/Vrm/VRAddDemand/index"
+                    },
+                    {
+                        "iid": "demand-assessment",
+                        "sname": "需求评估",
+                        "surl": "/assessment",
+                        "address": "demo/Vrm/VRAssessment/index"
+                    },
+                    {
+                        "iid": "demand-estimation",
+                        "sname": "工作量估算",
+                        "surl": "/estimation",
+                        "address": "demo/Vrm/VREstimation/index"
+                    },
+                    {
+                        "iid": "demand-schedule",
+                        "sname": "需求排期",
+                        "surl": "/schedule",
+                        "address": "demo/Vrm/VRSchedule/index"
+                    },
+                    {
+                        "iid": "project-accessory",
+                        "sname": "添加附件",
+                        "surl": "/accessory",
+                        "address": "demo/Vrm/VRAccessory/index"
+                    },
+                    {
+                        "iid": "project-split",
+                        "sname": "需求切分",
+                        "surl": "/split",
+                        "address": "demo/Vrm/VRSplit/index"
+                    },
+                    {
+                        "iid": "project-overview",
+                        "sname": "需求概览",
+                        "surl": "/overview",
+                        "address": "demo/Vrm/VROverview/index"
+                    },
+                    {
+                        "iid": "project-tracking",
+                        "sname": "实现与验证跟踪",
+                        "surl": "/tracking",
+                        "address": "demo/Vrm/VRTracking/index"
+                    }
+                ]
+            },
+            {
+                "iid": "demo-project",
+                "sname": "项目模板",
+                "icon": "vpicon-project",
+                "children": [
+                    {
+                        "iid": "project-license",
+                        "sname": "许可证",
+                        "surl": "/license",
+                        "address": "demo/Vpm/VpLicense/VpLicense"
+                    },
+                    {
+                        "iid": "project-funcpermiss",
+                        "sname": "功能权限",
+                        "surl": "/funcpermiss",
+                        "address": "demo/Vpm/VpFuncPermiss/VpFuncPermiss"
+                    },
+                    {
+                        "iid": "project-sysdefine",
+                        "sname": "系统定义",
+                        "surl": "/sysdefine",
+                        "address": "demo/Vpm/VpSysDefine/VpSysDefine"
+                    },
+                    {
+                        "iid": "project-timedtask",
+                        "sname": "定时任务",
+                        "surl": "/timedtask",
+                        "address": "demo/Vpm/VpTimedTask/VpTimedTask"
+                    },
+                    {
+                        "iid": "project-business",
+                        "sname": "业务列表",
+                        "surl": "/business",
+                        "address": "demo/Vpm/VpBusinessList/VpBusinessList"
+                    },
+                    {
+                        "iid": "project-tabletree",
+                        "sname": "树表结构",
+                        "surl": "/tabletree",
+                        "address": "demo/Vpm/VpTableTree/VpTableTree"
+                    },
+                    {
+                        "iid": "project-approval",
+                        "sname": "审批报工",
+                        "surl": "/approval",
+                        "address": "demo/Vpm/VpApproval/index"
+                    },
+                    {
+                        "iid": "project-timesheet",
+                        "sname": "按天报工",
+                        "surl": "/timesheet",
+                        "address": "demo/Vpm/VpTimeSheet/index"
+                    },
+                    {
+                        "iid": "project-jobboard",
+                        "sname": "工作看板",
+                        "surl": "/jobboard",
+                        "address": "demo/Vpm/VpJobBoard/index"
+                    },
+                    {
+                        "iid": "project-programg",
+                        "sname": "项目群概览",
+                        "surl": "/programgroup",
+                        "address": "demo/Vpm/VpOverview/programGroup"
+                    },
+                    {
+                        "iid": "project-program",
+                        "sname": "项目概览",
+                        "surl": "/program",
+                        "address": "demo/Vpm/VpOverview/program"
+                    },
+                    {
+                        "iid": "project-product",
+                        "sname": "产品概览",
+                        "surl": "/product",
+                        "address": "demo/Vpm/VpOverview/product"
+                    },
+                    {
+                        "iid": "project-studio",
+                        "sname": "管理工作室",
+                        "surl": "/studio",
+                        "address": "demo/Vpm/VpStudio/index"
+                    },
+                    {
+                        "iid": "project-project",
+                        "sname": "项目管理仪表盘",
+                        "surl": "/project",
+                        "address": "demo/Vpm/VpProject/index"
+                    }
+                ]
+            },
+            {
+                "iid": "demo-test",
+                "sname": "测试模板",
+                "icon": "vpicon-ceshi",
+                "children": [
+                    {
+                        "iid": "project-requirement",
+                        "sname": "测试需求",
+                        "surl": "/requirement",
+                        "address": "demo/Vtm/VtRequirement/index"
+                    },
+                    {
+                        "iid": "project-testcase",
+                        "sname": "测试用例",
+                        "surl": "/testcase",
+                        "address": "demo/Vtm/VtCase/index"
+                    },
+                    {
+                        "iid": "project-testset",
+                        "sname": "测试集",
+                        "surl": "/testset",
+                        "address": "demo/Vtm/VtSet/index"
+                    },
+                    {
+                        "iid": "project-implement",
+                        "sname": "测试执行",
+                        "surl": "/implement",
+                        "address": "demo/Vtm/VtImplement/index"
+                    },
+                    {
+                        "iid": "project-testbug",
+                        "sname": "测试缺陷",
+                        "surl": "/testbug",
+                        "address": "demo/Vtm/VtBug/index"
+                    }
+                ]
+            },
+            {
+                "iid": "demo-system",
+                "sname": "系统管理",
+                "icon": "vpicon-setting",
+                "children": [
+                    {
+                        "iid": "system-dashboard",
+                        "sname": "系统仪表盘",
+                        "surl": "/dashboard",
+                        "address": "demo/Module/Dashboard/index"
+                    }
+                ]
+            }
+        ],
+        "home": "workbench"
+    },
+    "msg": "VP000000"
+}

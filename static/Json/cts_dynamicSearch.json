@@ -1,0 +1,37 @@
+{
+    "timestamp": 1527730167185,
+    "infocode": "VP000000",
+    "msgparam": null,
+    "data": {
+        "form": {
+            "groups": [
+                {
+                    "group_label": "搜索条件",
+                    "group_type": 0,
+                    "fields": [
+                        
+                        {
+                            "validator": {},
+                            "field_name": "tcbumen",
+                            "widget_type": "selectmodel",
+                            "field_label": "提出部门",
+                            "url": "demo/TabDemo3/index",
+                            "all_line": 2,
+                            "irelationentityid": "1"
+                        },
+                        {
+                            "validator": {},
+                            "field_name": "qtbumen",
+                            "widget_type": "selectmodel",
+                            "field_label": "牵头部门",
+                            "url": "demo/TabDemo3/index",
+                            "all_line": 2,
+                            "irelationentityid": "1"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "msg": "VP000000"
+}

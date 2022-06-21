@@ -1,0 +1,160 @@
+{
+    "timestamp": 1527730167197,
+    "infocode": "VP000000",
+    "msgparam": null,
+    "data": {
+        "grid": {
+            "fields": [
+                {
+                    "field_name": "number",
+                    "field_label": "项目编号"
+                },
+                {
+                    "field_name": "title",
+                    "field_label": "项目名称"
+                },
+                {
+                    "field_name": "user",
+                    "field_label": "负责人"
+                },
+                {
+                    "field_name": "degree",
+                    "field_label": "完成度"
+                }
+            ]
+        },
+        "resultList": [
+            {
+                "iid": "1",
+                "number": "PJ-20180409626",
+                "title": "项目名称1",
+                "user": "oyq",
+                "degree": "30%"
+            },
+            {
+                "iid": "2",
+                "number": "PJ-20180409627",
+                "title": "项目名称2",
+                "user": "oyq",
+                "degree": "30%"
+            },
+            {
+                "iid": "3",
+                "number": "PJ-20180409628",
+                "title": "项目名称3",
+                "user": "oyq",
+                "degree": "30%"
+            },
+            {
+                "iid": "4",
+                "number": "PJ-20180409629",
+                "title": "项目名称4",
+                "user": "oyq",
+                "degree": "30%"
+            },
+            {
+                "iid": "5",
+                "number": "PJ-20180409630",
+                "title": "项目名称5",
+                "user": "oyq",
+                "degree": "30%"
+            },
+            {
+                "iid": "6",
+                "number": "PJ-20180409631",
+                "title": "项目名称6",
+                "user": "oyq",
+                "degree": "30%"
+            },
+            {
+                "iid": "7",
+                "number": "PJ-20180409626",
+                "title": "项目名称7",
+                "user": "oyq",
+                "degree": "30%"
+            },
+            {
+                "iid": "8",
+                "number": "PJ-20180409627",
+                "title": "项目名称8",
+                "user": "oyq",
+                "degree": "30%"
+            },
+            {
+                "iid": "9",
+                "number": "PJ-20180409628",
+                "title": "项目名称9",
+                "user": "oyq",
+                "degree": "30%"
+            },
+            {
+                "iid": "10",
+                "number": "PJ-20180409629",
+                "title": "项目名称10",
+                "user": "oyq",
+                "degree": "30%"
+            },
+            {
+                "iid": "11",
+                "number": "PJ-20180409630",
+                "title": "项目名称11",
+                "user": "oyq",
+                "degree": "30%"
+            },
+            {
+                "iid": "12",
+                "number": "PJ-20180409631",
+                "title": "项目名称12",
+                "user": "oyq",
+                "degree": "30%"
+            },
+            {
+                "iid": "13",
+                "number": "PJ-20180409626",
+                "title": "项目名称13",
+                "user": "oyq",
+                "degree": "30%"
+            },
+            {
+                "iid": "14",
+                "number": "PJ-20180409627",
+                "title": "项目名称14",
+                "user": "oyq",
+                "degree": "30%"
+            },
+            {
+                "iid": "15",
+                "number": "PJ-20180409628",
+                "title": "项目名称15",
+                "user": "oyq",
+                "degree": "30%"
+            },
+            {
+                "iid": "16",
+                "number": "PJ-20180409629",
+                "title": "项目名称16",
+                "user": "oyq",
+                "degree": "30%"
+            },
+            {
+                "iid": "17",
+                "number": "PJ-20180409630",
+                "title": "项目名称17",
+                "user": "oyq",
+                "degree": "30%"
+            },
+            {
+                "iid": "18",
+                "number": "PJ-20180409631",
+                "title": "项目名称18",
+                "user": "oyq",
+                "degree": "30%"
+            }
+        ],
+        "numPerPage": 10,
+        "totalRows": 5,
+        "totalPages": 1,
+        "currentPage": 1
+    },
+    "msg": "VP000000"
+}

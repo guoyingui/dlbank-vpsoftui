@@ -1,0 +1,24 @@
+{
+    "timestamp": 1527730167185,
+    "infocode": "VP000000",
+    "msgparam": null,
+    "data": [
+        {
+            "value": "a1",
+            "label": "a1"
+        },
+        {
+            "value": "a2",
+            "label": "a2"
+        },
+        {
+            "value": "a3",
+            "label": "a3"
+        },
+        {
+            "value": "a4",
+            "label": "a4"
+        }
+    ],
+    "msg": "VP000000"
+}

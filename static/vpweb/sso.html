@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+<script src="../../vpstatic/plugins/jquery-1.11.1.min.js"></script>
+<script src="../../vpstatic/plugins/Aes/crypto-js.min.js" type="text/javascript"></script>
+<script src="../../vpcommon/vputils.min.js"></script>
+<script src="../../vpcommon/config.js"></script>
+</head>
+
+<body class="page-login layout-full">
+    <script>
+		var ss = vp.encrypt.aesEncrypt('sa', 'security4xwcompy');
+		//vp.cookie.setCookie('_tk1', 22, 30);
+		//vp.cookie.setCookie('_u_info1', 44, 30);
+		//vp.cookie.setCookie('_r_tk1', 55, 30);
+		window.location = vp.config.URL.jsonHost + "/frameweb";
+    </script>
+</body>
+
+</html>
