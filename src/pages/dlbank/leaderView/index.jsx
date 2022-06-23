@@ -4,7 +4,7 @@ import { options1, options2 } from './options'
 import BarEchart from './component/BarEChart'   // 引入 BarEChart 组件
 import { Table } from 'antd'
 import './index.less'
-export default class Demo extends Component {
+export default class LeaderView extends Component {
     constructor(props) {
         super(props)
         this.state = {
@@ -22,7 +22,7 @@ export default class Demo extends Component {
         const { opt1, opt2 } = this.state;
         const columns = [
             { title: '年度', dataIndex: 'age', key: 'age' },
-            { title: '未发起', dataIndex: 'phone', key: 'phone', render: (text) => <a href="javascript:void(0)">{text}</a>}, 
+            { title: '未发起', dataIndex: 'phone', key: 'phone', render: (text) => <a href="javascript:void(0)">{text}</a>},
             { title: '立项中', dataIndex: 'address', key: 'address', render: (text) => <a href="javascript:void(0)">{text}</a>},
             { title: '采购中', dataIndex: 'address1', key: 'address1', render: (text) => <a href="javascript:void(0)">{text}</a>},
             { title: '合同中', dataIndex: 'address2', key: 'address2', render: (text) => <a href="javascript:void(0)">{text}</a>},
@@ -31,8 +31,8 @@ export default class Demo extends Component {
             { title: '取消', dataIndex: 'address5', key: 'address5', render: (text) => <a href="javascript:void(0)">{text}</a>},
         ];
         const data = [
-            { key: '1', age: 2021, phone: 18, address: 45, address1: 32, address2: 6, address3: 8, address4: 8, address5: 2 }, 
-            { key: '2', age: 2022, phone: 23, address: 23, address1: 64, address2: 2, address3: 8, address4: 5, address5: 1 }, 
+            { key: '1', age: 2021, phone: 18, address: 45, address1: 32, address2: 6, address3: 8, address4: 8, address5: 2 },
+            { key: '2', age: 2022, phone: 23, address: 23, address1: 64, address2: 2, address3: 8, address4: 5, address5: 1 },
         ];
         return (
             <div className="gutter-example">
