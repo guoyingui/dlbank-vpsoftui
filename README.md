@@ -15,7 +15,7 @@
 
 2.2.0版本修改记录：-- 2020-04-15 --
 
-1、替换node_modules\vpreact                                  
+1、替换node_modules\vpreact
 1.1、扩展动态表单中附件预览和编辑时在未解析时显示解析进度;
 1.2、所有请求在统一的catch中提示异常带上infocode，并在描述中显示识别出的TypeError和500错误;
 1.3、所有请求头Content-Type添加charset=UTF-8;
@@ -38,7 +38,7 @@
 
 1、替换node_modules\vpreact                                  // 修改表单中预览、编辑为同步请求，同时扩展了es7的async语法（为了支持同步）
 2、替换node_modules\vplat                                    // 修改导航配置中添加可选功能列表之前因数据问题而做的判断条件（去掉）
-3、替换node_modules\vpbusiness                               
+3、替换node_modules\vpbusiness
 
 注：因扩展es7语法对所有组件的语法编译都有变动
 
@@ -79,8 +79,6 @@
 4、node_modules中新增sortablejs依懒                          //  看板拖动依懒包（产品平台提供的）
 5、替换 node_modules\ztree\css\zTreeStyle\zTreeStyle.css      // 优化树的样式
 
-
-
 该版本对前期所做过的IE和其他功能修复进行一个归正，推出相对稳定版本！
 
 该版对应npm版本：vpreact@2.1.10-RELEASE  vpbusiness@2.1.10-RELEASE   vplat@2.1.10-RELEASE
@@ -98,13 +96,11 @@
 
 该版对应npm版本：vpreact@2.1.4  vpbusiness@2.1.4   vplat@2.1.2
 
-
 2.1.7版本修改记录：-- 2019-09-06 --
 
 1、替换src\index.js                                         // 优化加载其他应用刷新时页面短暂404提示
 
 该版对应npm版本：vpreact@2.1.3  vpbusiness@2.1.4   vplat@2.1.1
-
 
 2.1.6版本修改记录：-- 2019-09-04 --
 
@@ -114,14 +110,13 @@
 
 该版对应npm版本：vpreact@2.1.3  vpbusiness@2.1.4   vplat@2.1.1
 
-
 2.1.5版本修改记录：-- 2019-8-15 --
 
 1、替换node_modules\vpreact                                         // 更新图标库、模态框有默认就直接显示时(编辑表格中的模态框)高度不会计算调整
 2、替换node_modules\vpbusiness                                      // 动态表单实体选择清空crossClick方法优化、状态机在validateOk为false时依然会校验问题修复、实体选择新增自定义模态框字段宽(modal_width)、高(modal_height),默认均为 80%、tabs类型的IE（关联实体）会报错问题修复
 
 该版对应npm版本：vpreact@2.1.2  vpbusiness@2.1.3   vplat@2.1.0
- 
+
 2.1.4版本修改记录：-- 2019-8-10 --
 
 1、替换node_modules\vpreact                                         // 更新图标库、模态框样式调整
@@ -129,7 +124,6 @@
 3、替换node_modules\vplat                                           // 修改导航链接模态框高度
 
 该版对应npm版本：vpreact@2.1.1  vpbusiness@2.1.2   vplat@2.1.0
-
 
 2.1.3版本修改记录：-- 2019-8-05 --
 
@@ -140,7 +134,6 @@
 5、替换node_modules\vplat                                           // 修改登出和个人信息模态框高度
 
 该版对应npm版本：vpreact@2.1.0  vpbusiness@2.1.1   vplat@2.0.9
-
 
 2.1.2版本修改记录：-- 2019-7-31 --
 
@@ -153,7 +146,6 @@
 
 该版对应npm版本：vpreact@2.0.9  vpbusiness@2.1.0   vplat@2.0.8
 
-
 2.1.1版本修改记录：-- 2019-7-21 --
 
 1、替换 node_modules\vpreact                                   // 修改VpInputUploader超过文件大小提示、富文本只读取的是disabled、附件下载等权限
@@ -164,7 +156,7 @@
 2.1.0版本修改记录：-- 2019-7-8 --
 
 1、替换package.json                                            // 修改了相关命令
-2、删除inserthtml.js               
+2、删除inserthtml.js
 3、替换src\index.js                                            // 修改入口文件中动态插入div
 4、替换src\index.html                                          // 静态化页面
 5、替换static\vpstatic\js\diyfun.js                            // css和js 分开插入页面对应位置
@@ -182,9 +174,8 @@
 
 该版对应npm版本：vpreact@2.0.7  vpbusiness@2.0.8   vplat@2.0.7
 
+2.0.5版本修改记录：-- 2019-6-15 --
 
-2.0.5版本修改记录：-- 2019-6-15 -- 
- 
 1、修改 vpcommon\config.js                                      // 增加了报表服务的相关配置(武汉)
 2、替换 node_modules\vpreact                                    // 修改token失效重复提示、字体图标
 3、替换 node_modules\vpbusiness                                 // 对象选择文本框中放大镜为可点击、实体选择增加后端配只读前台显示灰色
