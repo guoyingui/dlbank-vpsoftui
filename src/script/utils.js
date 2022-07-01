@@ -152,6 +152,25 @@ export function extend() {
     return target;
 };
 
+export function throttle(fn, delay, duration) {
+    var timer = null;
+    var begin = new Date();
+    return function () {
+        var context = this;
+        var args = arguments;
+        var current = new Date();
+        clearTimeout(timer);
+        if (current - begin >= duration) {
+            fn.apply(context, args);
+            begin = current;
+        } else {
+            timer = setTimeout(function () {
+                fn.apply(context, args);
+            }, delay);
+        }
+    }
+}
+
 export function vpJSONStringify(values){
     return JSON.stringify(values, (key, item) => {
         if(item instanceof Array){
