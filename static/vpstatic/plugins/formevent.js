@@ -1681,8 +1681,6 @@ function sjFormOnload(param) {
                         filed.widget.default_value = data.rkffzr
                         filed.widget.default_label = data.kffzr
                     }
-
-
                     window.textSetValue({
                         "sxqbjh": data.scode,
                         "sywjs": data.ssname,
@@ -1714,7 +1712,6 @@ function workorderFlowOnload(param) {
     for (var i = 0; i < groups.length; i++) {
         if (spjg == "SYSA" && groups[i].group_code == "10001") {
             groups[i].group_type = 4;
-
         }
     }
     if (spjg == "SYSR" && param.value.form.groups[1].group_code == "10001") {

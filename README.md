@@ -1,10 +1,10 @@
-2.2.1版本修改记录：-- 2020-06-05 --
+# 2.2.1 版本修改记录：--2020-06-05--
 
 1、替换node_modules\vpreact  
 1.1、新增VpEchart组件
 1.2、新增VpTreeTable组件
 1.3、修改VpEditTableCol组件（表格编辑）中的下拉、时间日期类型的控件点击直接显示、文本域高度调小到单元格内
-2、替换node_modules\vpbusiness                                  
+2、替换node_modules\vpbusiness
 2.1、扩展动态表单中formItemLayoutAllLine（适用all_line为2）和formItemLayout（适用all_line为1）属性，用来自定义文字和控件的栅格列;
 3、替换node_modules\vplat
 3.1、 扩展左侧菜单点击支持参数vp.config.vpframe.showtabs:true来控制是否在顶部显示访问历史记录

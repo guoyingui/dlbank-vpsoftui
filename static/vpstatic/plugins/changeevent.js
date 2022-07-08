@@ -548,7 +548,12 @@ function budgetFormOnChange(param) {
     form.forceUpdate();
 }
 
-//产品需求-选择 用户需求onchange事件
+/**
+ * @description 产品需求-选择 用户需求onchange事件
+ * @author guoyg
+ * @date 07/07/2022
+ * @param {*} param
+ */
 function vrm_systemreq_rbusreqonchange(param) {
     var iid = window.form.props.iid;
     // //提出人部门
@@ -624,7 +629,13 @@ function vrm_systemreq_rbusreqonchange(param) {
     });
 }
 
-//产品需求 当“实际状态”为“第三方依赖、排队中、其他、主管部门要求暂停”时，异常原因该字段为必填项
+/**
+ * @description 产品需求 当“实际状态”为“第三方依赖、排队中、其他、主管部门要求暂停”时，异常原因该字段为必填项
+ * @author guoyg
+ * @date 07/07/2022
+ * @param {*} param
+ * @returns {*} 
+ */
 function vrm_systemreq_isjztonchange(param) {
     var requires = [];
     var unrequires = [];
@@ -650,7 +661,12 @@ function vrm_systemreq_isjztonchange(param) {
 }
 
 
-//测试任务 选择用户需求 
+/**
+ * @description 测试任务 选择用户需求 
+ * @author guoyg
+ * @date 07/07/2022
+ * @param {*} param
+ */
 function vpm_testtask_userrequire_onChange(param) {
     //用户需求id
     var valueObj = param.field_value[0];

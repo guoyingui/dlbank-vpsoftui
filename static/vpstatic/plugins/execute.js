@@ -1,9 +1,8 @@
 function formeven(param, fun) {
   if (isExitsFunction(fun)) {
-    var result = eval(fun + "(" + JSON.stringify(param) + ")");
-    return result;
+    return eval(fun + "(" + JSON.stringify(param) + ")");
   } else {
-    if (fun != undefined) {
+    if (fun !== undefined) {
       console.log("表单中'" + fun + "'方法未定义！")
     }
   }
@@ -11,10 +10,9 @@ function formeven(param, fun) {
 
 function onChangeEvent(eventname, param) {
   if (isExitsFunction(eventname)) {
-    var result = eval(eventname + "(" + JSON.stringify(param) + ")");
-    return result;
+    return eval(eventname + "(" + JSON.stringify(param) + ")");
   } else {
-    if (eventname != undefined) {
+    if (eventname !== undefined) {
       console.log("onchange中'" + eventname + "'方法未定义！")
     }
   }
@@ -38,31 +36,31 @@ function isExitsFunction(funcName) {
 function searchFormOnLoad(entityid, groups) {
   var eventname = "searchFormLoad" + entityid;
   if (isExitsFunction(eventname)) {
-    var result = eval(eventname + "(" + JSON.stringify({ entityid, groups }) + ")");
-    return result;
+    return eval(eventname + "(" + JSON.stringify({entityid, groups}) + ")");
   } else {
-    if (eventname != undefined) {
+    if (eventname !== undefined) {
       console.log("onload中'" + eventname + "'方法未定义！")
     }
   }
 }
 
 /**
- * 高级查询onChange事件
- * @param entityid
- * @param groups
- * @param value
- * @param field_name
- * @param changedata
- * @returns
+ * @description 高级查询onChange事件
+ * @author guoyg
+ * @date 07/07/2022
+ * @param {*} entityid
+ * @param {*} groups
+ * @param {*} value
+ * @param {*} field_name
+ * @param {*} changedata
+ * @returns {*} 
  */
 function searchFormOnChange(entityid, groups, value, field_name, changedata) {
   var eventname = "searchFormChange" + entityid;
   if (isExitsFunction(eventname)) {
-    var result = eval(eventname + "(" + JSON.stringify({ entityid, groups, value, field_name, changedata }) + ")");
-    return result;
+    return eval(eventname + "(" + JSON.stringify({entityid, groups, value, field_name, changedata}) + ")");
   } else {
-    if (eventname != undefined) {
+    if (eventname !== undefined) {
       console.log("onchange中'" + eventname + "'方法未定义！")
     }
   }
