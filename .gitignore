@@ -10,3 +10,4 @@ selenium-debug.log
 package-lock.json
 webapp/
 .cz-config.js
+.idea
