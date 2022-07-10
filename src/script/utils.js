@@ -151,8 +151,17 @@ export function extend() {
     
     return target;
 };
-
-export function throttle(fn, delay, duration) {
+/**
+ * @description 防抖函数
+ * @author guoyg
+ * @date 10/07/2022
+ * @export
+ * @param {*} fn
+ * @param {*} delay
+ * @param {number} [duration=300]
+ * @returns {*} 
+ */
+export function throttle(fn, delay, duration = 300) {
     var timer = null;
     var begin = new Date();
     return function () {
@@ -170,7 +179,14 @@ export function throttle(fn, delay, duration) {
         }
     }
 }
-
+/**
+ * @description js数据转换成json
+ * @author guoyg
+ * @date 10/07/2022
+ * @export
+ * @param {*} values
+ * @returns {*} 
+ */
 export function vpJSONStringify(values){
     return JSON.stringify(values, (key, item) => {
         if(item instanceof Array){
